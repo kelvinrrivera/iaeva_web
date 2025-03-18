@@ -1,0 +1,13 @@
+name = "iaeva-landing"
+main = "dist/index.html"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
+
+[env.production]
+routes = [
+  { pattern = "iaeva.com", custom_domain = true }
+]
