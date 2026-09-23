@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { ArrowRight, Calculator, BarChart3, DollarSign, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -556,12 +557,11 @@ const ROICalculator = () => {
                         >
                           {t('lead_form.submit', 'Recibir análisis detallado')}
                         </button>
-                        <Link
-                          to="/contacto"
+                        <a href={SIGNUP_URL}
                           className="flex-1 px-6 py-3 border border-iaeva-blue text-iaeva-blue rounded-full font-medium hover:bg-iaeva-blue/5 transition-colors flex items-center justify-center"
                         >
                           {t('lead_form.talk_expert', 'Hablar con un experto')}
-                        </Link>
+                        </a>
                       </div>
                     </form>
                   </div>
@@ -576,12 +576,11 @@ const ROICalculator = () => {
                     >
                       {t('results.recalculate', 'Calcular de nuevo')}
                     </button>
-                    <Link
-                      to="/contacto"
+                    <a href={SIGNUP_URL}
                       className="px-6 py-3 rounded-full bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white font-medium hover:shadow-lg transition-shadow duration-300 flex items-center justify-center flex-1"
                     >
                       {t('results.request_demo', 'Solicitar demo personalizada')} <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
+                    </a>
                   </div>
                 )}
               </div>
@@ -594,7 +593,7 @@ const ROICalculator = () => {
                 </p>
                 <p className="mt-2">
                   {t('disclaimer.text2', 'Para un análisis de ROI personalizado adaptado a su situación única, por favor')}{' '}
-                  <Link to="/contacto" className="text-iaeva-blue hover:underline">{t('disclaimer.contact_us', 'contáctenos')}</Link>{' '}
+                  <a href={SIGNUP_URL} className="text-iaeva-blue hover:underline">{t('disclaimer.contact_us', 'contáctenos')}</a>{' '}
                   {t('disclaimer.text3', 'para una consulta con uno de nuestros expertos en eficiencia sanitaria.')}
                 </p>
               </div>

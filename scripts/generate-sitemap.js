@@ -18,7 +18,9 @@ const staticRoutes = [
     { loc: '/', changefreq: 'daily', priority: '1.0', alternate: { fr: '/fr' } },
     { loc: '/casos-de-uso', changefreq: 'weekly', priority: '0.8' },
     { loc: '/calculadora-roi', changefreq: 'monthly', priority: '0.7' },
-    { loc: '/contacto', changefreq: 'monthly', priority: '0.7' },
+    // /contacto retirado del sitemap (2026-09-23). La ruta sigue respondiendo —hay
+    // enlaces externos y 57 impresiones que no conviene convertir en 404— pero lleva
+    // `noIndex` y deja de ofrecerse a Google: el camino del SaaS es registrarse.
     { loc: '/blog', changefreq: 'daily', priority: '0.8' },
     { loc: '/buscar', changefreq: 'monthly', priority: '0.5' },
 
@@ -43,7 +45,7 @@ const staticRoutes = [
     { loc: '/fr/medical-center-efficiency', changefreq: 'monthly', priority: '0.8' },
     { loc: '/fr/patient-management-solutions', changefreq: 'monthly', priority: '0.8' },
     { loc: '/fr/calculatrice-roi', changefreq: 'monthly', priority: '0.7' },
-    { loc: '/fr/contact', changefreq: 'monthly', priority: '0.7' },
+    // Ídem para la versión francesa.
     { loc: '/fr/blog', changefreq: 'daily', priority: '0.8' },
     { loc: '/fr/guide-definitif-ia-sante', changefreq: 'monthly', priority: '0.9' },
 

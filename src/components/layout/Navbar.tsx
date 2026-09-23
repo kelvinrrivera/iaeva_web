@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronRight, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -161,7 +162,9 @@ const Navbar = () => {
     },
     { path: '/calculadora-roi', label: t('navbar.roi_calculator') },
     ...(i18n.language === 'es' || i18n.language.startsWith('es') ? [{ path: '/blog', label: t('navbar.blog') }] : []),
-    { path: '/contacto', label: t('navbar.contact') }
+    // Contacto retirado del menú (2026-09-23): la página contenía chat en vivo y
+    // calendario de Cal.com, propios de la etapa de servicio a medida. En un SaaS
+    // autónomo el camino es registrarse, no pedir una llamada.
   ];
 
   // Función para verificar si la ruta actual es parte de un dropdown
@@ -293,12 +296,11 @@ const Navbar = () => {
               whileHover="hover"
               whileTap="pressed"
             >
-              <Link
-                to="/contacto"
+              <a href={SIGNUP_URL}
                 className="bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white px-6 py-2.5 rounded-full font-medium transition-all hover:shadow-button hover:translate-y-[-2px]"
               >
                 {t('navbar.contact_us')}
-              </Link>
+              </a>
             </motion.div>
           </div>
 

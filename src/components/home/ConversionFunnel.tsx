@@ -1,5 +1,6 @@
 // Nuevo archivo: src/components/home/ConversionFunnel.tsx
 import React from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import CTAButton from '@/components/shared/CTAButton';
 import { Brain, Calendar, Check, Clock } from 'lucide-react';
 
@@ -92,7 +93,7 @@ const ConversionFunnel = () => {
             </p>
             <CTAButton
               text="Solicitar demo"
-              path="/contacto"
+              path={SIGNUP_URL}
               variant="primary"
               icon={false}
               className="text-sm px-4 py-2"
@@ -108,7 +109,7 @@ const ConversionFunnel = () => {
           </p>
           <CTAButton
             text="Solicita tu demo personalizada"
-            path="/contacto"
+            path={SIGNUP_URL}
             variant="primary"
             className="px-8 py-4 text-lg"
             dataTestId="funnel-main-cta"

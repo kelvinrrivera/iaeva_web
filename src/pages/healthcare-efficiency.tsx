@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Gauge, Users, Clock, Bot, ClipboardList, Settings } from 'lucide-react';
@@ -67,7 +68,7 @@ const HealthcareEfficiency = () => {
               <CTAButton 
                 className="px-6 py-3 rounded-full text-white font-medium bg-gradient-to-r from-iaeva-blue to-iaeva-purple hover:opacity-90 transition-opacity"
                 text="Solicitar consultoría gratuita" 
-                path="/contacto" 
+                path={SIGNUP_URL} 
                 variant="primary"
               />
               <CTAButton 
@@ -336,7 +337,7 @@ const HealthcareEfficiency = () => {
           <CTAButton 
             className="px-8 py-3 rounded-full bg-white text-iaeva-blue font-medium hover:bg-opacity-90 transition-opacity"
             text="Solicitar consultoría gratuita" 
-            path="/contacto" 
+            path={SIGNUP_URL} 
             variant="white"
           />
         </div>

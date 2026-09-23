@@ -16,11 +16,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://iaeva.com/contacto</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
   <!-- Pilares de contenido (especializaciones sanitarias) -->
   <url>

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calendar, Eye, Clock, BarChart4, UserCheck, MessageCircle } from 'lucide-react';
@@ -69,7 +70,7 @@ const OphthalmologyPatientCare = () => {
               <CTAButton 
                 className="px-6 py-3 rounded-full text-blue-600 font-medium bg-gradient-to-r from-iaeva-blue to-iaeva-purple hover:opacity-90 transition-opacity"
                 text="Solicitar demo" 
-                path="/contacto" 
+                path={SIGNUP_URL} 
                 variant="primary"
               />
               <CTAButton 
@@ -324,7 +325,7 @@ const OphthalmologyPatientCare = () => {
           <CTAButton 
             className="px-8 py-3 rounded-full bg-white text-purple-600 font-medium hover:bg-opacity-90 transition-opacity"
             text="Solicitar demostración gratuita" 
-            path="/contacto" 
+            path={SIGNUP_URL} 
             variant="white"
           />
         </div>

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calculator, Ruler, Pill, FileSpreadsheet, Scale, HeartPulse } from 'lucide-react';
@@ -73,7 +74,7 @@ const MedicalTools = () => {
               <CTAButton 
                 className="px-6 py-3 rounded-full border border-iaeva-blue text-iaeva-blue font-medium hover:bg-blue-50 transition-colors"
                 text="Solicitar integración personalizada" 
-                path="/contacto" 
+                path={SIGNUP_URL} 
                 variant="outline"
               />
             </div>
@@ -349,7 +350,7 @@ const MedicalTools = () => {
               <CTAButton 
                 className="px-8 py-3 rounded-full text-white font-medium bg-gradient-to-r from-iaeva-blue to-iaeva-purple hover:opacity-90 transition-opacity"
                 text="Solicitar información para profesionales" 
-                path="/contacto" 
+                path={SIGNUP_URL} 
                 variant="primary"
               />
             </div>

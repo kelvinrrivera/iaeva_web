@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { MessageCircle, Calendar, Send, User, X, ArrowRight, Check, Info } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -210,7 +211,7 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
   };
 
   const redirectToContact = () => {
-    window.location.href = '/contacto';
+    window.location.href = SIGNUP_URL;
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {

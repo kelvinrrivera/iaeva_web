@@ -2,6 +2,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { isExternalUrl } from '@/config/app-urls';
 
 interface CTAButtonProps {
   text: string;
@@ -44,6 +45,22 @@ const CTAButton = ({
         {text}
         {icon && <ArrowRight className="ml-2 h-5 w-5" />}
       </button>
+    );
+  }
+
+  // La aplicación vive en otro dominio (app.iaeva.com), así que un `Link` de React Router
+  // no sirve: intentaría navegar dentro de la SPA y dejaría al usuario en una ruta que no
+  // existe. Un enlace externo necesita un `<a>` de verdad.
+  if (isExternalUrl(path)) {
+    return (
+      <a
+        href={path}
+        className={`${baseClasses} ${variantClasses[variant]} ${className}`}
+        data-test-id={dataTestId}
+      >
+        {text}
+        {icon && <ArrowRight className="ml-2 h-5 w-5" />}
+      </a>
     );
   }
 

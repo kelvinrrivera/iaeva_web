@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -52,7 +53,7 @@ const CTASection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton
                 text={t('cta.primary_button')}
-                path="/contacto"
+                path={SIGNUP_URL}
                 variant="white"
                 className="bg-white text-iaeva-blue px-8 py-3.5 rounded-full font-medium transition-all hover:shadow-lg hover:translate-y-[-2px] inline-flex items-center justify-center"
                 isCalendarButton={true}

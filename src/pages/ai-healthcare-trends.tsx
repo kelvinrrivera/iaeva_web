@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Brain, Zap, Stethoscope, LineChart, MessagesSquare, Database } from 'lucide-react';
@@ -336,7 +337,7 @@ const AIHealthcareTrends = () => {
             <CTAButton 
               className="px-8 py-3 rounded-full border border-white text-white font-medium hover:bg-opacity-10 hover:bg-white transition-colors"
               text="Contactar con un especialista" 
-              path="/contacto" 
+              path={SIGNUP_URL} 
               variant="outline-white"
             />
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { SIGNUP_URL } from '@/config/app-urls';
 import PageLayout from "@/components/layout/PageLayout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Zap, Users, BarChart3, MessageSquare } from "lucide-react";
@@ -95,12 +96,12 @@ const IAParaClinicas = () => {
                                 Olvídate de tener 5 herramientas separadas. IAEVA unifica agenda, comunicación con pacientes y marketing en un ecosistema impulsado por IA.
                             </p>
                             <div className="flex flex-wrap gap-4 pt-4">
-                                <Link to="/contacto">
+                                <a href={SIGNUP_URL}>
                                     <Button size="lg" className="button-primary h-14 text-lg shadow-button text-white">
                                         Solicitar Demo
                                         <ArrowRight className="ml-2 h-5 w-5" />
                                     </Button>
-                                </Link>
+                                </a>
                                 <div className="flex items-center gap-4 text-sm font-medium text-gray-500 pl-4 border-l-2 border-gray-100">
                                     <span>Compatible con tu software actual</span>
                                 </div>
@@ -199,11 +200,11 @@ const IAParaClinicas = () => {
                                 Únete a las clínicas que están transformando su gestión con nuestro sistema inteligente.
                             </p>
                             <div className="flex flex-col sm:flex-row justify-center gap-4">
-                                <Link to="/contacto">
+                                <a href={SIGNUP_URL}>
                                     <Button size="lg" className="bg-white text-iaeva-bg-dark hover:bg-gray-100 rounded-full px-10 h-14 text-lg font-bold shadow-lg transition-transform hover:-translate-y-1">
                                         Hablar con un experto
                                     </Button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>

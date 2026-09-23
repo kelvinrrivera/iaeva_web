@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calendar, TrendingUp, BrainCircuit, BellRing, ClipboardCheck, BarChart3 } from 'lucide-react';
@@ -250,7 +251,7 @@ const PatientNoShowPrevention = () => {
             <CTAButton 
               className="px-8 py-3 rounded-full border border-white text-white font-medium hover:bg-opacity-10 hover:bg-white transition-colors"
               text="Solicitar demostración" 
-              path="/contacto" 
+              path={SIGNUP_URL} 
               variant="outline-white"
             />
           </div>

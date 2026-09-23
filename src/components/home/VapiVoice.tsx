@@ -1,4 +1,5 @@
 import React from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Check, Clock, Calendar, MessageSquare, Brain, Users, ChevronRight, ArrowRight, Heart, Shield, Award, Activity } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -259,13 +260,12 @@ const VapiVoice = () => {
               <p className="text-gray-600 max-w-2xl mx-auto mb-8">
                 {t('vapi_voice.cta_description')}
               </p>
-              <Link
-                to="/contacto"
+              <a href={SIGNUP_URL}
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-lg"
               >
                 <span>{t('vapi_voice.cta_button')}</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

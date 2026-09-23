@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Activity, Calculator, Ruler, Scale, ArrowRight } from 'lucide-react';
@@ -90,13 +91,12 @@ const ResourcesPage = () => {
                   Ofrecemos soluciones a medida para clínicas y hospitales. Desde calculadoras específicas hasta sistemas 
                   completos de gestión de pacientes con IA.
                 </p>
-                <Link 
-                  to="/contacto" 
+                <a href={SIGNUP_URL} 
                   className="inline-flex items-center font-medium text-blue-600 hover:underline"
                 >
                   <span>Contáctenos</span>
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>

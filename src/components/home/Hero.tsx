@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -271,7 +272,7 @@ const Hero = () => {
               <div className="flex flex-wrap gap-4 mt-8 justify-center lg:justify-start">
                 <CTAButton
                   text={t('hero.cta_primary')}
-                  path="/contacto"
+                  path={SIGNUP_URL}
                   variant="primary"
                   dataTestId="hero-cta-primary"
                   isCalendarButton={true}

@@ -1,4 +1,5 @@
 import React from "react";
+import { SIGNUP_URL } from '@/config/app-urls';
 import PageLayout from "@/components/layout/PageLayout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Activity, CalendarDays, Smartphone, Clock, CheckCircle2 } from "lucide-react";
@@ -99,12 +100,12 @@ const AsistenteIAFisioterapia = () => {
                                 La primera IA que gestiona tus citas recurrentes y planes de rehabilitación sin que tengas que tocar el móvil ni interrumpir tu sesión.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                                <Link to="/contacto">
+                                <a href={SIGNUP_URL}>
                                     <Button size="lg" className="bg-iaeva-teal hover:bg-iaeva-teal/90 text-white rounded-full px-8 h-14 text-lg shadow-glow transition-all hover:-translate-y-0.5">
                                         Probar Gratis
                                         <ArrowRight className="ml-2 h-5 w-5" />
                                     </Button>
-                                </Link>
+                                </a>
                                 <Link to="/calculadora-roi">
                                     <Button variant="outline" size="lg" className="rounded-full px-8 h-14 text-lg border-white/20 text-white hover:bg-white/10 hover:text-white bg-transparent">
                                         Ver Demo
@@ -207,11 +208,11 @@ const AsistenteIAFisioterapia = () => {
                             Enfócate en la recuperación de tus pacientes, nosotros nos encargamos de la agenda.
                         </h2>
                         <div className="pt-8">
-                            <Link to="/contacto">
+                            <a href={SIGNUP_URL}>
                                 <Button size="lg" className="bg-iaeva-teal hover:bg-iaeva-teal/90 text-white rounded-full px-12 h-14 text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all">
                                     Hablar con un consultor
                                 </Button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

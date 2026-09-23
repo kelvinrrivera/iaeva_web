@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calendar, MessageCircle, TrendingDown, Clock, ShieldCheck, ArrowRight } from 'lucide-react';
@@ -57,7 +58,7 @@ const ReduccionAbsentismo = () => {
                                 />
                                 <CTAButton
                                     text="Ver demo en vivo"
-                                    path="/contacto"
+                                    path={SIGNUP_URL}
                                     variant="outline"
                                     className="px-8 py-4 text-lg"
                                 />
@@ -175,7 +176,7 @@ const ReduccionAbsentismo = () => {
                     </p>
                     <CTAButton
                         text="Solicitar demostración"
-                        path="/contacto"
+                        path={SIGNUP_URL}
                         variant="primary"
                         className="px-10 py-4 text-lg rounded-full shadow-emerald-200 shadow-xl"
                     />

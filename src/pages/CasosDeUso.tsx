@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Link } from 'react-router-dom';
 import { Check, ArrowRight, ChevronDown, Building, Hospital, FlaskConical, Heart, Brain, Scale, Accessibility, ImageIcon, Calculator, Milestone, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -413,13 +414,12 @@ const CasosDeUso = () => {
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
             {t('cta.description')}
           </p>
-          <Link
-            to="/contacto"
+          <a href={SIGNUP_URL}
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-iaeva-blue to-iaeva-purple hover:from-iaeva-blue/90 hover:to-iaeva-purple/90 transition-all duration-200"
           >
             {t('cta.button')}
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Link>
+          </a>
         </motion.div>
       </div>
 

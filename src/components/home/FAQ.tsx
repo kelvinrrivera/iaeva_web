@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -86,7 +87,7 @@ const FAQ = () => {
             {t('faq.more_questions')}
           </p>
           <a
-            href="/contacto"
+            href={SIGNUP_URL}
             className="px-6 py-3 bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white rounded-full hover:bg-opacity-90 transition-all"
           >
             {t('faq.contact_button')}

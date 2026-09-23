@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { SIGNUP_URL } from '@/config/app-urls';
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import logo from "/logo/logo.svg"; // Vite accede a /public directamente
@@ -122,9 +123,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contacto" className="text-gray-300 hover:text-iaeva-light-blue transition-colors">
+                <a href={SIGNUP_URL} className="text-gray-300 hover:text-iaeva-light-blue transition-colors">
                   {t('footer.links.company.contact')}
-                </Link>
+                </a>
               </li>
               <li className="mt-4 flex items-center">
                 <Mail className="mr-2 text-iaeva-light-blue flex-shrink-0" size={18} />

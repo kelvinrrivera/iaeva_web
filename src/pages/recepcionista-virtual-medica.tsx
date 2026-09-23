@@ -1,4 +1,5 @@
 import React from "react";
+import { SIGNUP_URL } from '@/config/app-urls';
 import PageLayout from "@/components/layout/PageLayout";
 import { Button } from "@/components/ui/button";
 import { Phone, Check, Clock, ShieldCheck, ChevronRight } from "lucide-react";
@@ -103,11 +104,11 @@ const RecepcionistaVirtualMedica = () => {
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                                <Link to="/contacto">
+                                <a href={SIGNUP_URL}>
                                     <Button size="lg" className="button-primary h-14 text-lg w-full sm:w-auto shadow-button">
                                         Solicitar Demo Personalizada
                                     </Button>
-                                </Link>
+                                </a>
                                 <Link to="/calculadora-roi">
                                     <Button variant="outline" size="lg" className="h-14 text-lg border-2 border-gray-200 text-gray-700 hover:border-iaeva-blue hover:text-iaeva-blue bg-transparent w-full sm:w-auto">
                                         Calcular Ahorro
@@ -254,11 +255,11 @@ const RecepcionistaVirtualMedica = () => {
                                 Prueba la demo interactiva y escucha cómo suena el futuro de tu clínica.
                             </p>
                             <div className="flex flex-col sm:flex-row justify-center gap-4">
-                                <Link to="/contacto">
+                                <a href={SIGNUP_URL}>
                                     <Button size="lg" className="bg-white text-iaeva-purple hover:bg-gray-50 border-0 h-14 px-8 rounded-full text-lg font-semibold shadow-lg">
                                         Escuchar Demo Voice
                                     </Button>
-                                </Link>
+                                </a>
                                 <Link to="/calculadora-roi">
                                     <Button variant="outline" size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white/10 h-14 px-8 rounded-full text-lg">
                                         Calcular ROI
