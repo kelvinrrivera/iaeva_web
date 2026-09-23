@@ -45,12 +45,7 @@ const AsistenteIAFisioterapiaFR = () => {
                     "price": "89.00",
                     "priceCurrency": "EUR"
                 },
-                "description": "Assistant virtuel IA spécialisé pour physiothérapeutes et cliniques de rééducation. Gère l'agenda, les cours collectifs et les rappels automatiques.",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.95",
-                    "ratingCount": "42"
-                }
+                "description": "Assistant virtuel IA spécialisé pour physiothérapeutes et cliniques de rééducation. Gère l'agenda, les cours collectifs et les rappels automatiques."
             },
             {
                 "@type": "FAQPage",

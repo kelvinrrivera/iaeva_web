@@ -14,3 +14,43 @@ Disallow: /.git/
 Disallow: /node_modules/
 Disallow: /.wrangler/
 Disallow: /admin
+
+# ── Rastreadores de modelos de lenguaje ─────────────────────────────────────
+#
+# Se declaran explícitamente aunque `User-agent: *` con `Allow: /` ya los cubra.
+# Un permiso nombrado es inequívoco, y algunos rastreadores buscan su nombre antes
+# de aplicar la regla general.
+#
+# Se permiten a propósito: que un modelo pueda describir qué hace IAEVA —y, sobre
+# todo, qué NO hace— es preferible a que lo deduzca de fuentes de terceros. El
+# resumen curado está en /llms.txt.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Resumen estructurado para sistemas generativos
+# https://iaeva.com/llms.txt

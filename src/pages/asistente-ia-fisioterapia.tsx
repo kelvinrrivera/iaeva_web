@@ -45,12 +45,7 @@ const AsistenteIAFisioterapia = () => {
                     "price": "89.00",
                     "priceCurrency": "EUR"
                 },
-                "description": "Asistente virtual de IA especializado para fisioterapeutas y clínicas de rehabilitación. Gestiona agenda, clases grupales y recordatorios automáticos.",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.95",
-                    "ratingCount": "42"
-                }
+                "description": "Asistente virtual de IA especializado para fisioterapeutas y clínicas de rehabilitación. Gestiona agenda, clases grupales y recordatorios automáticos."
             },
             {
                 "@type": "FAQPage",

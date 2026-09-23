@@ -95,11 +95,6 @@ const Index = () => {
       "price": "0",
       "priceCurrency": "EUR"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "ratingCount": "127"
-    },
     "featureList": "Reducción de ausencias médicas hasta un 60%, Gestión inteligente de citas, Comunicación multicanal (WhatsApp, email, llamadas), Atención al paciente 24/7",
     "keywords": "asistente virtual médico, reducción ausencias, gestión citas médicas, IA sanitaria",
     "publisher": {

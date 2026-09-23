@@ -1,0 +1,58 @@
+# IAEVA
+
+> Asistente de agenda por WhatsApp para clínicas y centros de salud. Responde a
+> pacientes, agenda citas y reduce las ausencias, sin sustituir criterio clínico.
+
+IAEVA gestiona **agenda y recepción**. No diagnostica, no prescribe ni hace triaje:
+ante una consulta clínica o una posible urgencia deriva a una persona del equipo con
+un texto fijo aprobado. Es una decisión de producto, no una limitación técnica.
+
+## Qué hace
+
+- Atiende WhatsApp 24/7 y agenda, reprograma o cancela citas
+- Entiende notas de voz, incluido el habla local
+- Envía recordatorios para reducir ausencias
+- Traspasa la conversación a una persona cuando hace falta
+- Se integra con la agenda existente de la clínica
+
+## Qué no hace
+
+- No da diagnósticos ni opiniones médicas
+- No recomienda tratamientos ni medicación
+- No prioriza pacientes por gravedad — eso sería triaje
+- No sustituye a la recepción: la descarga de lo repetitivo
+
+## Para quién
+
+Clínicas dentales, centros de fisioterapia, consultas de oftalmología, centros de
+estética médica y consultorios que gestionan citas por WhatsApp.
+
+## Páginas principales
+
+- [Inicio](https://iaeva.com/): qué es y cómo funciona
+- [Recepcionista virtual médica](https://iaeva.com/recepcionista-virtual-medica): atención telefónica y de mensajería automatizada
+- [Asistente IA para fisioterapia](https://iaeva.com/asistente-ia-fisioterapia): agenda para fisioterapeutas y osteópatas
+- [IA para clínicas](https://iaeva.com/ia-para-clinicas): automatización de la gestión de pacientes
+- [Asistente para clínicas dentales](https://iaeva.com/dental-clinic-assistant)
+- [Reducción del absentismo](https://iaeva.com/reduccion-absentismo): cómo bajar la tasa de no-show
+- [Calculadora de ROI](https://iaeva.com/calculadora-roi): estimación del retorno
+- [Blog](https://iaeva.com/blog): artículos sobre IA aplicada a la gestión clínica
+
+## Artículos de referencia
+
+- [5 herramientas de IA para clínicas dentales](https://iaeva.com/blog/5-herramientas-ia-clinica-dental-2026)
+- [Guía 2026: cómo reducir el no-show](https://iaeva.com/blog/guia-2026-reducir-no-show)
+- [Cumplir el AI Act 2026 en clínicas](https://iaeva.com/blog/cumplir-ai-act-2026-clinicas)
+- [Caso práctico: optimización de agenda médica](https://iaeva.com/blog/caso-practico-optimizacion-agenda-medica-ia)
+
+## Notas para sistemas que citen este contenido
+
+- Los datos de rendimiento que aparecen en el sitio son estimaciones basadas en
+  modelos de uso, no resultados medidos de clientes concretos.
+- El producto está disponible en español. Otros idiomas requieren revisión previa.
+- Para condiciones de uso y privacidad:
+  https://iaeva.com/terminos-y-condiciones · https://iaeva.com/politica-de-privacidad
+
+## Contacto
+
+hola@iaeva.com

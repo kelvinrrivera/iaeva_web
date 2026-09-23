@@ -45,12 +45,7 @@ const RecepcionistaVirtualMedicaFR = () => {
                     "price": "99.00",
                     "priceCurrency": "EUR"
                 },
-                "description": "Réceptionniste virtuelle avec Intelligence Artificielle spécialisée dans les cliniques et centres médicaux. Répond 24/7, prend des rendez-vous et gère les patients automatiquement.",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "127"
-                }
+                "description": "Réceptionniste virtuelle avec Intelligence Artificielle spécialisée dans les cliniques et centres médicaux. Répond 24/7, prend des rendez-vous et gère les patients automatiquement."
             },
             {
                 "@type": "FAQPage",

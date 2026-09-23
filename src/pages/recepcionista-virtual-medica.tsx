@@ -45,12 +45,7 @@ const RecepcionistaVirtualMedica = () => {
                     "price": "99.00",
                     "priceCurrency": "EUR"
                 },
-                "description": "Recepcionista virtual con Inteligencia Artificial especializada en clínicas y centros médicos. Responde 24/7, agenda citas y gestiona pacientes automáticamente.",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "127"
-                }
+                "description": "Recepcionista virtual con Inteligencia Artificial especializada en clínicas y centros médicos. Responde 24/7, agenda citas y gestiona pacientes automáticamente."
             },
             {
                 "@type": "FAQPage",

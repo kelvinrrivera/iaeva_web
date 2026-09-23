@@ -45,12 +45,7 @@ const IAParaClinicas = () => {
                     "price": "149.00",
                     "priceCurrency": "EUR"
                 },
-                "description": "Plataforma integral de Inteligencia Artificial para gestión de clínicas. Unifica agenda, WhatsApp, marketing y pagos en un solo sistema.",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "84"
-                }
+                "description": "Plataforma integral de Inteligencia Artificial para gestión de clínicas. Unifica agenda, WhatsApp, marketing y pagos en un solo sistema."
             },
             {
                 "@type": "FAQPage",
