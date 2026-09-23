@@ -1,0 +1,390 @@
+{
+  "dental_clinic": {
+    "title": "Asistente virtual para clínicas dentales",
+    "description": "Optimiza la gestión de pacientes, reduce las ausencias y mejora la experiencia en tu clínica dental con nuestro asistente virtual especializado en odontología.",
+    "stats": {
+      "reduction": "-60%",
+      "reduction_text": "Reducción de ausencias en clínicas dentales que usan IAEVA",
+      "satisfaction": "+30%",
+      "satisfaction_text": "Aumento en satisfacción de pacientes dentales",
+      "time_saving": "5h",
+      "time_saving_text": "Ahorro semanal en gestión de citas para el personal"
+    },
+    "features_title": "Funcionalidades para clínicas dentales",
+    "features": {
+      "appointment_management": {
+        "title": "Gestión inteligente de citas",
+        "description": "Sistema avanzado de agendamiento que optimiza los horarios de los dentistas, facilita la programación según tipo de tratamiento y gestiona eficientemente cambios y cancelaciones."
+      },
+      "multichannel": {
+        "title": "Comunicación multicanal",
+        "description": "Interacción con pacientes vía WhatsApp, email y SMS para confirmaciones, recordatorios e instrucciones pre y post-tratamiento, adaptándose a las preferencias de cada paciente."
+      },
+      "absence_prevention": {
+        "title": "Prevención de ausencias",
+        "description": "Algoritmos predictivos que identifican pacientes con riesgo de no asistir, enviando recordatorios personalizados y facilitando la confirmación o reprogramación en un solo clic."
+      },
+      "follow_up": {
+        "title": "Automatización del seguimiento",
+        "description": "Envío automático de instrucciones post-tratamiento, recordatorios de revisión periódica y seguimiento personalizado para mejorar la adherencia a tratamientos dentales."
+      },
+      "virtual_assistant": {
+        "title": "Asistente virtual 24/7",
+        "description": "Atención automatizada que responde preguntas frecuentes sobre tratamientos, precios, horarios y procedimientos, brindando información inmediata incluso fuera de horario de atención."
+      },
+      "analytics": {
+        "title": "Analítica y reportes",
+        "description": "Dashboard con métricas clave sobre gestión de citas, tasas de asistencia, satisfacción del paciente y efectividad de recordatorios para optimizar continuamente los procesos."
+      }
+    },
+    "integration": {
+      "title": "Flexibilidad en la gestión de citas",
+      "description": "IAEVA ofrece una solución flexible que puede funcionar de manera independiente o adaptarse a tu sistema actual, garantizando siempre máxima seguridad de datos.",
+      "own_system": {
+        "title": "Sistema propio de gestión de citas",
+        "description": "Para clínicas dentales sin sistema existente o que prefieren una solución separada, ofrecemos una plataforma completa de agendamiento especializada."
+      },
+      "custom_integration": {
+        "title": "Evaluación de integración personalizada",
+        "description": "Para centros con sistemas propietarios, analizamos cada caso individualmente, priorizando la seguridad de datos y la integridad de tu infraestructura existente."
+      }
+    },
+    "case_study": {
+      "title": "Análisis del sector",
+      "subtitle": "Tu clínica dental con IAEVA",
+      "benefits": [
+        "Reducción de hasta 60% en ausencias de pacientes",
+        "Ahorro estimado de 42 horas mensuales en gestión administrativa",
+        "Aumento proyectado de 24% en satisfacción de pacientes",
+        "Incremento potencial de 15% en ingresos mensuales"
+      ],
+      "quote_title": "Basado en un estudio de mercado",
+      "quote": "Nuestro análisis del sector dental muestra que las clínicas que implementan sistemas de gestión automatizada de pacientes experimentan una reducción significativa en ausencias y un aumento en la eficiencia operativa. IAEVA ha sido específicamente diseñado para abordar estos desafíos en clínicas dentales, con resultados potenciales que transformarán tu funcionamiento diario.",
+      "quote_author": "Equipo de análisis de IAEVA",
+      "quote_position": "Basado en investigación de mercado y mejores prácticas del sector"
+    },
+    "cta": {
+      "title": "Optimiza la gestión de tu clínica dental",
+      "description": "Descubre cómo IAEVA puede transformar la operación de tu centro dental, reducir ausencias y mejorar la satisfacción de tus pacientes.",
+      "button": "Solicitar una demo gratuita"
+    },
+    "faq": {
+      "question1": "¿Cómo ayuda IAEVA a las clínicas dentales a reducir ausencias?",
+      "answer1": "IAEVA reduce las ausencias en clínicas dentales hasta en un 60% mediante recordatorios automatizados personalizados enviados por WhatsApp, SMS o email, confirmación simplificada de citas, y algoritmos predictivos que identifican pacientes con alto riesgo de ausencia para aplicar protocolos de recordatorio específicos.",
+      "question2": "¿IAEVA puede integrarse con el software de gestión de mi clínica dental?",
+      "answer2": "IAEVA puede funcionar de manera independiente con su propio sistema de gestión de citas o, si lo prefieres, podemos evaluar la posibilidad de integración con tu sistema existente. Cada caso se estudia individualmente, priorizando siempre la seguridad de datos y la integridad de tu infraestructura.",
+      "question3": "¿Qué tipos de comunicaciones automatiza IAEVA en una clínica dental?",
+      "answer3": "IAEVA automatiza múltiples comunicaciones: recordatorios de citas, instrucciones pre y post-tratamiento, seguimiento post-operatorio, recordatorios de revisiones periódicas, felicitaciones de cumpleaños, ofertas y promociones, encuestas de satisfacción, y respuestas a preguntas frecuentes sobre tratamientos y precios."
+    }
+  },
+  "physiotherapy": {
+    "title": "Gestión de prácticas de fisioterapia",
+    "description": "Optimiza la gestión de tu clínica de fisioterapia, reduce ausencias y mejora el seguimiento de tratamientos con nuestro asistente virtual especializado.",
+    "stats": {
+      "reduction": "-55%",
+      "reduction_text": "Reducción de ausencias en clínicas de fisioterapia",
+      "adherence": "+40%",
+      "adherence_text": "Mejora en adherencia a ejercicios terapéuticos",
+      "time_saving": "6h",
+      "time_saving_text": "Ahorro semanal en gestión administrativa"
+    },
+    "features_title": "Funcionalidades para clínicas de fisioterapia",
+    "features": {
+      "treatment_series": {
+        "title": "Gestión de series de tratamientos",
+        "description": "Programa y gestiona automáticamente series completas de sesiones con frecuencias específicas, adaptándose a la evolución del paciente y la disponibilidad del fisioterapeuta."
+      },
+      "exercise_tracking": {
+        "title": "Seguimiento de ejercicios",
+        "description": "Envío automatizado de instrucciones de ejercicios personalizados con videos y recordatorios periódicos para mejorar la adherencia al plan de rehabilitación."
+      },
+      "absence_prevention": {
+        "title": "Prevención de ausencias",
+        "description": "Sistema predictivo que identifica pacientes con riesgo de no asistir, enviando recordatorios personalizados y facilitando la confirmación en un clic."
+      },
+      "progress_management": {
+        "title": "Gestión del progreso",
+        "description": "Seguimiento automatizado de avances del paciente, con consultas periódicas de progresión y ajustes dinámicos del plan de tratamiento según evolución."
+      },
+      "multichannel": {
+        "title": "Comunicación multicanal",
+        "description": "Interacción con pacientes vía WhatsApp, email y SMS para confirmar citas, enviar instrucciones de ejercicios y resolver dudas sobre tratamientos."
+      },
+      "analytics": {
+        "title": "Analítica de resultados",
+        "description": "Dashboard con métricas clave sobre asistencia, evolución de pacientes y efectividad de tratamientos para optimizar la práctica clínica."
+      }
+    },
+    "integration": {
+      "title": "Flexibilidad en la gestión de citas",
+      "description": "IAEVA ofrece una solución flexible que puede funcionar de manera independiente o adaptarse a tu sistema actual, garantizando siempre máxima seguridad de datos.",
+      "own_system": {
+        "title": "Sistema propio de gestión de citas",
+        "description": "Para centros sin sistema existente o que prefieren una solución separada, ofrecemos una plataforma completa de agendamiento con todas las funciones necesarias."
+      },
+      "custom_integration": {
+        "title": "Integración con tu sistema actual",
+        "description": "Para centros con sistemas propietarios, evaluamos caso por caso las posibilidades de integración, manteniendo siempre los más altos estándares de ciberseguridad."
+      }
+    },
+    "case_study": {
+      "title": "Análisis del sector",
+      "subtitle": "Tu clínica de fisioterapia con IAEVA",
+      "benefits": [
+        "Reducción de hasta 55% en ausencias a sesiones de fisioterapia",
+        "Aumento proyectado de 40% en adherencia a ejercicios domiciliarios",
+        "Optimización estimada de 25% en tiempo de ocupación de salas",
+        "Incremento potencial de 18% en ingresos mensuales"
+      ],
+      "quote_title": "Basado en un estudio de mercado",
+      "quote": "La investigación en el sector de fisioterapia indica que las clínicas que implementan sistemas de seguimiento de ejercicios y gestión automatizada de citas logran mejoras significativas en la adherencia al tratamiento y reducción de ausencias. IAEVA ha sido específicamente diseñado para abordar estos desafíos en centros de fisioterapia, con el potencial de transformar tanto los resultados clínicos como operativos.",
+      "quote_author": "Equipo de análisis de IAEVA",
+      "quote_position": "Basado en tendencias del sector y mejores prácticas clínicas"
+    },
+    "cta": {
+      "title": "Eleva tu clínica de fisioterapia al siguiente nivel",
+      "description": "Descubre cómo IAEVA puede transformar la operación de tu centro de fisioterapia, reducir ausencias y mejorar la adherencia a tratamientos.",
+      "button": "Solicitar una demo gratuita"
+    }
+  },
+  "ophthalmology": {
+    "title": "Cuidado de pacientes en oftalmología",
+    "description": "Optimiza la gestión de tu clínica oftalmológica, reduce ausencias y mejora el seguimiento post-tratamiento con nuestro asistente virtual especializado.",
+    "stats": {
+      "reduction": "-58%",
+      "reduction_text": "Reducción de ausencias en clínicas oftalmológicas",
+      "adherence": "+45%",
+      "adherence_text": "Mejora en adherencia post-tratamiento",
+      "time_saving": "7h",
+      "time_saving_text": "Ahorro semanal en gestión administrativa"
+    },
+    "features_title": "Funcionalidades para clínicas oftalmológicas",
+    "features": {
+      "appointment_management": {
+        "title": "Gestión especializada de citas",
+        "description": "Optimiza la programación de diferentes tipos de consultas (revisiones, cirugías, urgencias), gestionando tiempos específicos según procedimiento y personal especializado."
+      },
+      "post_surgical": {
+        "title": "Seguimiento post-quirúrgico",
+        "description": "Envío automatizado de instrucciones para aplicación de colirios, cuidados específicos y detección temprana de complicaciones tras procedimientos oftalmológicos."
+      },
+      "absence_prevention": {
+        "title": "Prevención de ausencias",
+        "description": "Sistema predictivo que identifica pacientes con riesgo de no asistir, enviando recordatorios personalizados y facilitando la confirmación o reprogramación en un solo clic."
+      },
+      "periodic_reminders": {
+        "title": "Recordatorios periódicos",
+        "description": "Gestión inteligente de revisiones periódicas para pacientes con patologías crónicas (glaucoma, DMAE, etc.), con recordatorios personalizados según protocolo."
+      },
+      "multichannel": {
+        "title": "Comunicación multicanal",
+        "description": "Interacción con pacientes vía WhatsApp, email y SMS para confirmar citas, enviar instrucciones pre y post-consulta, y resolver dudas frecuentes."
+      },
+      "analytics": {
+        "title": "Analítica clínica",
+        "description": "Dashboard con métricas clave sobre asistencia, tipos de procedimientos, efectividad de tratamientos y seguimiento para optimizar la práctica clínica."
+      }
+    },
+    "integration": {
+      "title": "Flexibilidad en la gestión de citas",
+      "description": "IAEVA ofrece una solución flexible que puede funcionar de manera independiente o adaptarse a tu sistema actual, garantizando siempre máxima seguridad de datos.",
+      "own_system": {
+        "title": "Sistema propio de gestión de citas",
+        "description": "Para clínicas oftalmológicas sin sistema existente o que prefieren una solución separada, ofrecemos una plataforma completa de agendamiento especializada."
+      },
+      "custom_integration": {
+        "title": "Integración con tu sistema actual",
+        "description": "Para centros con sistemas propietarios, evaluamos caso por caso las posibilidades de integración, priorizando la confidencialidad y seguridad de datos de pacientes."
+      }
+    },
+    "case_study": {
+      "title": "Análisis del sector",
+      "subtitle": "Tu clínica oftalmológica con IAEVA",
+      "benefits": [
+        "Reducción de hasta 58% en ausencias a consultas",
+        "Aumento proyectado de 45% en adherencia a tratamientos post-cirugía",
+        "Optimización estimada de 22% en ocupación de quirófanos",
+        "Incremento potencial de 20% en ingresos mensuales"
+      ],
+      "quote_title": "Basado en un estudio de mercado",
+      "quote": "Los datos del sector oftalmológico muestran que las clínicas que implementan sistemas de gestión automatizada de seguimiento post-quirúrgico y recordatorios personalizados logran mejoras significativas en la adherencia al tratamiento y una notable reducción de ausencias. IAEVA está específicamente diseñado para resolver estos desafíos en centros oftalmológicos, con el potencial de transformar tanto la experiencia del paciente como la eficiencia operativa.",
+      "quote_author": "Equipo de análisis de IAEVA",
+      "quote_position": "Basado en investigación clínica y tendencias del sector oftalmológico"
+    },
+    "cta": {
+      "title": "Eleva tu clínica oftalmológica al siguiente nivel",
+      "description": "Descubre cómo IAEVA puede transformar la gestión de tu centro oftalmológico, reducir ausencias y mejorar la adherencia a tratamientos.",
+      "button": "Solicitar una demo gratuita"
+    }
+  },
+  "medical_center": {
+    "title": "Eficiencia de centros médicos",
+    "description": "Optimiza el funcionamiento de tu centro médico, coordina múltiples especialistas y mejora la experiencia del paciente con nuestro asistente virtual inteligente.",
+    "stats": {
+      "reduction": "-62%",
+      "reduction_text": "Reducción de ausencias en centros médicos",
+      "efficiency": "+38%",
+      "efficiency_text": "Aumento en eficiencia administrativa",
+      "satisfaction": "+25%",
+      "satisfaction_text": "Mejora en satisfacción del paciente"
+    },
+    "features_title": "Soluciones para centros médicos",
+    "features": {
+      "multispecialty": {
+        "title": "Coordinación multiespecialidad",
+        "description": "Sistema inteligente que coordina citas con diferentes especialistas, optimizando recorridos de pacientes y minimizando tiempos de espera entre consultas."
+      },
+      "schedule_optimization": {
+        "title": "Optimización de agendas",
+        "description": "Algoritmos avanzados que maximizan la ocupación de consultas según patrones históricos, prioridades clínicas y preferencias de pacientes."
+      },
+      "absence_prevention": {
+        "title": "Reducción de ausencias",
+        "description": "Sistema predictivo que identifica pacientes con riesgo de no asistir, combinado con recordatorios personalizados y confirmación simplificada."
+      },
+      "waitlist_management": {
+        "title": "Gestión de listas de espera",
+        "description": "Administración inteligente de pacientes en espera, cubriendo cancelaciones con prioridad clínica y optimizando la ocupación de cada especialista."
+      },
+      "multichannel": {
+        "title": "Comunicación multicanal",
+        "description": "Interacción personalizada con pacientes vía WhatsApp, email y SMS para confirmaciones, instrucciones pre-consulta y resolución de dudas."
+      },
+      "analytics": {
+        "title": "Analítica operativa",
+        "description": "Dashboard completo con métricas de asistencia, ocupación por especialidad, tiempos de espera y patrones de comportamiento para optimizar la operación."
+      }
+    },
+    "integration": {
+      "title": "Flexibilidad en la gestión de citas",
+      "description": "IAEVA ofrece una solución flexible que puede funcionar de manera independiente o adaptarse a tu sistema actual, garantizando siempre máxima seguridad de datos.",
+      "own_system": {
+        "title": "Sistema propio de gestión de citas",
+        "description": "Para centros médicos sin sistema existente o que prefieren una solución separada, ofrecemos una plataforma completa de agendamiento con todas las funciones necesarias."
+      },
+      "custom_integration": {
+        "title": "Evaluación de integración personalizada",
+        "description": "Para centros con sistemas propietarios, analizamos cada caso individualmente, priorizando la seguridad de datos y la integridad de tu infraestructura existente."
+      }
+    },
+    "case_study": {
+      "title": "Análisis del sector",
+      "subtitle": "Tu centro médico con IAEVA",
+      "benefits": [
+        "Reducción de hasta 62% en ausencias a consultas",
+        "Aumento proyectado de 38% en eficiencia administrativa",
+        "Optimización estimada de 28% en ocupación de especialistas",
+        "Incremento potencial de 22% en facturación mensual"
+      ],
+      "quote_title": "Basado en un estudio de mercado",
+      "quote": "Los estudios del sector sanitario muestran que los centros médicos que implementan soluciones de automatización en la gestión de citas y coordinación entre especialistas logran mejoras significativas en su eficiencia operativa. IAEVA ha sido específicamente diseñado para abordar los principales desafíos de coordinación y comunicación en centros de salud multidisciplinares, con el potencial de transformar la experiencia tanto de pacientes como de profesionales.",
+      "quote_author": "Equipo de análisis de IAEVA",
+      "quote_position": "Basado en estudios del sector y estándares de eficiencia hospitalaria"
+    },
+    "cta": {
+      "title": "Eleva la eficiencia de tu centro médico",
+      "description": "Descubre cómo IAEVA puede optimizar la operación de tu centro médico, reducir ausencias y mejorar tanto la experiencia del paciente como los resultados económicos.",
+      "button_primary": "Solicitar una demostración",
+      "button_secondary": "Calcular el ahorro"
+    }
+  },
+  "patient_management": {
+    "title": "Soluciones de gestión de pacientes",
+    "description": "Transforma la comunicación con tus pacientes, optimiza la gestión de citas y mejora la eficiencia operativa de tu centro médico con nuestro asistente virtual inteligente.",
+    "stats": {
+      "reduction": "-60%",
+      "reduction_text": "Reducción de ausencias de pacientes",
+      "efficiency": "+35%",
+      "efficiency_text": "Aumento en eficiencia administrativa",
+      "availability": "24/7",
+      "availability_text": "Atención automatizada a pacientes"
+    },
+    "features_title": "Soluciones completas para la gestión de pacientes",
+    "features": {
+      "virtual_assistant": {
+        "title": "Asistente virtual multicanal",
+        "description": "Comunicación automatizada con pacientes vía WhatsApp, email, SMS y llamadas para gestión de citas, recordatorios y resolución de consultas frecuentes."
+      },
+      "appointment_management": {
+        "title": "Gestión inteligente de citas",
+        "description": "Sistema avanzado que optimiza agendas según parámetros clínicos y operativos, facilita la programación y reprogramación, y gestiona eficientemente las cancelaciones."
+      },
+      "absence_prevention": {
+        "title": "Prevención de ausencias",
+        "description": "Algoritmos predictivos que identifican pacientes con riesgo de no asistir, combinados con recordatorios personalizados y confirmación simplificada."
+      },
+      "personalized_communication": {
+        "title": "Comunicación personalizada",
+        "description": "Mensajes adaptados al perfil del paciente, tipo de cita y preferencias de comunicación, aumentando la efectividad y mejorando la experiencia."
+      },
+      "patient_experience": {
+        "title": "Experiencia del paciente",
+        "description": "Mejora integral de la interacción del paciente con tu centro médico, desde la reserva de citas hasta el seguimiento post-consulta, con atención 24/7."
+      },
+      "analytics": {
+        "title": "Analítica y mejora continua",
+        "description": "Dashboard con métricas clave sobre asistencia, comunicaciones y satisfacción, permitiendo una optimización continua basada en datos reales."
+      }
+    },
+    "specialties": {
+      "title": "Soluciones para cada especialidad médica",
+      "description": "IAEVA se adapta a las necesidades específicas de cada tipo de centro médico, con funcionalidades personalizadas para maximizar su eficacia.",
+      "dental_clinics": {
+        "title": "Clínicas dentales",
+        "description": "Gestión de citas, recordatorios de tratamientos y seguimiento personalizado."
+      },
+      "physiotherapy": {
+        "title": "Fisioterapia",
+        "description": "Programación de sesiones, seguimiento de tratamientos y recordatorios de ejercicios."
+      },
+      "ophthalmology": {
+        "title": "Oftalmología",
+        "description": "Gestión de citas, recordatorios para revisiones y seguimiento post-operatorio."
+      },
+      "aesthetic_clinics": {
+        "title": "Clínicas estéticas",
+        "description": "Reservas, consultas sobre procedimientos y seguimiento personalizado."
+      },
+      "diagnostic_centers": {
+        "title": "Centros diagnósticos",
+        "description": "Recordatorios para preparación previa y comunicación de resultados."
+      },
+      "medical_centers": {
+        "title": "Centros médicos generales",
+        "description": "Gestión integral de pacientes, especialidades y servicios médicos."
+      }
+    },
+    "case_study": {
+      "title": "Análisis del sector sanitario",
+      "subtitle": "Tu centro con asistencia virtual",
+      "benefits": [
+        "Reducción de hasta 60% en ausencias de pacientes",
+        "Aumento proyectado de 35% en eficiencia administrativa",
+        "Atención automatizada 24/7 a consultas de pacientes",
+        "Integración flexible con tus sistemas actuales"
+      ],
+      "quote_title": "Investigación del sector sanitario",
+      "quote": "Según estudios recientes del sector sanitario, la implementación de asistentes virtuales especializados puede reducir significativamente la carga administrativa del personal médico, permitiéndoles enfocarse en la atención al paciente. Los centros de salud que automatizan la comunicación y gestión de citas mejoran tanto sus resultados operativos como la experiencia del paciente, logrando un aumento significativo en la retención y satisfacción.",
+      "quote_author": "Equipo de investigación de IAEVA",
+      "quote_position": "Basado en análisis de múltiples sectores sanitarios",
+      "stats": {
+        "patients_prefer": "78%",
+        "patients_prefer_text": "de pacientes prefieren recordatorios automatizados",
+        "confirmation_accuracy": "92%",
+        "confirmation_accuracy_text": "mayor precisión en las confirmaciones"
+      }
+    },
+    "cta": {
+      "title": "Transforma la gestión de pacientes de tu centro",
+      "description": "Descubre cómo IAEVA puede ayudarte a automatizar las comunicaciones, reducir ausencias y mejorar la experiencia tanto de pacientes como de profesionales.",
+      "button_primary": "Solicitar una demostración",
+      "button_secondary": "Calcular el ahorro"
+    }
+  },
+  "common": {
+    "cta": {
+      "request_demo": "Solicitar demo",
+      "calculate_roi": "Calcular ROI"
+    }
+  }
+} 

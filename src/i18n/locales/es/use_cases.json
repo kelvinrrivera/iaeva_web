@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Casos de Uso | IAEVA para Centros Médicos",
+    "description": "Descubre cómo IAEVA ha transformado la gestión de citas y atención al paciente en diferentes especialidades médicas con su asistente virtual inteligente.",
+    "keywords": "casos uso IAEVA, ejemplos asistente virtual médico, aplicaciones IA médica, chatbot salud, automatización clínicas, atención paciente IA"
+  },
+  "header": {
+    "title": "Casos de uso",
+    "subtitle": "Descubre cómo IAEVA transforma la experiencia del paciente en diferentes especialidades médicas"
+  },
+  "intro": {
+    "title": "Soluciones adaptadas a cada especialidad",
+    "description": "IAEVA se adapta a las necesidades específicas de cada tipo de centro médico, optimizando procesos y mejorando la experiencia del paciente en cada paso."
+  },
+  "case_study": {
+    "implementation": "Implementación:",
+    "results": "Resultados esperados:",
+    "show_less": "Mostrar menos",
+    "view_details": "Ver caso detallado"
+  },
+  "establishment_types": {
+    "clinics": "Clínicas médicas",
+    "hospitals": "Hospitales",
+    "labs": "Laboratorios clínicos",
+    "oncology": "Centros oncológicos",
+    "surgery": "Cirugía estética",
+    "rehabilitation": "Rehabilitación física",
+    "imaging": "Diagnóstico por imagen"
+  },
+  "cases": {
+    "clinics": {
+      "title": "Clínicas médicas generales",
+      "description": "Optimización de agendas y reducción de ausencias. Implementar IAEVA en tu clínica puede aumentar la eficiencia en la atención y disminuir las pérdidas por citas no cumplidas.",
+      "case1": {
+        "title": "Gestión inteligente de citas",
+        "description": "Una clínica mediana con 15 médicos y 300 citas diarias implementó IAEVA para automatizar recordatorios y optimizar la programación, reduciendo significativamente los no-shows.",
+        "implementation": {
+          "point1": "Recordatorios automáticos en 3 etapas (72h, 24h y 2h antes) vía WhatsApp",
+          "point2": "Reagendamiento instantáneo mediante chatbot integrado",
+          "point3": "Mensajes personalizados según historial del paciente"
+        },
+        "results": {
+          "result1": "Reducción de ausencias",
+          "result2": "Aumento de citas agendadas",
+          "result3": "Mejora en satisfacción"
+        },
+        "testimonial": "IAEVA nos ayudó a optimizar nuestras agendas y reducir los no-shows, incrementando notablemente nuestra eficiencia operativa.",
+        "expert": "Dra. Ana Gómez",
+        "role": "Directora Médica"
+      }
+    },
+    "hospitals": {
+      "title": "Hospitales",
+      "description": "Optimización en la coordinación interdepartamental y reducción de tiempos de espera para admisión y servicios.",
+      "case1": {
+        "title": "Sistema de admisión inteligente",
+        "description": "Un hospital universitario implementó IAEVA para priorizar admisiones y coordinar la atención entre departamentos, reduciendo la fragmentación en la comunicación.",
+        "implementation": {
+          "point1": "Priorización de pacientes mediante algoritmos avanzados",
+          "point2": "Coordinación automatizada entre diversas áreas hospitalarias",
+          "point3": "Monitoreo en tiempo real de tiempos de espera"
+        },
+        "results": {
+          "result1": "Reducción de tiempos de espera",
+          "result2": "Mejora en coordinación",
+          "result3": "Disminución de readmisiones"
+        },
+        "testimonial": "La implementación de IAEVA transformó nuestra capacidad de coordinar servicios, logrando una atención más rápida y eficiente.",
+        "expert": "Dr. Carlos Rivas",
+        "role": "Director de Operaciones"
+      }
+    },
+    "labs": {
+      "title": "Laboratorios clínicos",
+      "description": "Automatización en la gestión de citas para toma de muestras y entrega de resultados, mejorando la precisión y eficiencia en la comunicación.",
+      "case1": {
+        "title": "Gestión integral de resultados",
+        "description": "Un laboratorio que realiza 200 procedimientos diarios implementó IAEVA para gestionar citas, verificar la preparación de pacientes y notificar resultados críticos con eficiencia.",
+        "implementation": {
+          "point1": "Instrucciones personalizadas pre-examen y verificaciones interactivas",
+          "point2": "Notificaciones automáticas para entrega y seguimiento de resultados",
+          "point3": "Integración con sistema de seguimiento de muestras"
+        },
+        "results": {
+          "result1": "Reducción de muestras inadecuadas",
+          "result2": "Menor tasa de cancelaciones",
+          "result3": "Optimización en comunicación"
+        },
+        "testimonial": "La automatización en la gestión de citas y resultados elevó la calidad de nuestros servicios y redujo considerablemente los errores.",
+        "expert": "Dra. Laura Vázquez",
+        "role": "Directora de Laboratorio"
+      }
+    },
+    "oncology": {
+      "title": "Centros oncológicos",
+      "description": "Optimización de procesos en el seguimiento de tratamientos oncológicos y mejora en la adherencia a protocolos.",
+      "case1": {
+        "title": "Seguimiento integral de tratamientos",
+        "description": "Un centro oncológico implementó IAEVA para programar y monitorizar sesiones de quimioterapia, asegurando el seguimiento continuo mediante alertas y recordatorios personalizados.",
+        "implementation": {
+          "point1": "Recordatorios automáticos para cada sesión de tratamiento",
+          "point2": "Monitoreo en tiempo real con alertas para reprogramaciones",
+          "point3": "Integración con sistemas de análisis de marcadores tumorales"
+        },
+        "results": {
+          "result1": "Incremento en adherencia",
+          "result2": "Reducción en tiempos de reprogramación",
+          "result3": "Mejora en satisfacción"
+        },
+        "testimonial": "Con IAEVA, nuestros procesos se volvieron mucho más eficientes, mejorando significativamente el seguimiento y la continuidad en el tratamiento.",
+        "expert": "Dr. Elena Márquez",
+        "role": "Oncólogo Principal"
+      }
+    },
+    "surgery": {
+      "title": "Cirugía estética",
+      "description": "Optimización en la coordinación de evaluaciones, procedimientos y seguimientos postoperatorios, aumentando la eficiencia y la satisfacción del paciente.",
+      "case1": {
+        "title": "Coordinación integral de cirugía estética",
+        "description": "Una clínica de cirugía estética utilizó IAEVA para coordinar evaluaciones preoperatorias, programar procedimientos y gestionar revisiones postoperatorias con recordatorios específicos según cada fase.",
+        "implementation": {
+          "point1": "Programación secuencial de citas (consulta, procedimiento, seguimiento)",
+          "point2": "Recordatorios y confirmaciones adaptados a cada fase",
+          "point3": "Feedback automatizado para mejorar la experiencia"
+        },
+        "results": {
+          "result1": "Mejora en adherencia a tratamientos",
+          "result2": "Reducción en cancelaciones",
+          "result3": "Aumento en satisfacción global"
+        },
+        "testimonial": "IAEVA nos permitió gestionar de forma integral el flujo de cirugía estética, optimizando cada fase del proceso.",
+        "expert": "Dr. Miguel Soto",
+        "role": "Cirujano Estético"
+      }
+    },
+    "rehabilitation": {
+      "title": "Rehabilitación física",
+      "description": "Mejora en la programación y seguimiento de sesiones de terapia, optimizando la continuidad del tratamiento y la coordinación entre profesionales.",
+      "case1": {
+        "title": "Optimización de terapias de rehabilitación",
+        "description": "Un centro de rehabilitación física implementó IAEVA para gestionar la programación de sesiones de terapia, reducir tiempos muertos y coordinar de forma efectiva al equipo de fisioterapia.",
+        "implementation": {
+          "point1": "Agenda inteligente para organizar sesiones terapéuticas",
+          "point2": "Recordatorios y ajustes basados en el progreso del paciente",
+          "point3": "Coordinación entre equipos de fisioterapia y médicos especialistas"
+        },
+        "results": {
+          "result1": "Reducción de tiempos muertos",
+          "result2": "Mejora en coordinación",
+          "result3": "Aumento en adherencia a terapias"
+        },
+        "testimonial": "La implementación de IAEVA transformó nuestra programación de sesiones, otorgando mayor eficiencia y continuidad en las terapias.",
+        "expert": "Dra. Carmen Ruiz",
+        "role": "Especialista en Rehabilitación"
+      }
+    },
+    "imaging": {
+      "title": "Diagnóstico por imagen",
+      "description": "Optimización en la programación y pre-análisis de estudios de imagen para reducir tiempos de espera en casos críticos.",
+      "case1": {
+        "title": "Pre-análisis automatizado de estudios",
+        "description": "Un centro de diagnóstico por imagen implementó IAEVA para automatizar la revisión preliminar de estudios (rayos X, resonancias y tomografías), identificando casos prioritarios y reduciendo la carga de trabajo.",
+        "implementation": {
+          "point1": "Pre-análisis automatizado de estudios de imagen",
+          "point2": "Priorización de casos críticos para atención inmediata",
+          "point3": "Integración con sistemas digitales y registros de radiólogos"
+        },
+        "results": {
+          "result1": "Reducción de tiempos de espera",
+          "result2": "Mejora en priorización",
+          "result3": "Mayor eficiencia diagnóstica"
+        },
+        "testimonial": "La capacidad de IAEVA para analizar estudios de imagen ha optimizado nuestra respuesta ante casos urgentes, reduciendo significativamente los tiempos de espera.",
+        "expert": "Dr. Roberto Sánchez",
+        "role": "Radiólogo Jefe"
+      }
+    }
+  },
+  "specialties": {
+    "primary_care": {
+      "title": "Atención Primaria",
+      "description": "Optimización del triaje inicial, gestión eficiente de consultas frecuentes y seguimiento de pacientes crónicos."
+    },
+    "dentistry": {
+      "title": "Clínicas Dentales",
+      "description": "Recordatorios personalizados, gestión de tratamientos prolongados y seguimiento post-intervención."
+    },
+    "dermatology": {
+      "title": "Dermatología",
+      "description": "Evaluación preliminar de casos, seguimiento de tratamientos y recordatorios para protección solar."
+    },
+    "psychology": {
+      "title": "Psicología",
+      "description": "Programación discreta de citas, recordatorios respetuosos y recursos de apoyo entre sesiones."
+    },
+    "pediatrics": {
+      "title": "Pediatría",
+      "description": "Gestión de vacunas, seguimiento de desarrollo y comunicación eficiente con los padres."
+    },
+    "physiotherapy": {
+      "title": "Fisioterapia",
+      "description": "Planificación de sesiones, seguimiento de ejercicios y recordatorios personalizados."
+    }
+  },
+  "benefits": {
+    "title": "Beneficios comprobados",
+    "reduction_title": "Reducción de ausencias",
+    "reduction_description": "Disminución del 60% en citas perdidas gracias a recordatorios inteligentes.",
+    "satisfaction_title": "Satisfacción del paciente",
+    "satisfaction_description": "97% de valoraciones positivas en la experiencia de atención automatizada.",
+    "efficiency_title": "Eficiencia operativa",
+    "efficiency_description": "Reducción del 40% en tiempo dedicado a tareas administrativas."
+  },
+  "testimonial": {
+    "quote": "IAEVA ha transformado completamente la gestión de citas en nuestra clínica. Las recepciones ya no están saturadas de llamadas y nuestros pacientes valoran enormemente la facilidad para gestionar sus citas 24/7.",
+    "author": "Dra. María Sánchez",
+    "role": "Directora Médica, Centro de Especialidades"
+  },
+  "cta": {
+    "title": "¿Listo para transformar la experiencia en tu centro médico?",
+    "button": "Solicitar una demo personalizada"
+  }
+} 

@@ -1,0 +1,368 @@
+{
+  "tools": {
+    "page_title": "Outils gratuits",
+    "page_description": "Ressources conçues pour faciliter la pratique clinique quotidienne. Calculs précis, conversions rapides et génération de rapports pour optimiser les soins aux patients.",
+    "cta_contact": "Contactez-nous pour suggérer des outils",
+    "subscribe_title": "Soyez le premier à connaître les nouveaux outils",
+    "subscribe_description": "Inscrivez-vous pour recevoir des notifications lorsque nous lancerons de nouveaux outils médicaux gratuits.",
+    "subscribe_placeholder": "Votre email professionnel",
+    "subscribe_button": "S'abonner",
+    "why_use_title": "Pourquoi utiliser nos outils?",
+    "benefit_accuracy": "Précision et fiabilité",
+    "benefit_accuracy_desc": "Outils développés selon les normes médicales internationales et des sources scientifiques vérifiées.",
+    "benefit_time": "Gain de temps",
+    "benefit_time_desc": "Optimisez votre flux de travail avec des calculs instantanés et la génération automatique de rapports pour les patients.",
+    "benefit_privacy": "Confidentialité garantie",
+    "benefit_privacy_desc": "Nous ne stockons pas de données de patients. Tous les calculs sont effectués localement dans votre navigateur.",
+    "benefit_updates": "Toujours à jour",
+    "benefit_updates_desc": "Mises à jour périodiques pour rester au courant des dernières avancées et directives médicales.",
+    "tool_coming_soon": "Bientôt disponible",
+    "tool_access": "Accéder à l'outil",
+    "back_to_tools": "Retour aux outils",
+    "medical_unit_converter": {
+      "title": "Convertisseur d'unités médicales",
+      "description": "Convertissez entre les unités médicales courantes : valeurs de laboratoire, doses, unités d'insuline et plus encore."
+    },
+    "diet_generator": {
+      "title": "Générateur de régimes alimentaires basiques",
+      "description": "Créez des plans alimentaires basiques selon les conditions cliniques, les allergies et les besoins nutritionnels."
+    },
+    "drug_interactions": {
+      "title": "Simulateur d'interactions médicamenteuses",
+      "description": "Vérifiez les interactions possibles entre médicaments avec des alertes visuelles et des rapports pour les patients."
+    },
+    "pediatric_development": {
+      "title": "Tableau de développement pédiatrique",
+      "description": "Visualisez les percentiles de croissance, les étapes du développement et calculez les doses pédiatriques."
+    },
+    "icd_codes": {
+      "title": "Moteur de recherche de codes CIM-10/11",
+      "description": "Trouvez des codes CIM par symptomatologie ou nom de maladie avec accès aux guides cliniques."
+    },
+    "epidemiological_alerts": {
+      "title": "Alertes épidémiologiques",
+      "description": "Visualisez les épidémies et les tendances épidémiologiques en temps réel avec des protocoles d'action."
+    }
+  },
+  "bmi": {
+    "title": "Calculateur d'IMC avancé",
+    "description": "Le calculateur d'IMC (Indice de Masse Corporelle) vous permet d'évaluer la relation entre le poids et la taille, offrant une estimation du pourcentage de graisse corporelle et des recommandations adaptées au profil du patient.",
+    "patient_data": "Données du patient",
+    "unit_system": "Système d'unités",
+    "metric": "Métrique (kg/cm)",
+    "imperial": "Impérial (lb/in)",
+    "weight_metric": "Poids (kg)",
+    "weight_imperial": "Poids (lb)",
+    "height_metric": "Taille (cm)",
+    "height_imperial": "Taille (in)",
+    "age": "Âge (années)",
+    "optional": "optionnel",
+    "gender": "Genre",
+    "male": "Masculin",
+    "female": "Féminin",
+    "calculate": "Calculer",
+    "clear": "Effacer",
+    "results": "Résultats",
+    "bmi": "IMC",
+    "body_fat": "% Graisse corporelle estimée",
+    "bf_formula": "Basé sur la formule de Deurenberg",
+    "recommendations": "Recommandations:",
+    "generate_pdf": "Générer un rapport PDF",
+    "empty_state": "Entrez les données du patient pour calculer l'IMC et recevoir des recommandations personnalisées.",
+    "interpretation": "Interprétation de l'IMC:",
+    "disclaimer": "L'IMC est seulement un outil indicatif et ne constitue pas un diagnostic médical. Le pourcentage de graisse corporelle est calculé à l'aide de la formule de Deurenberg et est une approximation. Consultez toujours un professionnel de la santé pour une évaluation complète.",
+    "categories": {
+      "severe_thinness": "Maigreur sévère",
+      "moderate_thinness": "Maigreur modérée",
+      "mild_thinness": "Maigreur légère",
+      "normal": "Poids normal",
+      "overweight": "Surpoids",
+      "obese_1": "Obésité grade I",
+      "obese_2": "Obésité grade II",
+      "obese_3": "Obésité grade III"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "what_is_bmi": {
+        "q": "Qu'est-ce que l'IMC?",
+        "a": "L'Indice de Masse Corporelle (IMC) est une méthode utilisée pour estimer la quantité de graisse corporelle d'une personne et déterminer si le poids est dans une fourchette saine. Il se calcule en divisant le poids en kilogrammes par le carré de la taille en mètres (kg/m²)."
+      },
+      "how_to_interpret": {
+        "q": "Comment interpréter le résultat de l'IMC?",
+        "a": "Selon l'Organisation Mondiale de la Santé, un IMC inférieur à 18,5 indique une insuffisance pondérale, entre 18,5 et 24,9 un poids normal ou sain, entre 25 et 29,9 un surpoids, et au-dessus de 30 est considéré comme obésité. Cependant, l'IMC doit être interprété avec prudence car il ne fait pas la distinction entre la masse musculaire et la graisse."
+      },
+      "bf_accuracy": {
+        "q": "Le calcul du pourcentage de graisse est-il précis?",
+        "a": "L'estimation du pourcentage de graisse corporelle offerte par ce calculateur est basée sur la formule de Deurenberg, qui utilise l'IMC, l'âge et le sexe. Bien qu'elle fournisse une approximation utile, des méthodes comme la bioimpédance ou les plis cutanés peuvent offrir des mesures plus précises. Cet outil est principalement éducatif et de dépistage initial."
+      },
+      "bmi_validity": {
+        "q": "L'IMC est-il valable pour tous les groupes de population?",
+        "a": "L'IMC a des limitations pour certains groupes comme les athlètes avec une masse musculaire élevée, les personnes âgées, les enfants, les femmes enceintes ou allaitantes. Dans ces cas, il est recommandé de compléter avec d'autres évaluations spécifiques à chaque situation ou groupe d'âge."
+      }
+    }
+  },
+  "unit_converter": {
+    "title": "Convertisseur d'unités médicales",
+    "description": "Convertissez facilement entre les unités médicales courantes utilisées dans la pratique clinique. Cet outil couvre les valeurs de laboratoire, les signes vitaux, les doses de médicaments et plus encore.",
+    "source_value": "Valeur source",
+    "target_value": "Valeur convertie",
+    "category": "Catégorie",
+    "subcategory": "Type de conversion",
+    "source_unit": "Unité source",
+    "target_unit": "Unité cible",
+    "convert": "Convertir",
+    "clear": "Effacer",
+    "copy_result": "Copier le résultat",
+    "result_copied": "Résultat copié dans le presse-papiers",
+    "enter_value": "Entrez une valeur",
+    "reciprocal_conversion": "Conversion réciproque",
+    "common_values": "Valeurs de référence",
+    "invalid_number": "Veuillez entrer une valeur numérique valide",
+    "incompatible_units": "Les unités sélectionnées ne sont pas compatibles pour la conversion",
+    "conversion_not_supported": "La conversion entre ces unités n'est pas prise en charge",
+    "helper_text": "Sélectionnez d'abord une catégorie et un type de conversion pour voir les unités disponibles. Les unités affichées sont compatibles pour effectuer des conversions valides.",
+    "disclaimer": "Cet outil est conçu pour aider dans les conversions médicales, mais ne remplace pas le jugement clinique professionnel. Vérifiez toujours les résultats avant de prendre des décisions médicales.",
+    "categories": {
+      "laboratory": "Valeurs de laboratoire",
+      "vital_signs": "Signes vitaux",
+      "medication": "Dosage des médicaments",
+      "fluid_balance": "Équilibre hydrique",
+      "nutrition": "Nutrition",
+      "pediatrics": "Pédiatrie",
+      "radiology": "Radiologie"
+    },
+    "subcategories": {
+      "glucose": "Glucose",
+      "cholesterol": "Cholestérol",
+      "creatinine": "Créatinine",
+      "hemoglobin": "Hémoglobine",
+      "bilirubin": "Bilirubine",
+      "tsh": "TSH (Thyréostimuline)",
+      "temperature": "Température",
+      "pressure": "Pression",
+      "weight": "Poids",
+      "concentration": "Concentration",
+      "volume": "Volume",
+      "energy": "Énergie",
+      "length": "Longueur",
+      "radiation": "Radiation",
+      "area": "Surface"
+    },
+    "units": {
+      "weight": {
+        "name": "Poids",
+        "kg": "Kilogramme (kg)",
+        "g": "Gramme (g)",
+        "mg": "Milligramme (mg)",
+        "mcg": "Microgramme (mcg)",
+        "lb": "Livre (lb)",
+        "oz": "Once (oz)"
+      },
+      "length": {
+        "name": "Longueur",
+        "m": "Mètre (m)",
+        "cm": "Centimètre (cm)",
+        "mm": "Millimètre (mm)",
+        "in": "Pouce (in)",
+        "ft": "Pied (ft)"
+      },
+      "volume": {
+        "name": "Volume",
+        "l": "Litre (L)",
+        "ml": "Millilitre (mL)",
+        "cc": "Centimètre cube (cc)",
+        "dl": "Décilitre (dL)",
+        "gal": "Gallon (gal)",
+        "qt": "Quart (qt)",
+        "pt": "Pinte (pt)",
+        "fl_oz": "Once liquide (fl oz)"
+      },
+      "temperature": {
+        "name": "Température",
+        "c": "Celsius (°C)",
+        "f": "Fahrenheit (°F)",
+        "k": "Kelvin (K)"
+      },
+      "pressure": {
+        "name": "Pression",
+        "mmhg": "Millimètres de mercure (mmHg)",
+        "cmh2o": "Centimètres d'eau (cmH₂O)",
+        "kpa": "Kilopascal (kPa)",
+        "mbar": "Millibar (mbar)",
+        "psi": "Livres par pouce carré (psi)"
+      },
+      "time": {
+        "name": "Temps",
+        "s": "Seconde (s)",
+        "min": "Minute (min)",
+        "h": "Heure (h)",
+        "d": "Jour (j)"
+      },
+      "concentration": {
+        "name": "Concentration",
+        "mol_l": "Mole par litre (mol/L)",
+        "mmol_l": "Millimole par litre (mmol/L)",
+        "umol_l": "Micromole par litre (μmol/L)",
+        "nmol_l": "Nanomole par litre (nmol/L)",
+        "pmol_l": "Picomole par litre (pmol/L)",
+        "g_l": "Grammes par litre (g/L)",
+        "mg_dl": "Milligrammes par décilitre (mg/dL)",
+        "mg_l": "Milligrammes par litre (mg/L)",
+        "ug_dl": "Microgrammes par décilitre (μg/dL)",
+        "ug_l": "Microgrammes par litre (μg/L)",
+        "ng_ml": "Nanogrammes par millilitre (ng/mL)",
+        "ng_dl": "Nanogrammes par décilitre (ng/dL)",
+        "miu_l": "Milliunités internationales par litre (mUI/L)",
+        "iu_l": "Unités internationales par litre (UI/L)",
+        "meq_l": "Milliéquivalents par litre (mEq/L)"
+      },
+      "radiation": {
+        "name": "Radiation",
+        "gy": "Gray (Gy)",
+        "rad": "Rad (rad)",
+        "sv": "Sievert (Sv)",
+        "rem": "Rem (rem)",
+        "bq": "Becquerel (Bq)",
+        "ci": "Curie (Ci)"
+      },
+      "area": {
+        "name": "Surface",
+        "m2": "Mètre carré (m²)",
+        "cm2": "Centimètre carré (cm²)",
+        "ft2": "Pied carré (ft²)",
+        "in2": "Pouce carré (in²)"
+      }
+    },
+    "lab_values": {
+      "glucose": {
+        "name": "Glucose",
+        "units": ["mg_dl", "mmol_l"],
+        "reference": {
+          "normal": "70-99 mg/dL (3,9-5,5 mmol/L)",
+          "prediabetes": "100-125 mg/dL (5,6-6,9 mmol/L)",
+          "diabetes": ">126 mg/dL (>7,0 mmol/L)"
+        }
+      },
+      "cholesterol": {
+        "name": "Cholestérol",
+        "units": ["mg_dl", "mmol_l"],
+        "reference": {
+          "total": "<200 mg/dL (<5,2 mmol/L)",
+          "ldl": "<100 mg/dL (<2,6 mmol/L)",
+          "hdl": ">40 mg/dL (>1,0 mmol/L)"
+        }
+      },
+      "creatinine": {
+        "name": "Créatinine",
+        "units": ["mg_dl", "umol_l"],
+        "reference": {
+          "female": "0,5-1,1 mg/dL (44-97 μmol/L)",
+          "male": "0,7-1,3 mg/dL (62-115 μmol/L)"
+        }
+      },
+      "hemoglobin": {
+        "name": "Hémoglobine",
+        "units": ["g_dl", "g_l", "mmol_l"],
+        "reference": {
+          "female": "12,0-15,5 g/dL (120-155 g/L)",
+          "male": "13,5-17,5 g/dL (135-175 g/L)"
+        }
+      },
+      "bilirubin": {
+        "name": "Bilirubine",
+        "units": ["mg_dl", "umol_l"],
+        "reference": {
+          "total": "0,3-1,0 mg/dL (5,1-17 μmol/L)"
+        }
+      },
+      "tsh": {
+        "name": "TSH",
+        "units": ["uiu_ml", "miu_l"],
+        "reference": {
+          "adult": "0,4-4,0 μUI/mL (0,4-4,0 mUI/L)"
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "accurate": {
+        "q": "Quelle est la précision du convertisseur?",
+        "a": "Ce convertisseur utilise des facteurs de conversion standardisés reconnus internationalement. Les résultats ont une précision adéquate pour un usage clinique, mais doivent toujours être vérifiés avant de prendre des décisions médicales."
+      },
+      "regional": {
+        "q": "Prend-il en compte les unités spécifiques à ma région?",
+        "a": "Oui, ce convertisseur inclut les unités les plus utilisées en France ainsi que les unités internationales. Les différences régionales dans les plages de référence médicales peuvent varier, c'est pourquoi nous recommandons de consulter les valeurs de référence spécifiques de votre laboratoire local."
+      },
+      "reference": {
+        "q": "Les valeurs de référence sont-elles universelles?",
+        "a": "Les valeurs de référence incluses sont des approximations basées sur des directives internationales. Cependant, les plages peuvent varier légèrement entre les laboratoires, en fonction de facteurs tels que la méthode d'analyse, l'équipement, la population de référence et les ajustements régionaux."
+      },
+      "missing": {
+        "q": "Que faire si je ne trouve pas l'unité dont j'ai besoin?",
+        "a": "Cet outil comprend les unités médicales les plus courantes. Si vous avez besoin d'une conversion spécifique que vous ne trouvez pas, vous pouvez nous contacter pour suggérer son inclusion dans les futures mises à jour."
+      }
+    }
+  },
+  "ideal_weight": {
+    "title": "Calculateur de poids idéal",
+    "description": "Calculez le poids corporel idéal selon différentes formules médicales et le poids corporel ajusté utilisé pour le dosage des médicaments. Obtenez des résultats personnalisés selon la taille, le genre et la corpulence.",
+    "patient_data": "Données du patient",
+    "unit_system": "Système d'unités",
+    "metric": "Métrique (kg/cm)",
+    "imperial": "Impérial (lb/in)",
+    "weight_metric": "Poids actuel (kg)",
+    "weight_imperial": "Poids actuel (lb)",
+    "height_metric": "Taille (cm)",
+    "height_imperial": "Taille (in)",
+    "frame_size": "Corpulence",
+    "small": "Petite",
+    "medium": "Moyenne",
+    "large": "Grande",
+    "optional": "optionnel",
+    "gender": "Genre",
+    "male": "Masculin",
+    "female": "Féminin",
+    "calculate": "Calculer",
+    "clear": "Effacer",
+    "empty_state": "Entrez la taille et autres données du patient pour calculer son poids corporel idéal selon différentes formules.",
+    "results": {
+      "title": "Résultats",
+      "copy": "Copier les résultats",
+      "copied": "Résultats copiés",
+      "devine": "Formule de Devine",
+      "robinson": "Formule de Robinson",
+      "miller": "Formule de Miller",
+      "hamwi": "Formule de Hamwi",
+      "average": "Poids idéal moyen",
+      "adjusted": "Poids corporel ajusté"
+    },
+    "formulas": {
+      "title": "À propos des formules:",
+      "devine": "Devine (1974): pour hommes 50 + 2,3 × (taille en pouces - 60) kg; pour femmes 45,5 + 2,3 × (taille en pouces - 60) kg",
+      "robinson": "Robinson (1983): pour hommes 52 + 1,9 × (taille en pouces - 60) kg; pour femmes 49 + 1,7 × (taille en pouces - 60) kg",
+      "miller": "Miller (1983): pour hommes 56,2 + 1,41 × (taille en pouces - 60) kg; pour femmes 53,1 + 1,36 × (taille en pouces - 60) kg",
+      "hamwi": "Hamwi (1964): pour hommes 48 + 2,7 × (taille en pouces - 60) kg; pour femmes 45,5 + 2,2 × (taille en pouces - 60) kg",
+      "adjusted": "Poids Corporel Ajusté = Poids Idéal + 0,4 × (Poids Actuel - Poids Idéal)"
+    },
+    "disclaimer": "Ces formules fournissent des estimations et peuvent ne pas être appropriées pour tous les individus. Consultez toujours un professionnel de santé pour une évaluation complète. Le poids idéal varie selon l'âge, la composition corporelle, les antécédents médicaux et d'autres facteurs individuels.",
+    "faq": {
+      "title": "Questions fréquentes",
+      "what_is_ibw": {
+        "q": "Qu'est-ce que le poids corporel idéal?",
+        "a": "Le Poids Corporel Idéal (IBW) est une valeur estimée du poids considéré comme sain pour une personne selon sa taille, son genre et sa corpulence. Il est basé sur différentes formules médicales développées pour estimer le poids associé à la meilleure santé et longévité."
+      },
+      "what_is_abw": {
+        "q": "Qu'est-ce que le poids corporel ajusté?",
+        "a": "Le Poids Corporel Ajusté (ABW) est une mesure utilisée principalement en pharmacologie pour calculer les dosages de médicaments chez les personnes obèses. Il représente une valeur entre le poids réel et le poids idéal, calculé comme: Poids Idéal + 0,4 × (Poids Actuel - Poids Idéal)."
+      },
+      "formula_differences": {
+        "q": "Pourquoi existe-t-il différentes formules et laquelle utiliser?",
+        "a": "Il existe plusieurs formules car elles ont été développées à différentes époques et pour différentes populations. Devine (1974) est la plus utilisée en pharmacologie; Robinson et Miller (1983) donnent généralement des valeurs plus basses; Hamwi (1964) était l'une des premières. Il est recommandé d'utiliser la moyenne pour plus de précision ou la formule spécifique selon le contexte clinique."
+      },
+      "frame_size": {
+        "q": "Comment déterminer la corpulence?",
+        "a": "La corpulence peut être estimée en mesurant la circonférence du poignet par rapport à la taille, ou par la méthode de l'envergure du coude. Une façon simple est de comparer le diamètre du poignet: pour une taille de 170 cm, une petite corpulence serait <16 cm, moyenne 16-18 cm, et grande >18 cm (les valeurs varient selon la taille et le genre)."
+      }
+    }
+  }
+} 

@@ -1,0 +1,27 @@
+{
+  "dental_clinic": {
+    "title": "🦷 Asistente virtual para clínicas dentales | Gestión de citas | IAEVA",
+    "description": "🤖 Optimiza la gestión de pacientes en tu clínica dental con IAEVA. Reduce ausencias hasta un 60%, automatiza recordatorios y ofrece atención 24/7 a tus pacientes.",
+    "keywords": "asistente virtual clínica dental, gestión citas odontología, reducción ausencias dentistas, recordatorios pacientes dentales, software clínica dental, automatización comunicación pacientes, whatsapp clínica dental"
+  },
+  "physiotherapy": {
+    "title": "📱 Asistente virtual de fisioterapia | Gestión de ejercicios | IAEVA",
+    "description": "🤖 Mejora la gestión y los resultados de tu clínica de fisioterapia con IAEVA. Reduce ausencias hasta un 55%, automatiza recordatorios de ejercicios y optimiza el seguimiento de pacientes.",
+    "keywords": "asistente virtual fisioterapia, gestión pacientes rehabilitación, seguimiento ejercicios rehabilitación, reducción ausencias fisioterapia, automatización recordatorios fisioterapia, optimización clínica rehabilitación"
+  },
+  "ophthalmology": {
+    "title": "👁️ Asistente virtual de oftalmología | Seguimiento post-quirúrgico | IAEVA",
+    "description": "🤖 Optimiza la gestión de pacientes en oftalmología con IAEVA. Reduce ausencias hasta un 58%, automatiza recordatorios de colirios y mejora los seguimientos post-quirúrgicos.",
+    "keywords": "asistente virtual oftalmología, gestión pacientes oculares, seguimiento post-quirúrgico oftalmológico, reducción ausencias oftalmología, recordatorios colirios automatizados, optimización clínica ocular"
+  },
+  "medical_center": {
+    "title": "🏥 Asistente virtual para centros médicos | Coordinación multiespecialidad | IAEVA",
+    "description": "🤖 Optimiza la operación de tu centro médico con IAEVA. Reduce ausencias hasta un 62%, coordina eficientemente múltiples especialistas y mejora la experiencia del paciente.",
+    "keywords": "asistente virtual centros médicos, gestión multiespecialidad salud, coordinación citas médicos, reducción ausencias consultas, optimización agendas especialistas, automatización comunicaciones sanitarias"
+  },
+  "patient_management": {
+    "title": "🏥 Soluciones de gestión de pacientes | Reducción de ausencias | IAEVA",
+    "description": "🤖 Transforma la gestión de pacientes con el asistente virtual IAEVA. Reduce ausencias hasta un 60%, automatiza las comunicaciones y mejora la experiencia del paciente con WhatsApp integrado.",
+    "keywords": "gestión pacientes salud, reducción ausencias médicas, asistente virtual médico, automatización comunicaciones salud, optimización citas médicos, WhatsApp clínicas médicas"
+  }
+} 

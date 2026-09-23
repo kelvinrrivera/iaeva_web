@@ -1,0 +1,261 @@
+/* Estilos para el blog */
+
+/* Estilos básicos para el contenido del artículo */
+.blog-content {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Ajuste para secciones con ID para el scroll */
+.blog-content section[id] {
+  scroll-margin-top: 100px;
+}
+
+.blog-content h2 {
+  color: #2a6baa;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 0.5rem;
+}
+
+.blog-content h3 {
+  color: #1e4d7f;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.blog-content h4 {
+  color: #153b66;
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-content a:not([class*="bg-"]) {
+  color: #0a84ff;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  transition: all 0.2s ease;
+}
+
+.blog-content a:not([class*="bg-"]):hover {
+  color: #0969da;
+  border-bottom: 1px solid;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1.25rem 0;
+  padding-left: 2rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #86b7fe;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #4a5568;
+  background-color: #f9fafb;
+}
+
+/* Estilos para imágenes */
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+/* Estilos para tablas */
+.blog-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.blog-table th {
+  background-color: #f0f9ff;
+  color: #1e4d7f;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+}
+
+.blog-table td {
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+}
+
+.blog-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* Estilos para el índice */
+.article-toc {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* En pantallas grandes, ocultar el TOC interno porque usamos el sidebar */
+@media (min-width: 1024px) {
+  .article-toc {
+    display: none;
+  }
+}
+
+.article-toc h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #2a6baa;
+}
+
+.article-toc ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.article-toc li {
+  margin-bottom: 0.5rem;
+}
+
+/* Estilos para el sidebar del TOC */
+.toc-sidebar {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding-bottom: 2rem;
+  width: 16rem;
+  scrollbar-width: thin;
+}
+
+.toc-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 20px;
+}
+
+.toc-link {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  border-left: 2px solid transparent;
+  transition: all 0.2s;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.toc-link:hover {
+  background-color: rgba(229, 231, 235, 0.5);
+}
+
+.toc-link-active {
+  border-left-color: #0a84ff;
+  color: #0a84ff;
+  background-color: rgba(239, 246, 255, 0.6);
+  font-weight: 500;
+}
+
+.text-highlight {
+  background-color: #f0f9ff;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: 500;
+  color: #2a6baa;
+  display: inline-block;
+}
+
+/* CTA Box */
+.cta-box {
+  background-color: #ebf5ff;
+  border-left: 4px solid #0a84ff;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  transition: all 0.2s;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+.button-primary {
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+}
+
+#faq a.button.button-primary {
+  color: #fff !important;
+}
+
+.button-primary:hover {
+  background-color: #0969da;
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blog-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .blog-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .blog-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .blog-image {
+    margin: 1rem 0;
+  }
+}
+
+nav.hidden.lg\:block.sticky.top-24.max-h-\[calc\(100vh-120px\)\].overflow-y-auto.pr-6.pb-12.text-sm.w-72 {
+  margin-right: 10px;
+}

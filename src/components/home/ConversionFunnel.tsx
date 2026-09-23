@@ -30,16 +30,16 @@ const ConversionFunnel = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Descubre cómo nuestro asistente virtual IA revoluciona la atención médica y mejora la experiencia del paciente.
             </p>
-            <CTAButton 
-              text="Ver demostraciones" 
-              path="/demostraciones" 
-              variant="secondary" 
+            <CTAButton
+              text="Ver demostraciones"
+              path="/demostraciones"
+              variant="secondary"
               icon={false}
               className="text-sm px-4 py-2"
               dataTestId="funnel-step1-cta"
             />
           </div>
-          
+
           {/* Fase 2: Interés */}
           <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl relative">
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-iaeva-blue text-white rounded-full flex items-center justify-center font-bold">2</div>
@@ -50,16 +50,16 @@ const ConversionFunnel = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Conoce cómo otros centros médicos están optimizando sus procesos y mejorando resultados con IAEVA.
             </p>
-            <CTAButton 
-              text="Casos de éxito" 
-              path="/casos-de-uso" 
-              variant="secondary" 
+            <CTAButton
+              text="Casos de éxito"
+              path="/casos-de-uso"
+              variant="secondary"
               icon={false}
               className="text-sm px-4 py-2"
               dataTestId="funnel-step2-cta"
             />
           </div>
-          
+
           {/* Fase 3: Consideración */}
           <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl relative">
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-iaeva-blue text-white rounded-full flex items-center justify-center font-bold">3</div>
@@ -70,16 +70,16 @@ const ConversionFunnel = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Descubre el retorno de inversión específico para tu centro médico con nuestra calculadora.
             </p>
-            <CTAButton 
-              text="Calculadora ROI" 
-              path="/calculadora-roi" 
-              variant="secondary" 
+            <CTAButton
+              text="Calculadora ROI"
+              path="/calculadora-roi"
+              variant="secondary"
               icon={false}
               className="text-sm px-4 py-2"
               dataTestId="funnel-step3-cta"
             />
           </div>
-          
+
           {/* Fase 4: Conversión */}
           <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl relative">
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-iaeva-blue text-white rounded-full flex items-center justify-center font-bold">4</div>
@@ -90,27 +90,29 @@ const ConversionFunnel = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Agenda una demostración personalizada con uno de nuestros expertos para tu centro médico.
             </p>
-            <CTAButton 
-              text="Solicitar demo" 
-              path="/contacto" 
-              variant="primary" 
+            <CTAButton
+              text="Solicitar demo"
+              path="/contacto"
+              variant="primary"
               icon={false}
               className="text-sm px-4 py-2"
               dataTestId="funnel-step4-cta"
+              isCalendarButton={true}
             />
           </div>
         </div>
-        
+
         <div className="text-center">
           <p className="text-gray-600 dark:text-gray-300 mb-6">
             Más de 200 centros médicos ya han mejorado su atención al paciente con IAEVA
           </p>
-          <CTAButton 
-            text="Solicita tu demo personalizada" 
-            path="/contacto" 
+          <CTAButton
+            text="Solicita tu demo personalizada"
+            path="/contacto"
             variant="primary"
             className="px-8 py-4 text-lg"
             dataTestId="funnel-main-cta"
+            isCalendarButton={true}
           />
         </div>
       </div>

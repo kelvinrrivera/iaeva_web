@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Contact | IAEVA pour Centres Médicaux",
+    "description": "Contactez nos experts pour découvrir comment IAEVA peut transformer les soins aux patients et optimiser l'efficacité de votre centre médical.",
+    "keywords": "contact IAEVA, démo gestion rendez-vous, démo assistant virtuel, optimisation centre médical, chatbot médical, démo santé numérique"
+  },
+  "header": {
+    "title": "Parlons de votre centre médical",
+    "subtitle": "Obtenez des réponses instantanées grâce à notre assistant virtuel intelligent ou planifiez une session personnalisée avec nos experts."
+  },
+  "chat_section": {
+    "title": "Assistant virtuel IAEVA",
+    "subtitle": "Obtenez des réponses immédiates sur nos services, l'intégration et les fonctionnalités"
+  },
+  "calendar_section": {
+    "title": "Vous préférez parler à un expert ?",
+    "subtitle": "Planifiez une démonstration gratuite avec notre équipe spécialisée et découvrez comment nous pouvons transformer l'expérience de vos patients"
+  },
+  "why_section": {
+    "title": "Pourquoi choisir IAEVA ?",
+    "description1": "Chez IAEVA, nous comprenons les défis auxquels sont confrontés les centres médicaux à l'ère numérique. Notre équipe est prête à vous aider à optimiser la gestion des rendez-vous, améliorer les soins aux patients et accroître l'efficacité de votre établissement. Des cliniques générales aux centres spécialisés, nous avons une solution personnalisée pour chaque besoin.",
+    "description2": "N'hésitez pas à nous envoyer vos questions ou à demander des conseils spécialisés. Nous sommes là pour vous accompagner à chaque étape de votre transformation numérique."
+  },
+  "title": "Contactez-nous",
+  "subtitle": "Nous sommes là pour répondre à vos questions",
+  "seo": {
+    "title": "Contact | IAEVA - Assistant Virtuel pour Établissements Médicaux",
+    "description": "Contactez l'équipe IAEVA pour demander des informations, une démonstration ou résoudre vos questions sur notre assistant virtuel pour établissements médicaux."
+  },
+  "schedule": {
+    "title": "Planifiez un appel",
+    "subtitle": "Réservez une session pour discuter de vos besoins",
+    "note": "Sélectionnez la date et l'heure qui vous conviennent le mieux pour un appel avec notre équipe."
+  },
+  "chat": {
+    "title": "Parlez avec IAEVA",
+    "subtitle": "Consultez directement notre assistant virtuel",
+    "note": "Interagissez avec IAEVA pour résoudre vos questions sur la façon dont nous pouvons aider votre établissement médical."
+  },
+  "email": {
+    "title": "Envoyez-nous un email",
+    "subtitle": "Écrivez-nous directement",
+    "address": "info@iaeva.ai",
+    "note": "Nous répondrons à votre email dans les plus brefs délais."
+  },
+  "phone": {
+    "title": "Appelez-nous",
+    "subtitle": "Parlez à un conseiller",
+    "number": "+1 (829) 593-8333",
+    "note": "Disponibles du lundi au vendredi de 9h00 à 18h00."
+  },
+  "form": {
+    "title": "Laissez-nous un message",
+    "subtitle": "Remplissez le formulaire et nous vous contacterons",
+    "name": "Nom complet",
+    "email": "Email de contact",
+    "company": "Nom de votre établissement médical",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé avec succès ! Nous vous contacterons dès que possible.",
+    "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+  },
+  "cal": {
+    "instructions": "Sélectionnez une date et une heure pour programmer votre rendez-vous avec notre équipe.",
+    "timezone": "Fuseau horaire"
+  }
+} 

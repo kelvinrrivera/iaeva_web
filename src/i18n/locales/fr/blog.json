@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Blog sur l'IA en Santé | IAEVA - Solutions Médicales Intelligentes",
+    "description": "Découvrez nos articles spécialisés sur l'intelligence artificielle en santé, l'optimisation des agendas médicaux, la réduction des absences et l'amélioration de l'efficacité clinique avec IAEVA.",
+    "keywords": "IA en santé, assistant virtuel médical, optimisation agenda médical, réduction absences cliniques, efficacité hospitalière, automatisation sanitaire, gestion rendez-vous médicaux, transformation numérique santé"
+  },
+  "header": {
+    "title": "Le blog de IAEVA",
+    "subtitle": "Articles, guides et analyses sur l'innovation et la technologie appliquées à la santé"
+  },
+  "filters": {
+    "all": "Tous",
+    "category": "Catégorie"
+  },
+  "no_posts": "Aucun article n'est disponible pour le moment. Revenez bientôt pour voir de nouveaux contenus.",
+  "post": {
+    "read_more": "Lire la suite",
+    "back_to_blog": "Retour au blog",
+    "share": "Partager",
+    "copied_link": "Lien copié dans le presse-papiers !",
+    "error_loading": "Nous n'avons pas pu charger cet article. Veuillez réessayer plus tard.",
+    "related_posts": "Articles associés",
+    "tags": "Tags",
+    "table_of_contents": "Sommaire de l'article"
+  },
+  "search": {
+    "placeholder": "Rechercher des articles...",
+    "no_results": "Aucun résultat trouvé pour votre recherche.",
+    "results": "Résultats pour"
+  }
+} 

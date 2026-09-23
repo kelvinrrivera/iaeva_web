@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageCircle, Calendar, Send, User, X, ArrowRight, Check, Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Message {
   id: number;
@@ -24,6 +25,7 @@ interface FloatingChatProps {
 }
 
 const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
+  const { t } = useTranslation('home');
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputText, setInputText] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -36,9 +38,9 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
   const doctors = [
-    { id: 1, name: 'Dr. García', specialty: 'Cardiología' },
-    { id: 2, name: 'Dra. Martínez', specialty: 'Pediatría' },
-    { id: 3, name: 'Dr. Rodríguez', specialty: 'Traumatología' },
+    { id: 1, name: t('floating_chat.doctors.doctor1'), specialty: t('floating_chat.specialties.cardiology') },
+    { id: 2, name: t('floating_chat.doctors.doctor2'), specialty: t('floating_chat.specialties.pediatrics') },
+    { id: 3, name: t('floating_chat.doctors.doctor3'), specialty: t('floating_chat.specialties.traumatology') },
   ];
 
   const getCurrentTime = () => {
@@ -64,16 +66,16 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
       const initialMessage: Message = {
         id: 1,
         sender: 'iaeva',
-        text: '¡Hola! Soy IAEVA, tu asistente virtual para el sistema de salud. ¿En qué puedo ayudarte hoy?',
+        text: t('floating_chat.greeting'),
         timestamp: getCurrentTime(),
         options: [
-          { id: 1, text: 'Agendar una cita', action: 'appointment' },
-          { id: 2, text: 'Información sobre horarios', action: 'schedule' },
+          { id: 1, text: t('floating_chat.options.schedule_appointment'), action: 'appointment' },
+          { id: 2, text: t('floating_chat.options.schedule_info'), action: 'schedule' },
         ]
       };
       setMessages([initialMessage]);
     }
-  }, [conversationStarted]);
+  }, [conversationStarted, t]);
 
   const simulateTyping = () => {
     setIsTyping(true);
@@ -107,11 +109,12 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
     if (demoEnded) return;
 
     // Primera respuesta basada en la opción seleccionada por el usuario
-    if (userMessage.toLowerCase().includes('cita') || userMessage.toLowerCase().includes('agendar')) {
+    if (userMessage.toLowerCase().includes(t('floating_chat.keywords.appointment').toLowerCase()) || 
+        userMessage.toLowerCase().includes(t('floating_chat.keywords.schedule').toLowerCase())) {
       const response: Message = {
         id: messages.length + 2,
         sender: 'iaeva',
-        text: 'Por supuesto, te ayudaré a agendar una cita. ¿Con qué especialista te gustaría consultar?',
+        text: t('floating_chat.responses.which_specialist'),
         timestamp: getCurrentTime(),
         options: doctors.map(doctor => ({ 
           id: doctor.id, 
@@ -120,19 +123,19 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
         }))
       };
       setMessages(prev => [...prev, response]);
-    } else if (userMessage.toLowerCase().includes('horario')) {
+    } else if (userMessage.toLowerCase().includes(t('floating_chat.keywords.schedule_info').toLowerCase())) {
       const response: Message = {
         id: messages.length + 2,
         sender: 'iaeva',
-        text: 'Nuestro horario de atención es de lunes a viernes de 8:00 a 20:00 y sábados de 9:00 a 14:00. ¿Te gustaría agendar una cita ahora?',
+        text: t('floating_chat.responses.office_hours'),
         timestamp: getCurrentTime(),
         options: [
-          { id: 1, text: 'Sí, quiero agendar una cita', action: 'appointment' },
-          { id: 2, text: 'No, gracias', action: 'end_demo' }
+          { id: 1, text: t('floating_chat.options.yes_schedule'), action: 'appointment' },
+          { id: 2, text: t('floating_chat.options.no_thanks'), action: 'end_demo' }
         ]
       };
       setMessages(prev => [...prev, response]);
-    } else if (userMessage.includes('Dr. García') || userMessage.includes('Dra. Martínez') || userMessage.includes('Dr. Rodríguez')) {
+    } else if (userMessage.includes(doctors[0].name) || userMessage.includes(doctors[1].name) || userMessage.includes(doctors[2].name)) {
       // Guardar el doctor seleccionado
       const doctorName = userMessage.split(' - ')[0];
       setSelectedDoctor(doctorName);
@@ -142,13 +145,13 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
         const confirmationMessage: Message = {
           id: messages.length + 3,
           sender: 'iaeva',
-          text: `¡Perfecto! Te he agendado una cita con ${doctorName} para mañana a las 10:30.`,
+          text: t('floating_chat.responses.appointment_confirmed', { doctor: doctorName }),
           timestamp: getCurrentTime(),
           type: 'appointment',
           appointmentData: {
             doctor: doctorName,
-            date: 'Martes, 12 de Marzo',
-            time: '10:30'
+            date: t('floating_chat.appointment.date'),
+            time: t('floating_chat.appointment.time')
           }
         };
         setMessages(prev => [...prev, confirmationMessage]);
@@ -158,18 +161,18 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
           endDemo();
         }, 1500);
       }, 1000);
-    } else if (userMessage.toLowerCase().includes('no, gracias')) {
+    } else if (userMessage.toLowerCase().includes(t('floating_chat.keywords.no_thanks').toLowerCase())) {
       endDemo();
     } else {
       // Respuesta genérica para cualquier otra entrada
       const response: Message = {
         id: messages.length + 2,
         sender: 'iaeva',
-        text: '¿Puedo ayudarte con alguna de estas opciones?',
+        text: t('floating_chat.responses.help_options'),
         timestamp: getCurrentTime(),
         options: [
-          { id: 1, text: 'Agendar una cita', action: 'appointment' },
-          { id: 2, text: 'Información sobre horarios', action: 'schedule' },
+          { id: 1, text: t('floating_chat.options.schedule_appointment'), action: 'appointment' },
+          { id: 2, text: t('floating_chat.options.schedule_info'), action: 'schedule' },
         ]
       };
       setMessages(prev => [...prev, response]);
@@ -183,7 +186,7 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
     const demoEndMessage: Message = {
       id: messages.length + 10,
       sender: 'iaeva',
-      text: '👋 Esta ha sido una demostración breve de IAEVA, nuestro asistente virtual para sistemas de salud. Para ver una demo completa personalizada a las necesidades de tu centro, ¡contáctanos!',
+      text: t('floating_chat.demo_end'),
       timestamp: getCurrentTime(),
       type: 'cta'
     };
@@ -210,6 +213,12 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
     window.location.href = '/contacto';
   };
 
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      handleSendMessage();
+    }
+  };
+
   return (
     <div className={`relative rounded-2xl shadow-lg w-full h-full max-w-md overflow-hidden bg-white flex flex-col ${className}`}>
       {/* Encabezado del chat */}
@@ -220,11 +229,12 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
           </div>
           <div>
             <h3 className="font-bold text-lg">IAEVA</h3>
-            <p className="text-xs opacity-80">🟢 Siempre disponible</p>
+            <p className="text-xs opacity-80">🟢 {t('floating_chat.always_available')}</p>
           </div>
         </div>
         <button 
           className="rounded-full h-8 w-8 flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
+          aria-label={t('floating_chat.close_chat', 'Cerrar chat')}
         >
           <X size={18} />
         </button>
@@ -242,153 +252,119 @@ const FloatingChat: React.FC<FloatingChatProps> = ({ className = "" }) => {
             </div>
             <h2 className="text-2xl font-bold text-gray-800">IAEVA</h2>
             <p className="text-gray-600 max-w-xs">
-              Tu asistente virtual de MedicalCare. Puedo ayudarte a agendar citas, responder preguntas y mucho más.
+              {t('floating_chat.intro_text')}
             </p>
             <button 
               onClick={startConversation}
               className="bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white py-3 px-8 rounded-full font-medium shadow-md hover:shadow-lg transform transition hover:-translate-y-1"
             >
-              Iniciar
+              {t('floating_chat.start_chat')}
             </button>
           </div>
         ) : (
           <>
-            {messages.map((message) => (
+            {messages.map(message => (
               <div 
                 key={message.id} 
-                className={`mb-4 flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'} animate-fade-in`}
+                className={`mb-4 flex ${message.sender === 'iaeva' ? 'justify-start' : 'justify-end'}`}
               >
-                {message.sender === 'iaeva' && (
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-iaeva-blue to-iaeva-purple flex-shrink-0 mr-2 flex items-center justify-center text-white overflow-hidden">
-                    <MessageCircle size={16} />
-                  </div>
-                )}
-                
-                <div className={`max-w-xs ${message.sender === 'user' ? 'order-1' : 'order-2'}`}>
-                  {message.type === 'appointment' ? (
-                    <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-200">
-                      <div className="flex items-center gap-2 mb-2 text-iaeva-purple font-medium">
-                        <Calendar size={16} />
-                        <span>Cita Confirmada</span>
-                        <Check size={16} className="text-purple-500" />
-                      </div>
-                      <div className="space-y-2 text-sm">
-                        <p><span className="font-medium">Especialista:</span> {message.appointmentData?.doctor}</p>
-                        <p><span className="font-medium">Fecha:</span> {message.appointmentData?.date}</p>
-                        <p><span className="font-medium">Hora:</span> {message.appointmentData?.time}</p>
-                      </div>
-                      <div className="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 flex justify-between">
-                        <span>ID Cita: #IAE{Math.floor(Math.random() * 10000)}</span>
-                        <span>{message.timestamp}</span>
-                      </div>
+                {message.type === 'appointment' ? (
+                  <div className="bg-white rounded-xl shadow-sm p-4 w-full max-w-sm">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="font-medium text-gray-900 flex items-center">
+                        <Calendar className="h-4 w-4 mr-1" /> {t('floating_chat.appointment_confirmed')}
+                      </h4>
+                      <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
+                        {t('floating_chat.confirmed')}
+                      </span>
                     </div>
-                  ) : message.type === 'cta' ? (
-                    <div className="bg-white p-4 rounded-xl shadow-sm border-2 border-iaeva-purple">
-                      <p className="text-sm mb-3">{message.text}</p>
-                      <button 
-                        onClick={redirectToContact}
-                        className="w-full bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white py-2 px-4 rounded-lg font-medium shadow-md hover:shadow-lg transform transition hover:-translate-y-1 flex items-center justify-center gap-2"
-                      >
-                        <span>Reservar mi demo personalizada</span>
-                        <ArrowRight size={16} />
+                    <div className="bg-gray-50 rounded-lg p-3 mb-2">
+                      <p className="text-sm font-medium text-gray-800">{message.appointmentData?.doctor}</p>
+                      <p className="text-xs text-gray-500">{message.appointmentData?.date} - {message.appointmentData?.time}</p>
+                    </div>
+                    <div className="flex justify-end">
+                      <button className="text-xs text-iaeva-blue flex items-center">
+                        <Check className="h-3 w-3 mr-1" /> {t('floating_chat.add_to_calendar')}
                       </button>
-                      <div className="text-xs mt-3 opacity-70 text-right">
-                        {message.timestamp}
-                      </div>
                     </div>
-                  ) : (
-                    <div 
-                      className={`p-3 rounded-xl ${
-                        message.sender === 'user' 
-                          ? 'bg-iaeva-purple text-white rounded-br-none' 
-                          : 'bg-white border border-gray-200 rounded-bl-none'
-                      }`}
+                  </div>
+                ) : message.type === 'cta' ? (
+                  <div className="bg-gradient-to-r from-iaeva-blue/10 to-iaeva-purple/10 rounded-xl p-4 w-full">
+                    <p className="text-gray-800 text-sm mb-3">{message.text}</p>
+                    <button 
+                      onClick={redirectToContact}
+                      className="bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white py-2 px-4 rounded-full text-sm font-medium shadow-sm flex items-center"
                     >
-                      <p className="text-sm">{message.text}</p>
-                      <div className="text-xs mt-1 opacity-70 text-right">
-                        {message.timestamp}
+                      {t('floating_chat.contact_us')} <ArrowRight className="ml-1 h-4 w-4" />
+                    </button>
+                  </div>
+                ) : (
+                  <div className={`${
+                    message.sender === 'iaeva' 
+                      ? 'bg-white text-gray-800' 
+                      : 'bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white'
+                    } rounded-2xl px-4 py-3 max-w-[80%] shadow-sm`}
+                  >
+                    <p className="text-sm">{message.text}</p>
+                    {message.options && (
+                      <div className="mt-3 space-y-2">
+                        {message.options.map(option => (
+                          <button
+                            key={option.id}
+                            onClick={() => handleOptionClick(option.text, option.action)}
+                            className="block w-full text-left px-3 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg text-sm transition-colors"
+                          >
+                            {option.text}
+                          </button>
+                        ))}
                       </div>
-                    </div>
-                  )}
-                  
-                  {message.options && (
-                    <div className="mt-2 space-y-2">
-                      {message.options.map((option) => (
-                        <button
-                          key={option.id}
-                          onClick={() => handleOptionClick(option.text, option.action)}
-                          className="bg-white text-left w-full p-2 rounded-lg text-sm border border-gray-200 hover:bg-gray-50 transition-colors shadow-sm flex justify-between items-center"
-                        >
-                          <span>{option.text}</span>
-                          <ArrowRight size={14} className="text-iaeva-purple" />
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-                
-                {message.sender === 'user' && (
-                  <div className="w-8 h-8 rounded-full bg-gray-200 flex-shrink-0 ml-2 flex items-center justify-center overflow-hidden">
-                    <User size={16} className="text-gray-500" />
+                    )}
+                    <span className="text-xs opacity-70 block mt-1 text-right">
+                      {message.timestamp}
+                    </span>
                   </div>
                 )}
               </div>
             ))}
             
             {isTyping && (
-              <div className="flex mb-4 animate-fade-in">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-iaeva-blue to-iaeva-purple flex-shrink-0 mr-2 flex items-center justify-center text-white">
-                  <MessageCircle size={16} />
-                </div>
-                <div className="bg-white p-3 rounded-xl rounded-bl-none border border-gray-200 flex items-center">
+              <div className="flex justify-start mb-4">
+                <div className="bg-white rounded-2xl px-4 py-3 max-w-[80%]">
                   <div className="flex space-x-1">
-                    <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-                    <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
-                    <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+                    <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce"></div>
+                    <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                    <div className="w-2 h-2 bg-gray-300 rounded-full animate-bounce" style={{ animationDelay: '0.4s' }}></div>
                   </div>
                 </div>
               </div>
             )}
             
-            <div ref={messagesEndRef}></div>
+            <div ref={messagesEndRef} />
           </>
         )}
       </div>
-
-      {/* Pie del chat con entrada de texto */}
+      
+      {/* Input de mensaje */}
       {!showIntro && !demoEnded && (
-        <div className="p-3 bg-white border-t border-gray-200">
-          <div className="flex gap-2">
-            <div className="flex-1 relative">
-              <input
-                type="text"
-                value={inputText}
-                onChange={(e) => setInputText(e.target.value)}
-                onKeyPress={(e) => {
-                  if (e.key === 'Enter') handleSendMessage();
-                }}
-                placeholder="Escribe tu mensaje..."
-                className="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-iaeva-blue/40 focus:border-iaeva-blue"
-              />
-            </div>
+        <div className="border-t border-gray-200 p-3 bg-white">
+          <div className="flex items-center">
+            <input
+              type="text"
+              value={inputText}
+              onChange={(e) => setInputText(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder={t('floating_chat.type_message')}
+              className="flex-1 border border-gray-200 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-iaeva-blue focus:border-transparent"
+            />
             <button
               onClick={() => handleSendMessage()}
-              disabled={!inputText.trim()}
-              className="bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white p-3 rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50"
+              className="ml-2 bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white rounded-full w-10 h-10 flex items-center justify-center shadow-sm"
             >
-              <Send size={20} />
+              <Send size={18} />
             </button>
           </div>
         </div>
       )}
-      
-      {/* Nota de pie */}
-      <div className="px-3 py-2 bg-gray-50 border-t border-gray-200 text-center">
-        <p className="text-xs text-gray-500 flex items-center justify-center gap-1">
-          <Info size={12} />
-          Asistente virtual IAEVA - Atención médica inteligente
-        </p>
-      </div>
     </div>
   );
 };

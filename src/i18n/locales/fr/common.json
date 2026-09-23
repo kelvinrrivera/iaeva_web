@@ -1,0 +1,49 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "use_cases": "Cas d'utilisation",
+    "roi_calculator": "Calculateur ROI",
+    "tools": "Outils",
+    "blog": "Blog",
+    "contact": "Contact",
+    "contact_us": "Contactez-nous",
+    "useful_links": "Liens utiles",
+    "solutions": "Solutions",
+    "dental_clinic": "Cliniques dentaires",
+    "physiotherapy": "Physiothérapie",
+    "ophthalmology": "Ophtalmologie",
+    "medical_centers": "Centres médicaux",
+    "patient_management": "Gestion des patients"
+  },
+  "footer": {
+    "copyright": "© {{year}} IAEVA - Tous droits réservés",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_service": "Conditions d'utilisation",
+    "cookies": "Cookies",
+    "description": "Transformer le service client dans le secteur médical avec l'intelligence artificielle humanisée et la gestion intelligente des rendez-vous.",
+    "features": "Fonctionnalités",
+    "ai_customer_service": "Service client IA",
+    "appointment_management": "Gestion des rendez-vous",
+    "whatsapp_integration": "Intégration WhatsApp",
+    "health_crm": "CRM pour la santé",
+    "automatic_reminders": "Rappels automatiques",
+    "solutions": "Solutions",
+    "resources": "Ressources",
+    "company": "Entreprise",
+    "view_all_resources": "Voir toutes les ressources",
+    "calculators": "Calculatrices",
+    "converters": "Convertisseurs",
+    "bmi_calculator": "Calculatrice IMC",
+    "unit_converter": "Convertisseur d'unités"
+  },
+  "language_switcher": {
+    "language": "Langue",
+    "es": "Espagnol",
+    "fr": "Français"
+  },
+  "seo": {
+    "locale": "fr_FR",
+    "site_name": "IAEVA - Assistant Virtuel Intelligent pour le Secteur de la Santé"
+  },
+  "loading": "Chargement..."
+} 

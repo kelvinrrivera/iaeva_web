@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "title": "IAEVA | Assistant virtuel IA pour centres médicaux",
+    "description": "IAEVA optimise la gestion des rendez-vous médicaux avec l'IA, réduisant les absences de 60% et améliorant l'expérience patient 24/7."
+  },
+  "hero": {
+    "badge": "Nouvelle Génération",
+    "title": "Assistant virtuel IA pour automatiser les rendez-vous médicaux sans perdre le contrôle humain",
+    "description": "Gérez les rendez-vous et le service patient 24/7 depuis WhatsApp, le Web et par téléphone, pendant que votre équipe se concentre sur les soins cliniques.",
+    "cta_primary": "Voir comment ça marche",
+    "cta_secondary": "Lire le guide stratégique",
+    "trust_line": "Solution de nouvelle génération, lancée récemment et conçue pour s'intégrer en toute sécurité dans des environnements de santé réels.",
+    "attention": "Service",
+    "attention_subtitle": "continu"
+  },
+  "metrics_disclaimer": "Les métriques affichées correspondent aux résultats attendus selon les benchmarks du secteur, les tests internes et les scénarios pilotes. Les résultats réels peuvent varier selon le type de centre.",
+  "trust_badges": {
+    "absences": {
+      "value": "Jusqu'à -60%",
+      "label": "Réduction absences*"
+    },
+    "security": {
+      "value": "Confidentialité",
+      "label": "RGPD et sécurité"
+    },
+    "multilingual": {
+      "value": "Multilingue",
+      "label": "+20 langues"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Service patient"
+    },
+    "efficiency": {
+      "value": "Haute",
+      "label": "Efficacité admin*"
+    }
+  },
+  "hub_stats": {
+    "satisfaction": {
+      "value": "Haute",
+      "label": "Satisfaction (estimée)"
+    },
+    "wait_time": {
+      "value": "-60%",
+      "label": "Temps d'attente*"
+    },
+    "availability": {
+      "value": "24/7",
+      "label": "Disponibilité réelle"
+    }
+  },
+  "features": {
+    "badge": "Gestion Intégrale",
+    "heading": "Tout ce dont votre clinique a besoin pour démarrer",
+    "description": "Des outils conçus pour maximiser l'efficacité dès le premier jour.",
+    "items": {
+      "ai": {
+        "title": "Assistant vocal humain",
+        "description": "Répond aux appels naturellement, planifie les rendez-vous et résout les doutes sous supervision."
+      },
+      "appointments": {
+        "title": "Système de rendez-vous",
+        "description": "Synchronisation en temps réel. Reprogramme, confirme et envoie des rappels automatiquement."
+      },
+      "omnichannel": {
+        "title": "Omnicanalité réelle",
+        "description": "Communication fluide via WhatsApp, Web et téléphone. Tout est centralisé."
+      },
+      "analytics": {
+        "title": "Analyses patients",
+        "description": "Obtenez des insights précieux sur les besoins de vos patients."
+      },
+      "integration": {
+        "title": "Intégration CRM/EHR",
+        "description": "Connexion transparente avec vos outils existants. Compatible avec les plateformes majeures."
+      },
+      "security": {
+        "title": "Sécurité et Contrôle",
+        "description": "Conçu selon les principes de confidentialité par défaut. Vos données restent sous votre contrôle."
+      }
+    }
+  },
+  "vapi_voice": {
+    "badge": "Assistant vocal",
+    "heading": "Des appels qui inspirent confiance",
+    "description": "Notre IA parle avec le naturel d'une personne, gère les interruptions et prend les rendez-vous avec empathie.",
+    "stats": {
+      "stat1": "Précision RDV",
+      "stat1_value": "Haute",
+      "stat2": "Disponibilité",
+      "stat2_value": "24/7",
+      "stat3": "Latence",
+      "stat3_value": "<1s"
+    },
+    "demo_call": {
+      "status": "Appel en cours...",
+      "caller_name": "Assistant IAEVA",
+      "role": "Confirmation de RDV"
+    },
+    "steps_title": "Comment nous gérons un appel",
+    "step1_title": "Réception intelligente",
+    "step1_description": "Identifie le patient et le motif de l'appel instantanément.",
+    "step2_title": "Conversation naturelle",
+    "step2_description": "Dialogue avec empathie pour comprendre les besoins.",
+    "step3_title": "Gestion d'agenda",
+    "step3_description": "Propose des créneaux disponibles et réserve directement.",
+    "step4_title": "Confirmation",
+    "step4_description": "Envoie une confirmation par WhatsApp et met à jour le CRM.",
+    "cta_title": "Prêt à moderniser votre réception ?",
+    "cta_description": "Écoutez comment IAEVA peut transformer l'expérience téléphonique.",
+    "cta_button": "Réserver une démo gratuite",
+    "disclaimer": "* La démo est une simulation. La qualité réelle peut varier selon la connexion."
+  },
+  "vapi_voice_phone": {
+    "assistant_message1": "Bonjour, je suis IAEVA, l'assistant virtuel de MedicalCare. Est-ce que je parle à Jean Dupont ?",
+    "assistant_message2": "Je vous appelle pour confirmer votre rendez-vous médical avec le Dr. Garcia en Dermatologie prévu pour demain jeudi à 15h30. Pourrez-vous assister à ce rendez-vous ?",
+    "assistant_message3": "Parfait. Votre rendez-vous est confirmé pour demain à 15h30. N'oubliez pas d'arriver 15 minutes avant et d'apporter votre pièce d'identité et votre carte d'assurance.",
+    "assistant_message4": "Avez-vous besoin d'informations supplémentaires sur comment vous rendre à la clinique ou avez-vous d'autres questions ?",
+    "assistant_message5": "Compris. Merci pour votre temps. Passez une excellente journée.",
+    "user_message1": "Oui, je suis Jean Dupont.",
+    "user_message2": "Oui, je pourrai assister au rendez-vous demain.",
+    "user_message3": "Non, merci. J'ai toutes les informations dont j'ai besoin.",
+    "caller_description": "Assistant Virtuel IA pour la Santé",
+    "calling": "Appel en cours...",
+    "call_in_progress": "Appel en cours",
+    "call_ended": "Appel terminé",
+    "start_call": "Démarrer appel",
+    "volume_control": "Volume",
+    "end_call": "Raccrocher",
+    "mute_microphone": "Muet",
+    "reset_conversation": "Réinitialiser"
+  },
+  "whatsapp_demo": {
+    "badge": "IAEVA sur WhatsApp",
+    "heading": "Gestion de rendez-vous par chat",
+    "description": "Automatisez la communication sur le canal préféré de vos patients. Confirmations, reprogrammations et questions résolues instantanément.",
+    "chat_simulation": {
+      "online": "En ligne",
+      "today": "AUJOURD'HUI",
+      "message_1": "Bonjour! 👋 Je suis l'assistant de la Clinique IAEVA. J'ai remarqué que vous n'avez pas terminé votre réservation. Souhaitez-vous la reprendre?",
+      "user_message_1": "Oui, s'il vous plaît. Quels sont les horaires pour un nettoyage?",
+      "message_2": "Pour un nettoyage dentaire, j'ai ces créneaux demain:",
+      "option_1": "📅 10:00",
+      "option_2": "📅 11:30",
+      "option_3": "📅 16:00",
+      "user_message_2": "À 11:30 ça m'arrange.",
+      "message_3": "C'est noté! ✅ Rendez-vous programmé pour demain à 11h30. Souhaitez-vous recevoir un rappel une heure avant?",
+      "user_message_3": "Oui, merci.",
+      "message_4": "Parfait. Je vous enverrai un message une heure avant. À bientôt!",
+      "input_placeholder": "Écrivez un message..."
+    },
+    "steps_title": "Flux WhatsApp",
+    "step1_title": "Démarrage proactif",
+    "step1_description": "Engage la conversation pour récupérer des rendez-vous ou confirmer la présence.",
+    "step2_title": "Gestion automatique",
+    "step2_description": "Propose des horaires, répond aux questions sur les prix et services.",
+    "step3_title": "Planification réelle",
+    "step3_description": "Réserve le créneau dans le calendrier et met à jour le CRM.",
+    "step4_title": "Suivi",
+    "step4_description": "Envoie des rappels et des enquêtes de satisfaction post-rendez-vous.",
+    "benefits_title": "Avantages clés",
+    "benefits": {
+      "benefit1_title": "Réponse immédiate",
+      "benefit1_description": "0 attente pour vos patients.",
+      "benefit2_title": "Actif 24/7",
+      "benefit2_description": "Capturez des patients en dehors des heures d'ouverture.",
+      "benefit3_title": "Moins d'absentéisme",
+      "benefit3_description": "Rappels efficaces qui réduisent les absences.",
+      "benefit4_title": "Multilingue",
+      "benefit4_description": "Sert dans la langue du patient."
+    },
+    "cta_title": "Boostez votre WhatsApp",
+    "cta_description": "Transformez votre WhatsApp en une machine de gestion de rendez-vous.",
+    "cta_button": "Essayer démo WhatsApp"
+  },
+  "whatsapp": {
+    "user_message4": "Non, merci. J'ai toutes les informations.",
+    "message7": "Compris. Si vous avez besoin d'autre chose, n'hésitez pas à nous écrire.",
+    "message8": "Merci de faire confiance à IAEVA. À bientôt!"
+  },
+  "how_it_works": {
+    "badge": "Processus simplifié",
+    "heading": "Implémentation sans friction",
+    "description": "Nous intégrons IAEVA dans votre flux de travail en 3 étapes simples.",
+    "steps": {
+      "step_1": {
+        "title": "Connexion",
+        "description": "Nous lions IAEVA à votre système de gestion (CRM/EHR) et votre calendrier."
+      },
+      "step_2": {
+        "title": "Configuration",
+        "description": "Nous personnalisons les scripts de conversation et les règles métier."
+      },
+      "step_3": {
+        "title": "Lancement",
+        "description": "Nous activons les canaux et commençons à gérer vos rendez-vous automatiquement."
+      }
+    }
+  },
+  "safety": {
+    "title": "Contrôle, sécurité et limites",
+    "item1": "L'IA ne diagnostique ni ne donne de recommandations médicales",
+    "item2": "Toutes les conversations peuvent être supervisées",
+    "item3": "Escalade automatique vers les humains pour les cas sensibles",
+    "item4": "Conformité RGPD dès la conception"
+  },
+  "testimonials": {
+    "badge": "Validation",
+    "title": "Avis",
+    "title_highlighted": "préliminaires",
+    "description": "Retours reçus lors de nos validations internes et pilotes.",
+    "previous_button": "Précédent",
+    "next_button": "Suivant",
+    "goto_testimonial": "Aller au témoignage",
+    "person1": {
+      "name": "Directrice Clinique Dentaire",
+      "role": "4 spécialités, Espagne",
+      "company": "Pilote Bêta",
+      "quote": "Depuis que nous utilisons IAEVA en phase pilote, le téléphone ne cesse de sonner mais ma réception est tranquille. Prometteur pour réduire les rendez-vous manqués."
+    },
+    "person2": {
+      "name": "Directeur Centre Physiothérapie",
+      "role": "Madrid",
+      "company": "FisioCenter",
+      "quote": "L'intégration avec WhatsApp a montré des résultats très positifs dans nos tests de confirmation de rendez-vous."
+    },
+    "person3": {
+      "name": "Gérante Clinique Ophtalmologique",
+      "role": "Barcelone",
+      "company": "Vision Totale",
+      "quote": "Le meilleur, c'est que ça marche 24/7. Lors des tests initiaux, nous avons vu des rendez-vous pris le week-end sans intervention."
+    }
+  },
+  "cta": {
+    "badge": "Commencez aujourd'hui",
+    "title": "Prêt à automatiser votre clinique ?",
+    "description": "Rejoignez les cliniques qui mènent l'avenir des soins médicaux. Planifiez une démo personnalisée et découvrez le potentiel d'IAEVA.",
+    "primary_button": "Demander une démo gratuite",
+    "secondary_button": "Contacter les ventes",
+    "guarantee": "Sans engagement. Essai pilote disponible."
+  },
+  "footer": {
+    "description": "Transformer la gestion médicale avec l'Intelligence Artificielle. Efficacité pour votre clinique, meilleurs soins pour vos patients.",
+    "solutions": "Solutions",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "copyright": "© {{year}} IAEVA. Tous droits réservés.",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_service": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "solutions_title": "Solutions",
+    "company_title": "Entreprise",
+    "links": {
+      "solutions": {
+        "dental": "Cliniques dentaires",
+        "physio": "Physiothérapie",
+        "medical": "Centres médicaux",
+        "ophthalmology": "Ophtalmologie",
+        "patient": "Gestion des patients"
+      },
+      "company": {
+        "home": "Accueil",
+        "blog": "Blog",
+        "calculator": "Calculatrice ROI",
+        "contact": "Contact"
+      },
+      "contact_founder": "Contacter le fondateur"
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "subtitle": "Questions fréquentes",
+    "title": "Nous résolvons vos doutes",
+    "description": "Trouvez des réponses aux questions les plus courantes sur la mise en œuvre et l'utilisation d'IAEVA dans votre clinique.",
+    "question1": "IAEVA remplace-t-il ma réceptionniste ?",
+    "answer1": "Non, IAEVA est conçu pour renforcer votre équipe, pas pour la remplacer. En automatisant les tâches répétitives, votre réceptionniste peut se concentrer sur l'accueil physique.",
+    "question2": "Est-ce compatible avec mon logiciel actuel ?",
+    "answer2": "Oui, IAEVA s'intègre aux principaux logiciels de gestion clinique (EHR/CRM) du marché. Notre équipe technique s'occupe de tout.",
+    "question3": "Combien de temps prend la mise en œuvre ?",
+    "answer3": "La plupart des cliniques sont opérationnelles rapidement après la configuration initiale.",
+    "question4": "Mes patients sauront-ils qu'ils parlent à une IA ?",
+    "answer4": "IAEVA est très naturel, mais nous croyons en la transparence. Nous recommandons toujours d'informer qu'il s'agit d'un assistant virtuel.",
+    "question5": "Que se passe-t-il si l'IA ne sait pas répondre ?",
+    "answer5": "Si IAEVA rencontre une situation complexe, il transfère immédiatement l'appel ou le chat à un humain, avec tout le contexte.",
+    "more_questions": "Vous ne trouvez pas votre réponse ?",
+    "contact_button": "Contacter le support"
+  },
+  "implementation": {
+    "badge": "Implémentation",
+    "title": "Processus d'activation",
+    "title_highlighted": "sans complications",
+    "description": "Une approche structurée pour intégrer IAEVA dans votre clinique sans interrompre vos opérations quotidiennes.",
+    "step1_title": "Analyse initiale",
+    "step1_description": "Nous évaluons vos flux de travail actuels.",
+    "step2_title": "Configuration",
+    "step2_description": "Nous personnalisons les scripts et les règles.",
+    "step3_title": "Intégration",
+    "step3_description": "Connexion sécurisée avec vos bases de données.",
+    "step4_title": "Tests pilotes",
+    "step4_description": "Nous garantissons que tout fonctionne parfaitement.",
+    "step5_title": "Formation",
+    "step5_description": "Nous formons votre personnel.",
+    "step6_title": "Lancement",
+    "step6_description": "Activation surveillée.",
+    "estimated_time_label": "Temps estimé :",
+    "estimated_time_value": "30 jours",
+    "final_note": "Conçu pour minimiser les interruptions."
+  },
+  "agent_chat": {
+    "title": "Panneau d'administration IAEVA",
+    "search_placeholder": "Rechercher des conversations...",
+    "message_placeholder": "Écrivez un message...",
+    "today": "Aujourd'hui",
+    "hub_badge": "Hub central des agents",
+    "hub_heading": "💬 Centre d'attention multicanal",
+    "hub_description": "Gérez toutes les conversations depuis un seul endroit. Permet à votre équipe de suivre et de coordonner les soins via plusieurs canaux.",
+    "filters": {
+      "all": "Toutes",
+      "active": "Actives",
+      "waiting": "En attente",
+      "urgent": "Urgentes"
+    },
+    "no_conversation": {
+      "title": "Sélectionnez une conversation",
+      "description": "Choisissez une conversation dans la liste pour voir les détails et répondre."
+    },
+    "patient_info": {
+      "title": "Informations du patient",
+      "basic_info": "Informations de base",
+      "age": "Âge",
+      "years": "ans",
+      "last_visit": "Dernière visite",
+      "doctor": "Docteur",
+      "medications": "Médicaments",
+      "allergies": "Allergies",
+      "recent_tests": "Tests récents"
+    },
+    "ai_panel": {
+      "title": "Assistant IA",
+      "suggested_responses": "Réponses suggérées",
+      "quick_actions": "Actions rapides",
+      "schedule_appointment": "Planifier RDV",
+      "send_reminder": "Envoyer rappel",
+      "ai_suggestion": "Suggestion IA",
+      "suggestion_text": "Ce patient a annulé son dernier rendez-vous. Envisagez de proposer une date alternative ou une téléconsultation.",
+      "response1": "Bien sûr, je peux reprogrammer votre rendez-vous pour la semaine prochaine. Quel jour vous convient le mieux ?",
+      "response2": "J'ai consulté votre dossier et les résultats sont prêts. Préférez-vous un envoi par email ou les revoir en consultation ?",
+      "response3": "Je comprends votre inquiétude. Pourriez-vous me donner plus de détails sur les symptômes ?"
+    },
+    "conversations": {
+      "patient1": {
+        "name": "Marie Garcia",
+        "department": "Cardiologie",
+        "last_message": "5 min",
+        "doctor": "Dr. Ramirez",
+        "medications": {
+          "med1": "Enalapril 10mg",
+          "med2": "Aspirine 100mg"
+        },
+        "allergies": {
+          "allergy1": "Pénicilline"
+        },
+        "tests": {
+          "test1": "Électrocardiogramme (25/02/2025)",
+          "test2": "Analyse de sang (24/02/2025)"
+        },
+        "messages": {
+          "message1": "Bonjour Marie, je suis IAEVA, l'assistant virtuel de la Clinique San Rafael. Comment puis-je vous aider aujourd'hui ?",
+          "message2": "Bonjour, j'ai besoin d'un rendez-vous avec le cardiologue. J'ai ressenti des douleurs à la poitrine dernièrement.",
+          "message3": "Je comprends votre préoccupation, Marie. Pour planifier un rendez-vous en cardiologie, j'ai besoin de quelques informations. Êtes-vous une patiente régulière ?",
+          "message4": "Oui, j'ai consulté le Dr. Ramirez il y a 3 mois.",
+          "message5": "Parfait. Je vois votre dossier. Le Dr. Ramirez est disponible ce jeudi à 9h00 ou vendredi à 15h30. Que préférez-vous ?",
+          "message6": "Jeudi à 9h me convient.",
+          "message7": "Excellent. Rendez-vous réservé pour jeudi à 9h00 avec le Dr. Ramirez. Voulez-vous un rappel par SMS ?"
+        }
+      },
+      "patient2": {
+        "name": "Charles Rodriguez",
+        "department": "Traumatologie",
+        "last_message": "15 min",
+        "doctor": "Dre. Mendez",
+        "medications": {
+          "med1": "Ibuprofène 600mg"
+        },
+        "tests": {
+          "test1": "Radiographie du genou (05/02/2025)"
+        },
+        "messages": {
+          "message1": "Bonjour Charles, je suis IAEVA. Comment puis-je aider ?",
+          "message2": "Bonjour, j'ai une radio demain mais je dois la changer.",
+          "message3": "Bien sûr. Je vois votre rendez-vous demain à 11h00. Quand voulez-vous le déplacer ?",
+          "message4": "Avez-vous de la place vendredi ?",
+          "message5": "Laissez-moi voir... Oui, vendredi 10h15 ou 16h30. Une préférence ?",
+          "message6": "10h15 c'est parfait.",
+          "message7": "C'est fait. Rendez-vous confirmé pour vendredi à 10h15. N'oubliez pas l'ordonnance. Autre chose ?"
+        }
+      },
+      "patient3": {
+        "name": "Xavier Mendoza",
+        "department": "Laboratoire",
+        "last_message": "2 min",
+        "doctor": "Dr. Suarez",
+        "medications": {
+          "med1": "Lévothyroxine 50mg"
+        },
+        "allergies": {
+          "allergy1": "Latex"
+        },
+        "tests": {
+          "test1": "Analyses complètes (20/02/2025)"
+        },
+        "messages": {
+          "message1": "Bonjour Xavier, je suis IAEVA. En quoi puis-je vous aider ?",
+          "message2": "Bonjour, mes résultats sont-ils prêts ?",
+          "message3": "Je vérifie ça. Quel est votre identifiant ?",
+          "message4": "C'est le 45789632",
+          "message5": "Merci. Le prélèvement date d'hier. Les résultats prennent 48h. Voulez-vous être notifié quand c'est prêt ?",
+          "message6": "Oui svp, j'ai consultation cet après-midi et j'en ai besoin."
+        }
+      }
+    }
+  },
+  "customer_service": {
+    "badge": "Service client",
+    "title": "Attention de premier niveau",
+    "description": "Support technique dédié pour garantir que votre clinique ne s'arrête jamais."
+  },
+  "floating_chat": {
+    "always_available": "Toujours disponible",
+    "intro_text": "Besoin d'un rendez-vous ou d'une information ? Je suis là pour vous aider instantanément.",
+    "start_chat": "Démarrer chat",
+    "close_chat": "Fermer chat",
+    "greeting": "Bonjour ! 👋 Je suis IAEVA. Comment puis-je vous aider aujourd'hui ?",
+    "type_message": "Écrivez un message...",
+    "confirmed": "Confirmé",
+    "add_to_calendar": "Ajouter au calendrier",
+    "contact_us": "Contactez-nous",
+    "appointment_confirmed": "Rendez-vous confirmé",
+    "demo_end": "Ceci était une démo. Voulez-vous implémenter cela dans votre clinique ?",
+    "doctors": {
+      "doctor1": "Dr. Ramirez",
+      "doctor2": "Dre. Lopez",
+      "doctor3": "Dr. Martinez"
+    },
+    "specialties": {
+      "cardiology": "Cardiologie",
+      "pediatrics": "Pédiatrie",
+      "traumatology": "Traumatologie"
+    },
+    "options": {
+      "schedule_appointment": "Prendre RDV",
+      "schedule_info": "Horaires",
+      "yes_schedule": "Oui, réserver",
+      "no_thanks": "Non, merci"
+    },
+    "keywords": {
+      "appointment": "rdv",
+      "schedule": "horaire",
+      "schedule_info": "info",
+      "no_thanks": "non"
+    },
+    "responses": {
+      "which_specialist": "Pour quelle spécialité souhaitez-vous le rendez-vous ?",
+      "office_hours": "Nous sommes ouverts du Lundi au Vendredi de 9h00 à 20h00. Voulez-vous réserver ?",
+      "appointment_confirmed": "Parfait ! Votre rendez-vous avec {{doctor}} est confirmé.",
+      "help_options": "Je n'ai pas bien compris. Voulez-vous prendre rendez-vous ou voir nos horaires ?"
+    },
+    "appointment": {
+      "date": "Demain",
+      "time": "10:00"
+    }
+  }
+}

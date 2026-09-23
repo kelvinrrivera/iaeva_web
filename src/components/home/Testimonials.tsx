@@ -1,7 +1,7 @@
-
 import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useTranslation } from 'react-i18next';
 
 interface Testimonial {
   id: number;
@@ -13,41 +13,42 @@ interface Testimonial {
   rating: number;
 }
 
-const testimonials: Testimonial[] = [
-  {
-    "id": 1,
-    "name": "Dra. Ana Rodríguez",
-    "role": "Directora de clínica privada",
-    "company": "",
-    "image": "/testimonials/dra-ana-rodriguez.webp",
-    "quote": "Desde que integramos IAEVA, la gestión de citas se ha vuelto mucho más eficiente. La IA reduce las ausencias y mejora la experiencia del paciente, lo que ha optimizado significativamente nuestro flujo de trabajo.",
-    "rating": 5
-  },
-  {
-    "id": 2,
-    "name": "Dr. Carlos Méndez",
-    "role": "Gerente de Hospital",
-    "company": "",
-    "image": "/testimonials/dr-carlos-mendez.webp",
-    "quote": "El sistema híbrido de IAEVA, combinando IA y atención humana, ha sido clave para mejorar la eficiencia de nuestros equipos. Ahora podemos enfocarnos en casos más críticos sin perder calidad en la atención.",
-    "rating": 5
-  },
-  {
-    "id": 3,
-    "name": "Laura Fernández",
-    "role": "Coordinadora de atención al paciente",
-    "company": "",
-    "image": "/testimonials/laura-fernandez.webp",
-    "quote": "IAEVA ha sido diseñada para optimizar la comunicación con los pacientes. Su integración con WhatsApp y llamadas automatizadas ha permitido reducir la carga de trabajo del equipo administrativo.",
-    "rating": 4
-  }
-];
-
 const Testimonials = () => {
+  const { t } = useTranslation('home');
   const [activeIndex, setActiveIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+
+  const testimonials: Testimonial[] = [
+    {
+      "id": 1,
+      "name": t('testimonials.person1.name'),
+      "role": t('testimonials.person1.role'),
+      "company": t('testimonials.person1.company'),
+      "image": "/testimonials/dra-ana-rodriguez.webp",
+      "quote": t('testimonials.person1.quote'),
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": t('testimonials.person2.name'),
+      "role": t('testimonials.person2.role'),
+      "company": t('testimonials.person2.company'),
+      "image": "/testimonials/dr-carlos-mendez.webp",
+      "quote": t('testimonials.person2.quote'),
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": t('testimonials.person3.name'),
+      "role": t('testimonials.person3.role'),
+      "company": t('testimonials.person3.company'),
+      "image": "/testimonials/laura-fernandez.webp",
+      "quote": t('testimonials.person3.quote'),
+      "rating": 4
+    }
+  ];
 
   const nextTestimonial = () => {
     if (!isAnimating) {
@@ -103,13 +104,13 @@ const Testimonials = () => {
       >
         <div className="text-center mb-12">
           <span className="inline-block px-4 py-1.5 rounded-full bg-white text-iaeva-blue font-medium text-sm mb-3">
-            Voces del sector médico
+            {t('testimonials.badge')}
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            La solución que los <span className="gradient-text">profesionales estaban esperando</span>
+            {t('testimonials.title')} <span className="gradient-text">{t('testimonials.title_highlighted')}</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Directores de clínicas, médicos y coordinadores de atención al paciente destacan cómo una IA como IAEVA puede transformar la gestión de citas y mejorar la experiencia del paciente.
+            {t('testimonials.description')}
           </p>
         </div>
 
@@ -119,7 +120,7 @@ const Testimonials = () => {
             <button
               onClick={prevTestimonial}
               className="w-10 h-10 rounded-full bg-white shadow-soft flex items-center justify-center text-gray-600 hover:text-iaeva-blue transition-colors"
-              aria-label="Testimonio anterior"
+              aria-label={t('testimonials.previous_button')}
             >
               <ChevronLeft size={20} />
             </button>
@@ -129,7 +130,7 @@ const Testimonials = () => {
             <button
               onClick={nextTestimonial}
               className="w-10 h-10 rounded-full bg-white shadow-soft flex items-center justify-center text-gray-600 hover:text-iaeva-blue transition-colors"
-              aria-label="Siguiente testimonio"
+              aria-label={t('testimonials.next_button')}
             >
               <ChevronRight size={20} />
             </button>
@@ -175,7 +176,7 @@ const Testimonials = () => {
                       </blockquote>
                       
                       <div>
-                        <h4 className="font-semibold text-lg">{testimonial.name}</h4>
+                        <h3 className="font-semibold text-lg">{testimonial.name}</h3>
                         <p className="text-gray-600 text-sm">{testimonial.role} {testimonial.company}</p>
                       </div>
                     </div>
@@ -197,7 +198,7 @@ const Testimonials = () => {
                     ? "bg-gradient-to-r from-iaeva-blue to-iaeva-purple w-6" 
                     : "bg-gray-300 hover:bg-gray-400"
                 )}
-                aria-label={`Ir al testimonio ${index + 1}`}
+                aria-label={t('testimonials.goto_testimonial', { number: index + 1 })}
               />
             ))}
           </div>

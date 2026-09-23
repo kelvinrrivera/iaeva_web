@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Calculadora de ROI | IAEVA para Centros Médicos",
+    "description": "Calcula el retorno de inversión de IAEVA en tu centro médico. Descubre cuánto puedes ahorrar con nuestro asistente virtual inteligente.",
+    "keywords": "calculadora ROI médico, retorno inversión IA médica, ahorro costos clínica, optimización recursos médicos, eficiencia asistente virtual"
+  },
+  "header": {
+    "title": "Calculadora de Retorno de Inversión",
+    "subtitle": "Descubre cómo IAEVA optimiza tus recursos y mejora tus resultados"
+  },
+  "form": {
+    "title": "Calcula tu retorno de inversión con IAEVA",
+    "subtitle": "Descubre cuánto podría ahorrar tu centro médico implementando nuestro asistente virtual inteligente.",
+    "clinic_info": "Información de tu centro",
+    "clinic_type": "Tipo de centro médico",
+    "clinic_type_placeholder": "Selecciona el tipo de centro",
+    "clinic_type_options": {
+      "general": "Clínica general",
+      "dental": "Clínica dental",
+      "specialized": "Centro especializado",
+      "hospital": "Hospital",
+      "laboratory": "Laboratorio clínico",
+      "fertility": "Clínica de fertilidad",
+      "oncology": "Centro oncológico",
+      "surgery": "Cirugía estética",
+      "rehabilitation": "Rehabilitación física",
+      "imaging": "Diagnóstico por imagen"
+    },
+    "provider_count": "Número de médicos/proveedores",
+    "monthly_appointments": "Citas mensuales",
+    "monthly_appointments_placeholder": "Número aproximado",
+    "no_show_rate": "Tasa actual de inasistencias (%)",
+    "no_show_rate_placeholder": "Porcentaje",
+    "staff_cost": "Coste mensual de personal de recepción (€)",
+    "staff_cost_placeholder": "Coste mensual",
+    "average_consultation": "Valor promedio de consulta (€)",
+    "average_consultation_placeholder": "Precio medio",
+    "operational_metrics": "Métricas operativas actuales",
+    "admin_time": "Tiempo dedicado a tareas administrativas (minutos por cita)",
+    "scheduling_time": "Programación de citas",
+    "reminder_time": "Recordatorios y confirmaciones",
+    "inquiry_time": "Respuesta a consultas de pacientes",
+    "calculating": "Calculando...",
+    "calculate_button": "Calcular mi ROI"
+  },
+  "establishment_types": {
+    "clinic": "Clínica general",
+    "hospital": "Hospital",
+    "laboratory": "Laboratorio clínico",
+    "dental": "Clínica dental",
+    "fertility": "Clínica de fertilidad",
+    "specialty": "Centro de especialidades",
+    "oncology": "Centro oncológico",
+    "surgery": "Cirugía estética",
+    "rehabilitation": "Rehabilitación física",
+    "imaging": "Diagnóstico por imagen",
+    "default": "Centro médico"
+  },
+  "results": {
+    "title": "Tu potencial de ahorro con IAEVA",
+    "monthly_savings": "Ahorro mensual estimado",
+    "annual_savings": "Ahorro anual",
+    "roi_percentage": "ROI en el primer año",
+    "payback_period": "Período de amortización",
+    "months": "meses",
+    "recovered_appointments": "Citas recuperadas mensualmente",
+    "staff_optimization": "Optimización de tiempo de personal",
+    "details_button": "Ver detalles completos",
+    "time_saved": "Tiempo ahorrado",
+    "detailed_breakdown": "Desglose detallado",
+    "admin_time_savings": "Ahorro en tiempo administrativo:",
+    "no_show_recovery": "Ingresos recuperados por reducción de ausencias:",
+    "iaeva_cost": "Inversión estimada en IAEVA:",
+    "net_benefit": "Beneficio neto estimado:",
+    "recalculate": "Calcular de nuevo",
+    "request_demo": "Solicitar demo personalizada"
+  },
+  "lead_form": {
+    "title": "Recibe un análisis personalizado y detallado",
+    "name": "Nombre",
+    "email": "Email profesional",
+    "organization": "Nombre de su",
+    "submit": "Recibir análisis detallado",
+    "talk_expert": "Hablar con un experto",
+    "thank_you": "Gracias por tu interés. Te hemos enviado un análisis detallado a tu correo electrónico."
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad:",
+    "text1": "Esta calculadora de ROI proporciona una estimación basada en promedios del sector y resultados típicos observados en organizaciones de salud similares. Los resultados reales pueden variar dependiendo de su implementación específica, procesos organizativos y otros factores.",
+    "text2": "Para un análisis de ROI personalizado adaptado a su situación única, por favor",
+    "contact_us": "contáctenos",
+    "text3": "para una consulta con uno de nuestros expertos en eficiencia sanitaria."
+  },
+  "benefits": {
+    "title": "Beneficios más allá del ahorro directo",
+    "reduction_title": "Reducción de ausencias",
+    "reduction_description": "Disminución de hasta un 60% en citas perdidas gracias a recordatorios inteligentes.",
+    "optimization_title": "Optimización de recursos",
+    "optimization_description": "Reducción del 40% en tiempo dedicado a tareas administrativas repetitivas.",
+    "roi_title": "Retorno de inversión rápido",
+    "roi_description": "La mayoría de centros médicos recuperan su inversión en menos de 6 meses."
+  },
+  "testimonial": {
+    "quote": "Implementar IAEVA nos permitió reducir las inasistencias en un 63% y optimizar en un 40% el tiempo de nuestro personal de recepción. El retorno de inversión fue evidente en menos de 3 meses.",
+    "author": "Dr. Carlos Rodríguez",
+    "role": "Director, Policlínica Martínez"
+  },
+  "cta": {
+    "title": "¿Quieres un análisis personalizado para tu centro?",
+    "description": "Nuestros especialistas pueden realizar un estudio detallado adaptado a las características específicas de tu centro médico.",
+    "button": "Solicitar consulta gratuita"
+  }
+} 

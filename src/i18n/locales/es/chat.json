@@ -1,0 +1,58 @@
+{
+  "onboarding": {
+    "name_question": "Para ofrecerte una experiencia personalizada, me gustaría conocerte un poco mejor. ¿Cuál es tu nombre?",
+    "center_type_question": "Encantada de conocerte, {nombre}. ¿Qué tipo de centro médico gestionas? (Por ejemplo: clínica, hospital, laboratorio, centro oncológico, etc.)",
+    "email_question": "Excelente. ¿Cuál es tu email de contacto para poder enviarte información relevante?",
+    "phone_question": "Ya casi terminamos. Por último, ¿podrías proporcionarme un número de teléfono de contacto?",
+    "completion_message": "¡Perfecto! Gracias por compartir esa información, {nombre}. Ahora puedo ayudarte mejor con tus consultas sobre cómo IAEVA puede transformar la gestión de citas y atención al paciente en tu centro médico. ¿Qué te gustaría saber?"
+  },
+  "confirm_clear_history": "¿Estás seguro de que deseas eliminar todo el historial de chat? Esta acción no se puede deshacer.",
+  "history_cleared_message": "¡Hola! Has borrado tu historial de conversación anterior. ¿En qué puedo ayudarte ahora?",
+  "validation": {
+    "error_prefix": "Lo siento, esa información no parece ser válida.",
+    "email_error": "Por favor, introduce una dirección de email válida.",
+    "phone_error": "Por favor, introduce un número de teléfono válido (sólo números, espacios y símbolos básicos).",
+    "retry": "Por favor, inténtalo de nuevo."
+  },
+  "error_message": "Lo siento, ha ocurrido un error al procesar tu mensaje: {error}. Por favor, inténtalo de nuevo.",
+  "message_limit_reached": "¡La conversación está resultando muy interesante! Para poder profundizar más en tus necesidades específicas, uno de nuestros expertos comerciales se pondrá en contacto contigo para ofrecerte una propuesta adaptada a tu centro médico.",
+  "avatar_states": {
+    "thinking": "Estoy analizando tu consulta...",
+    "speaking": "Estoy respondiendo a tu pregunta...",
+    "idle": "👋 ¡Hola! Soy IAEVA, y estoy aquí para ayudarte a descubrir cómo puedo transformar la gestión de citas y atención al paciente en tu establecimiento."
+  },
+  "buttons": {
+    "clear_history": "Eliminar historial de chat",
+    "clear_history_aria": "Eliminar historial de chat"
+  },
+  "links": {
+    "terms": "Términos del servicio",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies"
+  },
+  "header": {
+    "title": "IAEVA Assistant"
+  },
+  "empty_state": "Inicia una conversación con IAEVA",
+  "input": {
+    "placeholder": "Escribe tu mensaje...",
+    "limit_reached_placeholder": "Has alcanzado el límite de mensajes para esta conversación"
+  },
+  "footer": {
+    "limit_reached": "Has alcanzado el límite de mensajes. Uno de nuestros expertos se pondrá en contacto contigo.",
+    "info_date": "IAEVA responde basándose en la información disponible hasta marzo 2025",
+    "disclaimer": "IAEVA está en constante aprendizaje para proporcionar respuestas precisas. Como toda IA, podría ocasionalmente cometer errores o proporcionar información desactualizada."
+  },
+  "tools": {
+    "send": "Enviar",
+    "mic": "Grabar audio",
+    "stop_recording": "Detener grabación",
+    "upload_image": "Subir imagen",
+    "upload_document": "Subir documento"
+  },
+  "file_upload": {
+    "image_error": "Por favor selecciona una imagen válida (PNG, JPEG, JPG, WEBP, GIF)",
+    "document_error": "Por favor selecciona un documento válido (PDF, DOC, DOCX)",
+    "upload_error": "Error al subir el archivo. Por favor intenta de nuevo."
+  }
+} 

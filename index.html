@@ -1,18 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iaeva-customer-connect</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
+    <title>IAEVA | Asistente Virtual para Empresas de Salud | KelvinScale</title>
+    <meta name="description" content="IAEVA - Asistente virtual inteligente para empresas de salud. Mejora la atención al paciente y optimiza la gestión de citas las 24 horas." />
+    <meta name="author" content="KelvinScale" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="asistente virtual, inteligencia artificial, salud, atención al paciente, IA conversacional, citas médicas" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iaeva.com/" />
+    <meta property="og:title" content="IAEVA | Asistente Virtual Inteligente para Salud" />
+    <meta property="og:description" content="Automatiza la atención al paciente y la gestión de citas con IAEVA, el asistente virtual IA para empresas de salud. Disponible 24/7." />
+    <meta property="og:image" content="/images/iaeva-og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://iaeva.com/" />
+    <meta property="twitter:title" content="IAEVA | Asistente Virtual Inteligente para Salud" />
+    <meta property="twitter:description" content="Automatiza la atención al paciente y la gestión de citas con IAEVA, el asistente virtual IA para empresas de salud. Disponible 24/7." />
+    <meta property="twitter:image" content="/images/iaeva-og-image.jpg" />
+    
+    <!-- Languages alternates -->
+    <link rel="alternate" hreflang="es" href="https://iaeva.com/" />
+    <link rel="alternate" hreflang="fr" href="https://iaeva.com/fr/" />
+    <link rel="canonical" href="https://iaeva.com/" />
+    
+    <!-- Precargar fuentes webfonts optimizado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" 
+          media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    </noscript>
+    
+    <!-- Preload de imagen crítica -->
+    <link rel="preload" as="image" href="/video/iaeva-en-accion.mp4" fetchpriority="high">
+    
+    <!-- Script para asegurar que React esté cargado primero -->
+    <script>
+      // Definir React globalmente para asegurar que está accesible para todos los módulos
+      window.React = window.React || {};
+      
+      // Función de orden prioritario para carga de scripts
+      function prioritizeReactLoading() {
+        // Buscar y ordenar scripts para que el vendor de React cargue primero
+        const scripts = Array.from(document.querySelectorAll('script[src*=".js"]'));
+        
+        // Función para determinar prioridad de carga
+        const getPriority = (src) => {
+          if (src.includes('vendor-react')) return 1;
+          if (src.includes('vendor-router') || src.includes('vendor-i18n') || src.includes('vendor-ui')) return 2;
+          if (src.includes('vendor')) return 3;
+          return 9;
+        };
+        
+        // Ordenar scripts por prioridad
+        scripts.sort((a, b) => {
+          const srcA = a.getAttribute('src') || '';
+          const srcB = b.getAttribute('src') || '';
+          return getPriority(srcA) - getPriority(srcB);
+        });
+        
+        // Aplicar prioridad y modificar atributos
+        scripts.forEach((script, index) => {
+          const src = script.getAttribute('src') || '';
+          
+          // Alta prioridad para React
+          if (getPriority(src) <= 3) {
+            script.setAttribute('fetchpriority', 'high');
+            
+            // Solo para scripts críticos de React
+            if (getPriority(src) === 1) {
+              script.setAttribute('importance', 'high');
+              // Clonar y reemplazar para garantizar la carga al inicio
+              const clone = script.cloneNode(true);
+              document.head.insertBefore(clone, document.head.firstChild);
+              // Eliminar el original si existe
+              if (script.parentNode) {
+                script.parentNode.removeChild(script);
+              }
+            }
+          }
+        });
+      }
+      
+      // Ejecutar inmediatamente y nuevamente al cargar
+      prioritizeReactLoading();
+      window.addEventListener('DOMContentLoaded', prioritizeReactLoading);
+    </script>
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "IAEVA",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web",
+        "description": "Asistente virtual inteligente para empresas de salud. Mejora la atención al paciente y optimiza la gestión de citas las 24 horas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "Contactar para precios",
+          "priceCurrency": "EUR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "127"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "KelvinScale",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kelvinscale.net/wp-content/uploads/2024/09/ks_new_logo.png"
+          }
+        }
+      }
+    </script>
+    
+    <!-- Cargar CSS crítico inline para renderizado inicial -->
+    <style>
+      /* CSS crítico para el renderizado inicial */
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .hero-section {
+        display: flex;
+        min-height: 50vh;
+        padding-top: 4rem;
+      }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="#5046e5">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#5046e5">
   </head>
 
   <body>
     <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    
+    <!-- Script principal de la aplicación -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

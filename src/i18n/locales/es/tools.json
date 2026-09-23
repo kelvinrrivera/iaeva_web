@@ -1,0 +1,369 @@
+{
+  "tools": {
+    "page_title": "Herramientas gratuitas",
+    "page_description": "Recursos diseñados para facilitar la práctica clínica diaria. Cálculos precisos, conversiones rápidas y generación de informes para optimizar la atención al paciente.",
+    "cta_contact": "Contáctanos para sugerir herramientas",
+    "subscribe_title": "Sé el primero en conocer nuevas herramientas",
+    "subscribe_description": "Suscríbete para recibir notificaciones cuando lancemos nuevas herramientas médicas gratuitas.",
+    "subscribe_placeholder": "Tu email profesional",
+    "subscribe_button": "Suscribirse",
+    "why_use_title": "¿Por qué usar nuestras herramientas?",
+    "benefit_accuracy": "Precisión y fiabilidad",
+    "benefit_accuracy_desc": "Herramientas desarrolladas según estándares médicos internacionales y fuentes científicas verificadas.",
+    "benefit_time": "Ahorro de tiempo",
+    "benefit_time_desc": "Optimiza tu flujo de trabajo con cálculos instantáneos y generación automática de informes para pacientes.",
+    "benefit_privacy": "Privacidad garantizada",
+    "benefit_privacy_desc": "No almacenamos datos de pacientes. Todos los cálculos se realizan localmente en tu navegador.",
+    "benefit_updates": "Siempre actualizadas",
+    "benefit_updates_desc": "Actualizaciones periódicas para mantener el paso con los últimos avances y directrices médicas.",
+    "tool_coming_soon": "Próximamente",
+    "tool_access": "Acceder a la herramienta",
+    "back_to_tools": "Volver a herramientas",
+    "medical_unit_converter": {
+      "title": "Conversor de unidades médicas",
+      "description": "Convierte entre unidades médicas comunes: valores de laboratorio, dosis, unidades de insulina y más."
+    },
+    "diet_generator": {
+      "title": "Generador de dietas básicas",
+      "description": "Crea planes alimenticios básicos según condiciones clínicas, alergias y necesidades nutricionales."
+    },
+    "drug_interactions": {
+      "title": "Simulador de interacciones medicamentosas",
+      "description": "Verifica posibles interacciones entre medicamentos con alertas visuales y reportes para pacientes."
+    },
+    "pediatric_development": {
+      "title": "Tabla de desarrollo pediátrico",
+      "description": "Visualiza percentiles de crecimiento, hitos del desarrollo y calcula dosis pediátricas."
+    },
+    "icd_codes": {
+      "title": "Buscador de códigos CIE-10/11",
+      "description": "Encuentra códigos CIE por sintomatología o nombre de enfermedad con acceso a guías clínicas."
+    },
+    "epidemiological_alerts": {
+      "title": "Alertas epidemiológicas",
+      "description": "Visualiza brotes y tendencias epidemiológicas en tiempo real con protocolos de actuación."
+    }
+  },
+  "page_title": "Herramientas médicas gratuitas",
+  "bmi": {
+    "title": "Calculadora de IMC avanzada",
+    "description": "La calculadora de IMC (Índice de Masa Corporal) te permite evaluar la relación entre peso y altura, ofreciendo una estimación del porcentaje de grasa corporal y recomendaciones adaptadas al perfil del paciente.",
+    "patient_data": "Datos del paciente",
+    "unit_system": "Sistema de unidades",
+    "metric": "Métrico (kg/cm)",
+    "imperial": "Imperial (lb/in)",
+    "weight_metric": "Peso (kg)",
+    "weight_imperial": "Peso (lb)",
+    "height_metric": "Altura (cm)",
+    "height_imperial": "Altura (in)",
+    "age": "Edad (años)",
+    "optional": "opcional",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "calculate": "Calcular",
+    "clear": "Limpiar",
+    "results": "Resultados",
+    "bmi": "IMC",
+    "body_fat": "% Grasa corporal estimado",
+    "bf_formula": "Basado en fórmula de Deurenberg",
+    "recommendations": "Recomendaciones:",
+    "generate_pdf": "Generar informe PDF",
+    "empty_state": "Ingresa los datos del paciente para calcular el IMC y recibir recomendaciones personalizadas.",
+    "interpretation": "Interpretación del IMC:",
+    "disclaimer": "El IMC es solo una herramienta indicativa y no constituye un diagnóstico médico. El porcentaje de grasa corporal es calculado usando la fórmula de Deurenberg y es una aproximación. Siempre consulte con un profesional de la salud para una evaluación completa.",
+    "categories": {
+      "severe_thinness": "Delgadez severa",
+      "moderate_thinness": "Delgadez moderada",
+      "mild_thinness": "Delgadez leve",
+      "normal": "Peso normal",
+      "overweight": "Sobrepeso",
+      "obese_1": "Obesidad grado I",
+      "obese_2": "Obesidad grado II",
+      "obese_3": "Obesidad grado III"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "what_is_bmi": {
+        "q": "¿Qué es el IMC?",
+        "a": "El Índice de Masa Corporal (IMC) es un método utilizado para estimar la cantidad de grasa corporal que tiene una persona y determinar si el peso está dentro del rango saludable. Se calcula dividiendo el peso en kilogramos por el cuadrado de la altura en metros (kg/m²)."
+      },
+      "how_to_interpret": {
+        "q": "¿Cómo se interpreta el resultado del IMC?",
+        "a": "Según la Organización Mundial de la Salud, un IMC inferior a 18.5 indica bajo peso, entre 18.5 y 24.9 peso normal o saludable, entre 25 y 29.9 sobrepeso, y por encima de 30 se considera obesidad. Sin embargo, el IMC debe interpretarse con precaución ya que no distingue entre masa muscular y grasa."
+      },
+      "bf_accuracy": {
+        "q": "¿Es preciso el cálculo del porcentaje de grasa?",
+        "a": "La estimación del porcentaje de grasa corporal que ofrece esta calculadora se basa en la fórmula de Deurenberg, que utiliza el IMC, edad y género. Si bien proporciona una aproximación útil, métodos como la bioimpedancia o pliegues cutáneos pueden ofrecer mediciones más precisas. Esta herramienta es principalmente educativa y de cribado inicial."
+      },
+      "bmi_validity": {
+        "q": "¿El IMC es válido para todos los grupos de población?",
+        "a": "El IMC tiene limitaciones para ciertos grupos como atletas con elevada masa muscular, ancianos, niños, mujeres embarazadas o en lactancia. En estos casos, se recomienda complementar con otras evaluaciones específicas para cada situación o grupo de edad."
+      }
+    }
+  },
+  "unit_converter": {
+    "title": "Conversor de unidades médicas",
+    "description": "Convierte fácilmente entre unidades médicas comunes utilizadas en la práctica clínica. Esta herramienta cubre valores de laboratorio, medidas vitales, dosis de medicamentos y más, con especial atención a las unidades utilizadas en España y Latinoamérica.",
+    "source_value": "Valor origen",
+    "target_value": "Valor convertido",
+    "category": "Categoría",
+    "subcategory": "Tipo de conversión",
+    "source_unit": "Unidad origen",
+    "target_unit": "Unidad destino",
+    "convert": "Convertir",
+    "clear": "Limpiar",
+    "copy_result": "Copiar resultado",
+    "result_copied": "Resultado copiado al portapapeles",
+    "enter_value": "Introduce un valor",
+    "reciprocal_conversion": "Conversión recíproca",
+    "common_values": "Valores de referencia",
+    "invalid_number": "Por favor, introduce un valor numérico válido",
+    "incompatible_units": "Las unidades seleccionadas no son compatibles para la conversión",
+    "conversion_not_supported": "La conversión entre estas unidades no está soportada",
+    "helper_text": "Seleccione primero una categoría y tipo de conversión para ver las unidades disponibles. Las unidades mostradas son compatibles para realizar conversiones válidas.",
+    "disclaimer": "Esta herramienta está diseñada para asistir en conversiones médicas, pero no sustituye el criterio clínico profesional. Verifique siempre los resultados antes de tomar decisiones médicas.",
+    "categories": {
+      "laboratory": "Valores de laboratorio",
+      "vital_signs": "Signos vitales",
+      "medication": "Dosificación de medicamentos",
+      "fluid_balance": "Balance de fluidos",
+      "nutrition": "Nutrición",
+      "pediatrics": "Pediatría",
+      "radiology": "Radiología"
+    },
+    "subcategories": {
+      "glucose": "Glucosa",
+      "cholesterol": "Colesterol",
+      "creatinine": "Creatinina",
+      "hemoglobin": "Hemoglobina",
+      "bilirubin": "Bilirrubina",
+      "tsh": "TSH (Hormona estimulante de la tiroides)",
+      "temperature": "Temperatura",
+      "pressure": "Presión",
+      "weight": "Peso",
+      "concentration": "Concentración",
+      "volume": "Volumen",
+      "energy": "Energía",
+      "length": "Longitud",
+      "radiation": "Radiación",
+      "area": "Área"
+    },
+    "units": {
+      "weight": {
+        "name": "Peso",
+        "kg": "Kilogramo (kg)",
+        "g": "Gramo (g)",
+        "mg": "Miligramo (mg)",
+        "mcg": "Microgramo (mcg)",
+        "lb": "Libra (lb)",
+        "oz": "Onza (oz)"
+      },
+      "length": {
+        "name": "Longitud",
+        "m": "Metro (m)",
+        "cm": "Centímetro (cm)",
+        "mm": "Milímetro (mm)",
+        "in": "Pulgada (in)",
+        "ft": "Pie (ft)"
+      },
+      "volume": {
+        "name": "Volumen",
+        "l": "Litro (L)",
+        "ml": "Mililitro (mL)",
+        "cc": "Centímetro cúbico (cc)",
+        "dl": "Decilitro (dL)",
+        "gal": "Galón (gal)",
+        "qt": "Cuarto (qt)",
+        "pt": "Pinta (pt)",
+        "fl_oz": "Onza líquida (fl oz)"
+      },
+      "temperature": {
+        "name": "Temperatura",
+        "c": "Celsius (°C)",
+        "f": "Fahrenheit (°F)",
+        "k": "Kelvin (K)"
+      },
+      "pressure": {
+        "name": "Presión",
+        "mmhg": "Milímetros de mercurio (mmHg)",
+        "cmh2o": "Centímetros de agua (cmH₂O)",
+        "kpa": "Kilopascal (kPa)",
+        "mbar": "Milibar (mbar)",
+        "psi": "Libras por pulgada cuadrada (psi)"
+      },
+      "time": {
+        "name": "Tiempo",
+        "s": "Segundo (s)",
+        "min": "Minuto (min)",
+        "h": "Hora (h)",
+        "d": "Día (d)"
+      },
+      "concentration": {
+        "name": "Concentración",
+        "mol_l": "Mol por litro (mol/L)",
+        "mmol_l": "Milimol por litro (mmol/L)",
+        "umol_l": "Micromol por litro (μmol/L)",
+        "nmol_l": "Nanomol por litro (nmol/L)",
+        "pmol_l": "Picomol por litro (pmol/L)",
+        "g_l": "Gramos por litro (g/L)",
+        "mg_dl": "Miligramos por decilitro (mg/dL)",
+        "mg_l": "Miligramos por litro (mg/L)",
+        "ug_dl": "Microgramos por decilitro (μg/dL)",
+        "ug_l": "Microgramos por litro (μg/L)",
+        "ng_ml": "Nanogramos por mililitro (ng/mL)",
+        "ng_dl": "Nanogramos por decilitro (ng/dL)",
+        "miu_l": "Miliunidades internacionales por litro (mIU/L)",
+        "iu_l": "Unidades internacionales por litro (IU/L)",
+        "meq_l": "Miliequivalentes por litro (mEq/L)"
+      },
+      "radiation": {
+        "name": "Radiación",
+        "gy": "Gray (Gy)",
+        "rad": "Rad (rad)",
+        "sv": "Sievert (Sv)",
+        "rem": "Rem (rem)",
+        "bq": "Becquerel (Bq)",
+        "ci": "Curie (Ci)"
+      },
+      "area": {
+        "name": "Área",
+        "m2": "Metro cuadrado (m²)",
+        "cm2": "Centímetro cuadrado (cm²)",
+        "ft2": "Pie cuadrado (ft²)",
+        "in2": "Pulgada cuadrada (in²)"
+      }
+    },
+    "lab_values": {
+      "glucose": {
+        "name": "Glucosa",
+        "units": ["mg_dl", "mmol_l"],
+        "reference": {
+          "normal": "70-99 mg/dL (3.9-5.5 mmol/L)",
+          "prediabetes": "100-125 mg/dL (5.6-6.9 mmol/L)",
+          "diabetes": ">126 mg/dL (>7.0 mmol/L)"
+        }
+      },
+      "cholesterol": {
+        "name": "Colesterol",
+        "units": ["mg_dl", "mmol_l"],
+        "reference": {
+          "total": "<200 mg/dL (<5.2 mmol/L)",
+          "ldl": "<100 mg/dL (<2.6 mmol/L)",
+          "hdl": ">40 mg/dL (>1.0 mmol/L)"
+        }
+      },
+      "creatinine": {
+        "name": "Creatinina",
+        "units": ["mg_dl", "umol_l"],
+        "reference": {
+          "female": "0.5-1.1 mg/dL (44-97 μmol/L)",
+          "male": "0.7-1.3 mg/dL (62-115 μmol/L)"
+        }
+      },
+      "hemoglobin": {
+        "name": "Hemoglobina",
+        "units": ["g_dl", "g_l", "mmol_l"],
+        "reference": {
+          "female": "12.0-15.5 g/dL (120-155 g/L)",
+          "male": "13.5-17.5 g/dL (135-175 g/L)"
+        }
+      },
+      "bilirubin": {
+        "name": "Bilirrubina",
+        "units": ["mg_dl", "umol_l"],
+        "reference": {
+          "total": "0.3-1.0 mg/dL (5.1-17 μmol/L)"
+        }
+      },
+      "tsh": {
+        "name": "TSH",
+        "units": ["uiu_ml", "miu_l"],
+        "reference": {
+          "adult": "0.4-4.0 μIU/mL (0.4-4.0 mIU/L)"
+        }
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "accurate": {
+        "q": "¿Qué tan preciso es el conversor?",
+        "a": "Este conversor utiliza factores de conversión estandarizados reconocidos internacionalmente. Los resultados tienen la precisión adecuada para uso clínico, pero siempre deben verificarse antes de tomar decisiones médicas."
+      },
+      "regional": {
+        "q": "¿Considera las unidades específicas de mi región?",
+        "a": "Sí, este conversor incluye las unidades más utilizadas en España y Latinoamérica, así como unidades internacionales. Las diferencias regionales en rangos de referencia médicos pueden variar, por lo que recomendamos consultar los valores de referencia específicos de su laboratorio local."
+      },
+      "reference": {
+        "q": "¿Los valores de referencia son universales?",
+        "a": "Los valores de referencia incluidos son aproximaciones basadas en guías internacionales. Sin embargo, los rangos pueden variar ligeramente entre laboratorios, según factores como el método de análisis, equipamiento, población de referencia y ajustes regionales."
+      },
+      "missing": {
+        "q": "¿Qué hago si no encuentro la unidad que necesito?",
+        "a": "Esta herramienta incluye las unidades médicas más comunes. Si requiere una conversión específica que no encuentra, puede contactarnos para sugerir su inclusión en futuras actualizaciones."
+      }
+    }
+  },
+  "ideal_weight": {
+    "title": "Calculadora de peso ideal",
+    "description": "Calcula el peso corporal ideal según diferentes fórmulas médicas y el peso corporal ajustado utilizado en dosificación de medicamentos. Obtén resultados personalizados según altura, género y estructura corporal.",
+    "patient_data": "Datos del paciente",
+    "unit_system": "Sistema de unidades",
+    "metric": "Métrico (kg/cm)",
+    "imperial": "Imperial (lb/in)",
+    "weight_metric": "Peso actual (kg)",
+    "weight_imperial": "Peso actual (lb)",
+    "height_metric": "Altura (cm)",
+    "height_imperial": "Altura (in)",
+    "frame_size": "Estructura corporal",
+    "small": "Pequeña",
+    "medium": "Mediana",
+    "large": "Grande",
+    "optional": "opcional",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "calculate": "Calcular",
+    "clear": "Limpiar",
+    "empty_state": "Ingresa la altura y otros datos del paciente para calcular su peso corporal ideal según diferentes fórmulas.",
+    "results": {
+      "title": "Resultados",
+      "copy": "Copiar resultados",
+      "copied": "Resultados copiados",
+      "devine": "Fórmula de Devine",
+      "robinson": "Fórmula de Robinson",
+      "miller": "Fórmula de Miller",
+      "hamwi": "Fórmula de Hamwi",
+      "average": "Peso ideal promedio",
+      "adjusted": "Peso corporal ajustado"
+    },
+    "formulas": {
+      "title": "Acerca de las fórmulas:",
+      "devine": "Devine (1974): para hombres 50 + 2.3 × (altura en pulgadas - 60) kg; para mujeres 45.5 + 2.3 × (altura en pulgadas - 60) kg",
+      "robinson": "Robinson (1983): para hombres 52 + 1.9 × (altura en pulgadas - 60) kg; para mujeres 49 + 1.7 × (altura en pulgadas - 60) kg",
+      "miller": "Miller (1983): para hombres 56.2 + 1.41 × (altura en pulgadas - 60) kg; para mujeres 53.1 + 1.36 × (altura en pulgadas - 60) kg",
+      "hamwi": "Hamwi (1964): para hombres 48 + 2.7 × (altura en pulgadas - 60) kg; para mujeres 45.5 + 2.2 × (altura en pulgadas - 60) kg",
+      "adjusted": "Peso Corporal Ajustado = Peso Ideal + 0.4 × (Peso Actual - Peso Ideal)"
+    },
+    "disclaimer": "Estas fórmulas proporcionan estimaciones y pueden no ser apropiadas para todos los individuos. Consulte siempre con un profesional de la salud para una evaluación completa. El peso ideal varía según edad, composición corporal, historia clínica y otros factores individuales.",
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "what_is_ibw": {
+        "q": "¿Qué es el peso corporal ideal?",
+        "a": "El Peso Corporal Ideal (IBW) es un valor estimado del peso considerado saludable para una persona según su altura, género y estructura corporal. Se basa en diferentes fórmulas médicas desarrolladas para estimar el peso asociado con la mejor salud y longevidad."
+      },
+      "what_is_abw": {
+        "q": "¿Qué es el peso corporal ajustado?",
+        "a": "El Peso Corporal Ajustado (ABW) es una medida utilizada principalmente en farmacología para calcular dosificaciones de medicamentos en personas con obesidad. Representa un valor entre el peso real y el peso ideal, calculado como: Peso Ideal + 0.4 × (Peso Actual - Peso Ideal)."
+      },
+      "formula_differences": {
+        "q": "¿Por qué hay diferentes fórmulas y cuál usar?",
+        "a": "Existen varias fórmulas porque fueron desarrolladas en diferentes épocas y poblaciones. Devine (1974) es la más utilizada en farmacología; Robinson y Miller (1983) suelen dar valores más bajos; Hamwi (1964) fue una de las primeras. Se recomienda usar el promedio para mayor precisión o la fórmula específica según el contexto clínico."
+      },
+      "frame_size": {
+        "q": "¿Cómo determinar la estructura corporal?",
+        "a": "La estructura corporal puede estimarse midiendo la circunferencia de la muñeca en relación con la altura, o mediante el método de envergadura de codo. Una forma sencilla es comparar el diámetro de la muñeca: para altura de 170 cm, estructura pequeña sería <16 cm, mediana 16-18 cm, y grande >18 cm (los valores varían según altura y género)."
+      }
+    }
+  }
+} 

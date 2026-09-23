@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga GRATIS: La guía definitiva para elegir tu asistente IA en salud | IAEVA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --primary: #066da5;
+            --primary-dark: #044b70;
+            --primary-light: #e0f2fe;
+            --accent: #10b981;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--light-gray);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 15px 0;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo img {
+            max-height: 50px;
+            width: auto;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="1000" height="1000" fill="url(%23grid)"/></svg>');
+            opacity: 0.2;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-text {
+            flex: 1;
+            max-width: 600px;
+            padding-right: 40px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            transform: perspective(800px) rotateY(-15deg);
+            transition: transform 0.5s ease;
+        }
+        
+        .hero-image img:hover {
+            transform: perspective(800px) rotateY(-5deg);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .benefits {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .benefit-card {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        
+        .benefit-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+        
+        .benefit-description {
+            font-size: 1rem;
+            color: var(--gray);
+        }
+        
+        .chapters {
+            padding: 80px 0;
+            background: var(--light-gray);
+        }
+        
+        .chapters-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .chapter-item {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 20px 30px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+        }
+        
+        .chapter-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 50%;
+            font-weight: 600;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .chapter-content {
+            flex-grow: 1;
+        }
+        
+        .chapter-title {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+        
+        .chapter-description {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        .testimonials {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .testimonial-card {
+            background: var(--light-gray);
+            border-radius: 8px;
+            padding: 30px;
+            position: relative;
+            margin-top: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            padding: 0 20px;
+        }
+        
+        .testimonial-text::before, .testimonial-text::after {
+            content: '"';
+            font-size: 3rem;
+            color: var(--primary);
+            opacity: 0.3;
+            position: absolute;
+        }
+        
+        .testimonial-text::before {
+            left: -10px;
+            top: -20px;
+        }
+        
+        .testimonial-text::after {
+            right: -10px;
+            bottom: -40px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+        
+        .author-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .author-details h4 {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+        
+        .author-details p {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="1000" height="1000" fill="url(%23grid)"/></svg>');
+            opacity: 0.2;
+        }
+        
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cta-description {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .form-container {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 40px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .form-title {
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark);
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        
+        input:focus, select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(6, 109, 165, 0.2);
+        }
+        
+        .submit-btn {
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: 15px 25px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s ease;
+        }
+        
+        .submit-btn:hover {
+            background: var(--primary-dark);
+        }
+        
+        .privacy-text {
+            font-size: 0.8rem;
+            color: var(--gray);
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: var(--white);
+            padding: 40px 0;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer-logo img {
+            max-height: 40px;
+            width: auto;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .footer-links a {
+            color: var(--white);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            opacity: 1;
+        }
+        
+        .footer-copyright {
+            text-align: center;
+            padding-top: 30px;
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+            }
+            
+            .hero-text {
+                padding-right: 0;
+                margin-bottom: 40px;
+                text-align: center;
+                max-width: 100%;
+            }
+            
+            .hero-image {
+                width: 100%;
+                max-width: 400px;
+            }
+            
+            .form-container {
+                padding: 30px 20px;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .testimonial-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/public/logo/iaeva-logo.png" alt="IAEVA Logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Descarga GRATIS: La guía definitiva para elegir tu asistente IA en salud</h1>
+                    <p class="subtitle">Todo lo que necesitas saber para implementar con éxito la inteligencia artificial en tu clínica o centro médico. Protegiendo los datos de tus pacientes y optimizando la eficiencia.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="/public/images/optimized/iaeva-guide-mockup.jpg" alt="Guía Definitiva IAEVA" id="guide-mockup">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">¿Por qué necesitas esta guía?</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔒</div>
+                    <h3 class="benefit-title">Seguridad garantizada</h3>
+                    <p class="benefit-description">Aprende a evaluar aspectos críticos de seguridad y cumplimiento normativo (RGPD/LOPD) para proteger los datos de tus pacientes.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚙️</div>
+                    <h3 class="benefit-title">Tecnología confiable</h3>
+                    <p class="benefit-description">Descubre cómo identificar asistentes de IA que minimicen errores y ofrezcan respuestas precisas y controladas.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔄</div>
+                    <h3 class="benefit-title">Integración perfecta</h3>
+                    <p class="benefit-description">Conoce las claves para que tu asistente de IA se integre perfectamente con WhatsApp, tu web y tus sistemas existentes.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3 class="benefit-title">Máxima eficiencia</h3>
+                    <p class="benefit-description">Automatiza la gestión de citas, reduce el absentismo y libera tiempo de tu personal con las funcionalidades adecuadas.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">✅</div>
+                    <h3 class="benefit-title">Checklist completo</h3>
+                    <p class="benefit-description">Obtén una herramienta práctica para evaluar proveedores y tomar decisiones informadas que protejan tu inversión.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3 class="benefit-title">Diferenciación competitiva</h3>
+                    <p class="benefit-description">Aprende a seleccionar la solución que mejor se adapte a tus necesidades específicas y te destaque de la competencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="chapters">
+        <div class="container">
+            <h2 class="section-title">¿Qué encontrarás en la guía?</h2>
+            
+            <div class="chapters-list">
+                <div class="chapter-item">
+                    <div class="chapter-number">1</div>
+                    <div class="chapter-content">
+                        <h3 class="chapter-title">La base de todo – Seguridad de datos y cumplimiento normativo inquebrantable</h3>
+                        <p class="chapter-description">Soberanía de datos, cumplimiento RGPD/LOPD, autoalojamiento y medidas de seguridad imprescindibles.</p>
+                    </div>
+                </div>
+                
+                <div class="chapter-item">
+                    <div class="chapter-number">2</div>
+                    <div class="chapter-content">
+                        <h3 class="chapter-title">Descifrando la IA – La tecnología detrás de un asistente eficaz y fiable</h3>
+                        <p class="chapter-description">Plataformas especializadas, workflows inteligentes y estrategias contra "alucinaciones" de la IA.</p>
+                    </div>
+                </div>
+                
+                <div class="chapter-item">
+                    <div class="chapter-number">3</div>
+                    <div class="chapter-content">
+                        <h3 class="chapter-title">Conectividad total – Un asistente integrado en el ecosistema de tu clínica</h3>
+                        <p class="chapter-description">Omnicanalidad, integración con WhatsApp oficial, gestión centralizada e interoperabilidad.</p>
+                    </div>
+                </div>
+                
+                <div class="chapter-item">
+                    <div class="chapter-number">4</div>
+                    <div class="chapter-content">
+                        <h3 class="chapter-title">Potenciando la eficiencia – Funcionalidades avanzadas y notificaciones inteligentes</h3>
+                        <p class="chapter-description">Gestión de citas, recordatorios automáticos, asistentes de voz y automatizaciones seguras.</p>
+                    </div>
+                </div>
+                
+                <div class="chapter-item">
+                    <div class="chapter-number">5</div>
+                    <div class="chapter-content">
+                        <h3 class="chapter-title">Tu checklist final y próximos pasos – Tomando la decisión correcta</h3>
+                        <p class="chapter-description">Lista de verificación completa, señales de alerta y guía paso a paso para evaluar proveedores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen otros profesionales</h2>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "Esta guía fue fundamental para tomar una decisión informada. Nos ayudó a evitar potenciales problemas de seguridad y a elegir un asistente IA que realmente se adaptaba a las necesidades de nuestra clínica. El checklist es especialmente útil para evaluar proveedores."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="/public/testimonials/doctor1.jpg" alt="Dr. Martínez">
+                    </div>
+                    <div class="author-details">
+                        <h4>Dr. Carlos Martínez</h4>
+                        <p>Director Médico, Clínica Saludable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Descarga ahora la guía completa</h2>
+                <p class="cta-description">Obtén todas las herramientas que necesitas para seleccionar el asistente de IA perfecto para tu centro de salud</p>
+                
+                <div class="form-container">
+                    <h3 class="form-title">¡La guía llegará directamente a tu email!</h3>
+                    
+                    <form id="download-form" action="/api/download-guide" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email profesional</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="center-type">Tipo de centro</label>
+                            <select id="center-type" name="centerType">
+                                <option value="">Selecciona una opción</option>
+                                <option value="clinic">Clínica privada</option>
+                                <option value="hospital">Hospital</option>
+                                <option value="medical-center">Centro médico</option>
+                                <option value="specialty-center">Centro de especialidades</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Descargar guía gratuita</button>
+                        
+                        <p class="privacy-text">
+                            Al enviar este formulario, aceptas recibir la guía y ocasionalmente información relevante sobre IA en salud. Respetamos tu privacidad y nunca compartiremos tus datos. Puedes darte de baja en cualquier momento.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/public/logo/iaeva-logo-white.png" alt="IAEVA Logo">
+                </div>
+                
+                <div class="footer-links">
+                    <a href="/politica-privacidad">Política de privacidad</a>
+                    <a href="/contacto">Contacto</a>
+                    <a href="/sobre-nosotros">Sobre IAEVA</a>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2023 IAEVA - Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Simple form handling with redirect to thank you page
+            const form = document.getElementById('download-form');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // In a real implementation, you would send the form data to your server
+                // and handle the email sending there.
+                
+                // For demo purposes, we'll just redirect to a thank you page
+                window.location.href = '/gracias-descarga';
+            });
+        });
+    </script>
+</body>
+</html> 

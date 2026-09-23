@@ -34,3 +34,14 @@ yarn-error.log*
 
 # Cloudflare
 .wrangler/
+# ── Respaldo 2026-09-23 ──────────────────────────────────────────────────────
+# Material de trabajo, no código fuente. Se excluye del repositorio para que el
+# clon sea reproducible y ligero; sigue existiendo en el disco y en la copia
+# _respaldo_iaeva_landing_2026-09-23.
+iaeva_landing.zip
+stats.html
+*.pdf
+iaeva.jpg
+nuevo avatar IAEVA/
+node_modules/
+dist/

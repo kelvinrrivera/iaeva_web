@@ -1,7 +1,7 @@
-
-import { Check, Clock, Calendar, MessageSquare, Brain, Users, ChevronRight, ArrowRight } from 'lucide-react';
+import { Check, Clock, Calendar, MessageSquare, Brain, Users, ChevronRight, ArrowRight, TrendingUp, Puzzle, Shield } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';
 
 interface FeatureCardProps {
@@ -39,7 +39,7 @@ const FeatureCard = ({ icon, title, description, color, delay = "0s", className 
   }, []);
 
   return (
-    <div 
+    <div
       ref={cardRef}
       className={cn(
         "bg-white rounded-2xl p-6 border border-gray-100 shadow-soft transition-all hover:shadow-lg",
@@ -58,6 +58,7 @@ const FeatureCard = ({ icon, title, description, color, delay = "0s", className 
 };
 
 const Features = () => {
+  const { t } = useTranslation('home');
   const titleRef = useRef<HTMLDivElement>(null);
   const [isTitleVisible, setIsTitleVisible] = useState(false);
 
@@ -85,43 +86,43 @@ const Features = () => {
   const features = [
     {
       icon: <Brain className="h-7 w-7 text-white" />,
-      title: "IA conversacional médica",
-      description: "Agentes de IA entrenados específicamente para el sector salud, capaces de gestionar citas y mantener conversaciones empáticas con los pacientes.",
+      title: t('features.items.ai.title'),
+      description: t('features.items.ai.description'),
       color: "bg-iaeva-blue",
       delay: "0.1s"
     },
     {
       icon: <Calendar className="h-7 w-7 text-white" />,
-      title: "Sistema de citas médicas online",
-      description: "Plataforma completa para programar, modificar y cancelar citas médicas, con optimización automática de horarios para maximizar la eficiencia.",
+      title: t('features.items.appointments.title'),
+      description: t('features.items.appointments.description'),
       color: "bg-iaeva-purple",
       delay: "0.2s"
     },
     {
       icon: <MessageSquare className="h-7 w-7 text-white" />,
-      title: "Integración con WhatsApp",
-      description: "Comunicación fluida a través de WhatsApp para confirmaciones, recordatorios y consultas, mejorando la accesibilidad y la satisfacción del paciente.",
+      title: t('features.items.omnichannel.title'),
+      description: t('features.items.omnichannel.description'),
       color: "bg-iaeva-teal",
       delay: "0.3s"
     },
     {
-      icon: <Clock className="h-7 w-7 text-white" />,
-      title: "Recordatorios automáticos",
-      description: "Sistema de notificaciones para reducir las ausencias a citas programadas, con confirmación y opción para reagendar con anticipación.",
+      icon: <TrendingUp className="h-7 w-7 text-white" />,
+      title: t('features.items.analytics.title'),
+      description: t('features.items.analytics.description'),
       color: "bg-iaeva-blue",
       delay: "0.4s"
     },
     {
-      icon: <Users className="h-7 w-7 text-white" />,
-      title: "Colaboración IA-humano",
-      description: "Transferencia inteligente a agentes humanos cuando sea necesario, manteniendo todo el contexto de la conversación para una experiencia sin interrupciones.",
+      icon: <Puzzle className="h-7 w-7 text-white" />,
+      title: t('features.items.integration.title'),
+      description: t('features.items.integration.description'),
       color: "bg-iaeva-purple",
       delay: "0.5s"
     },
     {
-      icon: <Check className="h-7 w-7 text-white" />,
-      title: "CRM integrado",
-      description: "Sistema centralizado para gestionar todas las interacciones con pacientes, permitiendo un seguimiento personalizado y una atención de calidad.",
+      icon: <Shield className="h-7 w-7 text-white" />,
+      title: t('features.items.security.title'),
+      description: t('features.items.security.description'),
       color: "bg-iaeva-teal",
       delay: "0.6s"
     }
@@ -130,24 +131,24 @@ const Features = () => {
   return (
     <section className="py-20 bg-gradient-to-b from-white to-iaeva-bg-light">
       <div className="container mx-auto px-4 md:px-6">
-        <div 
-          ref={titleRef} 
+        <div
+          ref={titleRef}
           className={`text-center mb-16 transition-opacity duration-500 ${isTitleVisible ? 'opacity-100' : 'opacity-0'}`}
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-iaeva-bg-light text-iaeva-blue font-medium text-sm mb-3">
-            Características principales
+            {t('features.badge')}
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            <span className="gradient-text">Soluciones inteligentes</span> para el sector médico
+            {t('features.heading')}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            IAEVA integra tecnologías de vanguardia para ofrecer una atención al cliente excepcional, optimizar la gestión de citas y mejorar la experiencia del paciente.
+            {t('features.description')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <FeatureCard 
+            <FeatureCard
               key={index}
               icon={feature.icon}
               title={feature.title}
@@ -159,11 +160,11 @@ const Features = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <Link 
-            to="/casos-de-uso" 
+          <Link
+            to="/patient-management-solutions"
             className="inline-flex items-center text-white bg-gradient-to-r from-iaeva-blue to-iaeva-purple transition-colors font-medium px-6 py-3 rounded-full"
           >
-            Ver todos los casos de uso
+            Ver soluciones completas
             <ArrowRight size={16} className="ml-2" />
           </Link>
         </div>

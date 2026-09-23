@@ -1,0 +1,339 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "BlogPosting",
+      "position": 1,
+      "url": "https://iaeva.com/blog/caso-practico-optimizacion-agenda-medica-ia",
+      "headline": "Caso práctico: optimización de la agenda médica con inteligencia artificial",
+      "description": "Descubre cómo la IA aplicada a la gestión de agendas médicas puede transformar la eficiencia, reducir ausencias y mejorar la experiencia tanto para pacientes como para profesionales de la salud.",
+      "datePublished": "2025-05-17",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/caso-practico-optimizacion-agenda-medica-ia"
+      },
+      "image": "https://iaeva.com/images/blog/post-3/agenda_medica_ia_flujo.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "optimización agenda médica",
+        "inteligencia artificial",
+        "eficiencia clínica",
+        "gestión sanitaria",
+        "transformación digital"
+      ],
+      "articleSection": "Casos prácticos",
+      "inLanguage": [
+        "es",
+        "fr"
+      ],
+      "alternativeHeadline": "Optimización de citas médicas mediante algoritmos de IA predictivos",
+      "abstract": "Estudio de caso sobre implementación de IA para optimizar agendas médicas, reduciendo ausencias hasta un 40% y aumentando la eficiencia operativa",
+      "wordCount": 2500,
+      "commentCount": 0,
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Madrid, España"
+      },
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "IAEVA Optimización de Agendas",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 2,
+      "url": "https://iaeva.com/blog/ventajas-asistente-virtual-ia-gestion-citas",
+      "headline": "10 ventajas de implementar un asistente virtual con IA en la gestión de citas",
+      "description": "Descubre los beneficios tangibles de incorporar asistentes virtuales inteligentes en la gestión de citas médicas y cómo pueden transformar la eficiencia y la experiencia en centros de salud.",
+      "datePublished": "2025-05-15",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/ventajas-asistente-virtual-ia-gestion-citas"
+      },
+      "image": "https://iaeva.com/images/blog/post-2/asistente_virtual_multicanal.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "asistente virtual",
+        "IA en salud",
+        "citas médicas",
+        "digitalización",
+        "eficiencia clínica"
+      ],
+      "articleSection": "Tecnología Sanitaria",
+      "inLanguage": [
+        "es",
+        "fr"
+      ],
+      "alternativeHeadline": "Beneficios de la IA conversacional en la gestión de citas médicas",
+      "abstract": "Análisis de las 10 principales ventajas de implementar asistentes virtuales con IA para automatizar la gestión de citas y mejorar la experiencia del paciente",
+      "wordCount": 2800,
+      "commentCount": 0,
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Barcelona, España"
+      },
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "IAEVA Asistente Virtual",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 3,
+      "url": "https://iaeva.com/blog/automatizacion-reduce-ausencias-clinicas",
+      "headline": "Cómo la automatización reduce las ausencias en clínicas y hospitales: estrategias probadas para 2025",
+      "description": "Descubre cómo la automatización inteligente puede reducir hasta un 60% las ausencias de pacientes en centros médicos, optimizando recursos y mejorando la rentabilidad.",
+      "datePublished": "2025-05-13",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/automatizacion-reduce-ausencias-clinicas"
+      },
+      "image": "https://iaeva.com/images/blog/evolución_tecnológica_citas_medicas.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "automatización sanitaria",
+        "gestión de citas",
+        "eficiencia hospitalaria",
+        "reducción de ausencias",
+        "optimización de recursos"
+      ],
+      "articleSection": "Gestión Médica",
+      "inLanguage": [
+        "es",
+        "fr"
+      ],
+      "alternativeHeadline": "Reducción de ausencias médicas mediante estrategias de automatización",
+      "abstract": "Análisis estratégico sobre cómo la automatización inteligente puede reducir significativamente las ausencias de pacientes, optimizando recursos y mejorando la rentabilidad clínica",
+      "wordCount": 3100,
+      "commentCount": 0,
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Valencia, España"
+      },
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "IAEVA Plataforma de Análisis",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 4,
+      "url": "https://iaeva.com/blog/guia-2026-reducir-no-show",
+      "headline": "Guía 2026: cómo reducir el 'no-show' en tu clínica un 40%",
+      "description": "Absentismo en citas médicas: el silencioso ladrón de ingresos en clínicas españolas. Descubre estrategias probadas para 2026.",
+      "datePublished": "2026-01-10",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/guia-2026-reducir-no-show"
+      },
+      "image": "https://iaeva.com/images/blog/no_show_clinic_waiting_room.png",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "absentismo",
+        "no-show",
+        "gestión clínica",
+        "rentabilidad"
+      ],
+      "articleSection": "Gestión Médica",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 1500
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 5,
+      "url": "https://iaeva.com/blog/clinica-pierde-dinero-telefono-2026",
+      "headline": "Por qué tu clínica pierde dinero en el teléfono en 2026 (y cómo arreglarlo)",
+      "description": "Las clínicas pierden el 42% de las llamadas. Descubre cómo la IA resuelve este problema 24/7 sin saturar a tu equipo.",
+      "datePublished": "2026-01-12",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/clinica-pierde-dinero-telefono-2026"
+      },
+      "image": "https://iaeva.com/images/blog/receptionist_overwhelmed_phone.png",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "atención al paciente",
+        "recepción",
+        "pérdida de llamadas",
+        "IA voz"
+      ],
+      "articleSection": "Eficiencia",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 1200
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 6,
+      "url": "https://iaeva.com/blog/ia-vs-call-center-costes-2026",
+      "headline": "IA y equipo humano: el modelo híbrido eficiente para 2026",
+      "description": "La combinación de inteligencia artificial y supervisión humana redefine la eficiencia clínica. Descubre cómo este modelo mejora la atención.",
+      "datePublished": "2026-01-15",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/ia-vs-call-center-costes-2026"
+      },
+      "image": "https://iaeva.com/images/blog/ai_vs_call_center_comparison.png",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "eficiencia",
+        "trabajo en equipo",
+        "modelo híbrido",
+        "automatización"
+      ],
+      "articleSection": "Estrategia",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 2000
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 7,
+      "url": "https://iaeva.com/blog/5-herramientas-ia-clinica-dental-2026",
+      "headline": "Las 5 herramientas de IA que toda clínica dental necesita en 2026",
+      "description": "La IA revoluciona la odontología: desde la detección de caries hasta la gestión de citas. Descubre el stack tecnológico esencial para 2026.",
+      "datePublished": "2026-01-20",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/5-herramientas-ia-clinica-dental-2026"
+      },
+      "image": "https://iaeva.com/images/blog/dental_ai_tools_futuristic.png",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "dental",
+        "tecnología",
+        "herramientas IA",
+        "diagnóstico"
+      ],
+      "articleSection": "Odontología",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 1800
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 8,
+      "url": "https://iaeva.com/blog/cumplir-ai-act-2026-clinicas",
+      "headline": "IA en atención médica: cumplir AI Act 2026 en clínicas europeas",
+      "description": "Guía esencial sobre el AI Act para clínicas: gestión de riesgos, oversight humano y cómo evitar multas de hasta 35M€.",
+      "datePublished": "2026-02-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/cumplir-ai-act-2026-clinicas"
+      },
+      "image": "https://iaeva.com/images/blog/ia-medicine-cover.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "AI Act",
+        "compliance",
+        "normativa europea",
+        "high-risk"
+      ],
+      "articleSection": "Legal",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 2100
+    },
+    {
+      "@type": "BlogPosting",
+      "position": 9,
+      "url": "https://iaeva.com/blog/colaboracion-ia-humanos-salud",
+      "headline": "Colaboración IA + humanos: atención médica sin riesgos AI Act",
+      "description": "El modelo híbrido reduce errores un 60% y asegura el cumplimiento legal. Descubre por qué la IA no sustituye, sino que potencia.",
+      "datePublished": "2026-02-05",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iaeva.com/blog/colaboracion-ia-humanos-salud"
+      },
+      "image": "https://iaeva.com/images/blog/doctor-using-iaeva.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IAEVA",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iaeva.com/logo/logo.png"
+        }
+      },
+      "keywords": [
+        "modelo híbrido",
+        "HITL",
+        "seguridad clínica",
+        "eficiencia"
+      ],
+      "articleSection": "Tendencias",
+      "inLanguage": [
+        "es"
+      ],
+      "wordCount": 1600
+    }
+  ]
+}

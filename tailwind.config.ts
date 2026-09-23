@@ -68,7 +68,8 @@ export default {
         },
         iaeva: {
           blue: '#0EA5E9',
-          purple: '#079669',
+          'blue-dark': '#0369A1',
+          purple: '#03623F',
           teal: '#0D9488',
           customTeal: '#0e484e',
           'light-blue': '#7DD3FC',

@@ -1,0 +1,195 @@
+{
+  "website": "IAEVA - Soluciones de Inteligencia Artificial para Salud",
+  "url": "https://iaeva.com",
+  "description": "Plataforma de inteligencia artificial especializada en optimización de agendas médicas, reducción de ausencias y mejora de eficiencia clínica para centros de salud y hospitales",
+  "languages": ["es", "fr"],
+  "organization": {
+    "name": "IAEVA",
+    "founded": 2024,
+    "headquarters": "Francia",
+    "industry": "Salud Digital",
+    "mission": "Transformar la gestión sanitaria a través de soluciones de IA que mejoren la eficiencia operativa y la experiencia del paciente",
+    "parent": "KelvinScale"
+  },
+  "products": [
+    {
+      "name": "IAEVA Asistente Virtual",
+      "description": "Asistente virtual multicanal para gestión automatizada de citas médicas, recordatorios y comunicación con pacientes",
+      "features": [
+        "Gestión de citas 24/7",
+        "Recordatorios automáticos",
+        "Comunicación multicanal (WhatsApp, teléfono, email)",
+        "Integración con sistemas de historial clínico",
+        "Análisis predictivo de ausencias"
+      ]
+    },
+    {
+      "name": "IAEVA Optimización de Agendas",
+      "description": "Sistema inteligente para optimizar la programación de citas médicas basado en IA",
+      "features": [
+        "Predicción de ausencias",
+        "Optimización de horarios",
+        "Reducción de tiempos de espera",
+        "Distribución eficiente de recursos",
+        "Análisis de patrones de asistencia"
+      ]
+    },
+    {
+      "name": "IAEVA Atención al Paciente",
+      "description": "Plataforma de comunicación con pacientes que mejora la experiencia y reduce carga administrativa",
+      "features": [
+        "Chat automático con pacientes",
+        "Resolución de dudas frecuentes",
+        "Seguimiento post-consulta",
+        "Encuestas de satisfacción",
+        "Personalización de comunicaciones"
+      ]
+    }
+  ],
+  "keyDifferentiators": [
+    "Especialización exclusiva en el sector salud",
+    "Reducción demostrada del 60% en ausencias de pacientes",
+    "Integración con sistemas sanitarios existentes",
+    "Cumplimiento de normativas de protección de datos sanitarios",
+    "Soluciones adaptadas a clínicas de todos los tamaños"
+  ],
+  "caseStudies": [
+    {
+      "title": "Optimización de agenda médica con IA",
+      "url": "https://iaeva.com/blog/caso-practico-optimizacion-agenda-medica-ia",
+      "summary": "Clínica médica reduce 40% de ausencias y mejora eficiencia operativa implementando IAEVA"
+    },
+    {
+      "title": "Implementación de asistente virtual con IA",
+      "url": "https://iaeva.com/blog/ventajas-asistente-virtual-ia-gestion-citas",
+      "summary": "Centro de salud automatiza gestión de citas y mejora satisfacción del paciente con asistente virtual"
+    },
+    {
+      "title": "Reducción de ausencias en clínicas",
+      "url": "https://iaeva.com/blog/automatizacion-reduce-ausencias-clinicas",
+      "summary": "Hospital reduce costes operativos y mejora rentabilidad con sistema predictivo de ausencias"
+    }
+  ],
+  "keywords": [
+    "IA en salud",
+    "asistente virtual médico",
+    "optimización agenda médica",
+    "reducción ausencias clínicas",
+    "eficiencia hospitalaria",
+    "automatización sanitaria",
+    "gestión citas médicas",
+    "transformación digital salud",
+    "inteligencia artificial sanitaria",
+    "software gestión clínicas",
+    "herramientas médicas online",
+    "calculadora IMC avanzada",
+    "recursos médicos gratuitos",
+    "comunicación médica WhatsApp"
+  ],
+  "resources": [
+    {
+      "type": "Calculadora ROI",
+      "url": "https://iaeva.com/calculadora-roi",
+      "description": "Calcula el retorno de inversión al implementar soluciones IAEVA en tu centro médico"
+    },
+    {
+      "type": "Casos de uso",
+      "url": "https://iaeva.com/casos-de-uso",
+      "description": "Explora diferentes escenarios de aplicación de IAEVA en entornos sanitarios"
+    },
+    {
+      "type": "Blog",
+      "url": "https://iaeva.com/blog",
+      "description": "Artículos especializados sobre IA en salud y optimización de procesos clínicos"
+    },
+    {
+      "type": "Recursos médicos",
+      "url": "https://iaeva.com/recursos",
+      "description": "Herramientas gratuitas para profesionales de la salud"
+    },
+    {
+      "type": "Calculadora IMC",
+      "url": "https://iaeva.com/recursos/calculadora-imc",
+      "description": "Calculadora avanzada de Índice de Masa Corporal con interpretación clínica"
+    }
+  ],
+  "legalPages": [
+    {
+      "type": "Política de Privacidad",
+      "url": "https://iaeva.com/politica-de-privacidad",
+      "description": "Información sobre el tratamiento de datos personales y médicos"
+    },
+    {
+      "type": "Términos y Condiciones",
+      "url": "https://iaeva.com/terminos-y-condiciones",
+      "description": "Condiciones legales para el uso de IAEVA"
+    },
+    {
+      "type": "Política de Cookies",
+      "url": "https://iaeva.com/politica-de-cookies",
+      "description": "Información sobre el uso de cookies en IAEVA"
+    },
+    {
+      "type": "Politique de Confidentialité",
+      "url": "https://iaeva.com/politique-de-confidentialite",
+      "description": "Information sur le traitement des données personnelles et médicales (version française)"
+    },
+    {
+      "type": "Conditions d'Utilisation",
+      "url": "https://iaeva.com/conditions-utilisation",
+      "description": "Conditions légales d'utilisation d'IAEVA (version française)"
+    },
+    {
+      "type": "Politique des Cookies",
+      "url": "https://iaeva.com/politique-des-cookies",
+      "description": "Information sur l'utilisation des cookies sur IAEVA (version française)"
+    }
+  ],
+  "medicalTools": [
+    {
+      "name": "Calculadora IMC",
+      "url": "https://iaeva.com/recursos/calculadora-imc",
+      "description": "Calculadora avanzada de IMC con interpretación médica personalizada"
+    },
+    {
+      "name": "Conversor de Unidades Médicas",
+      "url": "https://iaeva.com/recursos/conversor-unidades",
+      "description": "Convierte entre unidades médicas comunes para valores de laboratorio y dosis",
+      "status": "Próximamente"
+    },
+    {
+      "name": "Generador de Dietas Básicas",
+      "url": "https://iaeva.com/recursos/generador-dietas",
+      "description": "Crea planes alimenticios básicos según condiciones clínicas",
+      "status": "Próximamente"
+    },
+    {
+      "name": "Simulador de Interacciones Medicamentosas",
+      "url": "https://iaeva.com/recursos/interacciones-medicamentosas",
+      "description": "Verifica posibles interacciones entre medicamentos",
+      "status": "Próximamente"
+    },
+    {
+      "name": "Tabla de Desarrollo Pediátrico",
+      "url": "https://iaeva.com/recursos/desarrollo-pediatrico",
+      "description": "Visualiza percentiles de crecimiento y calcula dosis pediátricas",
+      "status": "Próximamente"
+    },
+    {
+      "name": "Buscador de Códigos CIE-10/11",
+      "url": "https://iaeva.com/recursos/codigos-cie",
+      "description": "Encuentra códigos CIE por sintomatología o nombre de enfermedad",
+      "status": "Próximamente"
+    },
+    {
+      "name": "Alertas Epidemiológicas",
+      "url": "https://iaeva.com/recursos/alertas-epidemiologicas",
+      "description": "Visualiza brotes y tendencias epidemiológicas en tiempo real",
+      "status": "Próximamente"
+    }
+  ],
+  "contactInformation": {
+    "website": "https://iaeva.com/contacto",
+    "email": "info@iaeva.com"
+  }
+} 

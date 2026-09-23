@@ -1,0 +1,32 @@
+{
+  "name": "IAEVA - Asistente Virtual IA",
+  "short_name": "IAEVA",
+  "icons": [
+    {
+      "src": "/favicon/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#5046e5",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "IAEVA - Asistente virtual inteligente para empresas de salud",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["healthcare", "ai", "assistant", "virtual assistant"],
+  "screenshots": [
+    {
+      "src": "/images/iaeva-assistant.webp",
+      "sizes": "1280x720",
+      "type": "image/webp"
+    }
+  ]
+} 

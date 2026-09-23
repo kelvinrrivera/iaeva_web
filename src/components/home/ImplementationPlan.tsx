@@ -1,5 +1,5 @@
-
 import { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface StepProps {
   number: number;
@@ -23,6 +23,7 @@ const Step = ({ number, title, description }: StepProps) => {
 };
 
 const ImplementationPlan = () => {
+  const { t } = useTranslation('home');
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -54,15 +55,14 @@ const ImplementationPlan = () => {
           ref={sectionRef}
           className={`text-center mb-12 transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-iaeva-bg-light text-iaeva-blue font-medium text-sm mb-3">
-            Proceso sencillo
+          <span className="inline-block px-4 py-1.5 rounded-full bg-iaeva-bg-light text-iaeva-blue-dark font-medium text-sm mb-3">
+            {t('implementation.badge')}
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Implementación <span className="gradient-text"> sin complicaciones</span>
+            {t('implementation.title')} <span className="gradient-text"> {t('implementation.title_highlighted')}</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Sabemos lo valioso que es el tiempo en un centro de salud. Por eso, hemos diseñado un proceso de implementación 
-            para IAEVA que es rápido, sencillo y sin interrupciones en tu flujo de trabajo.
+            {t('implementation.description')}
           </p>
         </div>
 
@@ -74,42 +74,41 @@ const ImplementationPlan = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-4 relative z-10">
             <Step 
               number={1} 
-              title="Análisis de Requisitos" 
-              description="Identificamos las necesidades específicas de tu centro médico"
+              title={t('implementation.step1_title')} 
+              description={t('implementation.step1_description')}
             />
             <Step 
               number={2} 
-              title="Diseño del Sistema" 
-              description="Creamos la arquitectura técnica y funcional adaptada a tus procesos"
+              title={t('implementation.step2_title')}
+              description={t('implementation.step2_description')}
             />
             <Step 
               number={3} 
-              title="Desarrollo" 
-              description="Adaptamos el sistema: CRM, módulo de citas, WhatsApp, etc."
+              title={t('implementation.step3_title')}
+              description={t('implementation.step3_description')}
             />
             <Step 
               number={4} 
-              title="Integración" 
-              description="Conectamos IAEVA con tus sistemas existentes (HIS, CRM)"
+              title={t('implementation.step4_title')}
+              description={t('implementation.step4_description')}
             />
             <Step 
               number={5} 
-              title="Capacitación" 
-              description="Formamos a tu equipo para aprovechar todas las funcionalidades"
+              title={t('implementation.step5_title')}
+              description={t('implementation.step5_description')}
             />
             <Step 
               number={6} 
-              title="Lanzamiento" 
-              description="Implementamos con monitoreo continuo y mejoras regulares"
+              title={t('implementation.step6_title')}
+              description={t('implementation.step6_description')}
             />
           </div>
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-iaeva-blue font-medium mb-2">Tiempo estimado: <span className="font-bold">30 días</span></p>
+          <p className="text-iaeva-blue-dark font-medium mb-2">{t('implementation.estimated_time_label')} <span className="font-bold">{t('implementation.estimated_time_value')}</span></p>
           <p className="text-gray-600 text-sm max-w-xl mx-auto">
-            El proceso está diseñado para minimizar interrupciones y maximizar resultados, 
-            adaptándose a las necesidades específicas de tu centro de salud.
+            {t('implementation.final_note')}
           </p>
         </div>
       </div>

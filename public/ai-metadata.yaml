@@ -1,0 +1,257 @@
+website: "IAEVA - Inteligencia Artificial para Optimización Sanitaria"
+url: https://iaeva.com
+description: |
+  IAEVA ofrece soluciones de inteligencia artificial especializadas para el sector sanitario, 
+  con foco en optimización de agendas médicas, reducción de ausencias de pacientes y 
+  mejora de la eficiencia clínica en hospitales y centros de salud.
+
+primaryLanguages:
+  - es
+  - fr
+
+organization:
+  name: IAEVA
+  founded: 2024
+  type: Software as a Service (SaaS)
+  industry: Healthcare Technology
+  parent: KelvinScale
+  mission: |
+    Transformar la gestión sanitaria mediante inteligencia artificial, mejorando 
+    la eficiencia operativa y la experiencia del paciente de forma simultánea.
+  founder: Kelvin Rivera
+  headquarters: Madrid, España
+  contactEmail: info@iaeva.com
+  socialMedia:
+    linkedin: https://www.linkedin.com/in/kelvinrrivera/
+
+solutions:
+  - name: Asistente Virtual Médico
+    description: |
+      Sistema multicanal de comunicación con pacientes para gestión automatizada de citas,
+      recordatorios y resolución de consultas frecuentes a través de IA conversacional.
+    useCases:
+      - Programación automática de citas 24/7
+      - Gestión de recordatorios y confirmaciones
+      - Reprogramación inteligente de cancelaciones
+      - Resolución de dudas frecuentes
+      - Seguimiento post-consulta
+    benefits:
+      - Reducción del 70% en carga administrativa
+      - Atención inmediata 24/7 sin personal adicional
+      - Personalización de la comunicación según paciente
+      - Análisis automático de patrones de comunicación
+
+  - name: Optimización de Agendas Médicas
+    description: |
+      Algoritmos predictivos que optimizan la programación de citas y reducen hasta un 60%
+      las ausencias, maximizando la ocupación y rentabilidad de la clínica.
+    useCases:
+      - Predicción de probabilidad de ausencias
+      - Distribución eficiente de recursos médicos
+      - Minimización de tiempos de espera
+      - Programación basada en patrones históricos
+      - Optimización dinámica ante cancelaciones
+    benefits:
+      - Reducción del 60% en ausencias
+      - Incremento del 25% en ocupación de agendas
+      - Mejora del 20% en rentabilidad por consulta
+      - Optimización basada en patrones históricos
+
+  - name: Plataforma de Análisis de citas
+    description: |
+      Dashboard analítico con métricas clave para monitorizar y mejorar continuamente
+      la eficiencia operativa del centro médico.
+    useCases:
+      - Análisis de tendencias de asistencia
+      - Identificación de áreas de mejora
+      - Métricas de rendimiento por departamento
+      - Optimización continua basada en datos
+      - Reportes personalizados para dirección
+    benefits:
+      - Visualización en tiempo real de KPIs
+      - Detección temprana de problemas
+      - Decisiones basadas en datos reales
+      - Seguimiento de mejoras implementadas
+
+medicalTools:
+  - name: Calculadora IMC Avanzada
+    url: https://iaeva.com/recursos/calculadora-imc
+    description: |
+      Herramienta que permite calcular el IMC con interpretación clínica
+      personalizada y recomendaciones específicas según el perfil del paciente.
+    status: available
+    features:
+      - Cálculo preciso según estándares de la OMS
+      - Interpretación médica según edad y género
+      - Estimación de grasa corporal
+      - Recomendaciones personalizadas
+      - Gráfico visual de rangos saludables
+    keywords:
+      - calculadora IMC avanzada
+      - índice de masa corporal
+      - calcular peso ideal
+      - grasa corporal estimada
+      - IMC profesional sanitario
+
+  - name: Conversor de Unidades Médicas
+    url: https://iaeva.com/recursos/conversor-unidades
+    description: |
+      Conversor para unidades médicas comunes, incluyendo valores de laboratorio,
+      dosis de medicamentos y unidades de insulina.
+    status: available
+    features:
+      - Conversión bidireccional entre sistemas de unidades
+      - Valores de laboratorio clínico
+      - Unidades de concentración y dosis
+      - Referencias de valores normales
+      - Interfaz intuitiva para profesionales
+    keywords:
+      - conversor unidades médicas
+      - unidades laboratorio médico
+      - conversor valores analítica
+      - conversión mg/dl a mmol/l
+      - unidades médicas internacionales
+
+benefits:
+  - Reducción del 60% en ausencias de pacientes
+  - Disminución del 70% en carga administrativa
+  - Mejora del 35% en satisfacción del paciente
+  - Aumento del 25% en eficiencia operativa
+  - ROI promedio de 300% en el primer año
+  - Optimización automática de agendas médicas
+  - Reducción de costes operativos
+  - Experiencia del paciente mejorada
+
+technicalSpecifications:
+  architecture: Cloud-based SaaS
+  deployment: Web application + API integrations
+  availability: 99.9% uptime SLA
+  dataPrivacy: Cifrado de extremo a extremo
+  apiAccess: REST API disponible
+  languages: Compatible con múltiples idiomas
+  browsers: Compatible con Chrome, Firefox, Safari, Edge
+  mobile: Responsive design para dispositivos móviles
+  updates: Actualizaciones automáticas regulares
+
+caseStudies:
+  - title: "Caso Práctico: Optimización de agenda médica con IA"
+    url: https://iaeva.com/blog/caso-practico-optimizacion-agenda-medica-ia
+    results: "40% reducción en ausencias, 30% incremento en eficiencia operativa"
+    industry: Hospital público
+    implementation: 3 meses
+  
+  - title: "10 ventajas de implementar un asistente virtual con IA en la gestión de citas"
+    url: https://iaeva.com/blog/ventajas-asistente-virtual-ia-gestion-citas
+    results: "Automatización del 85% de las interacciones con pacientes, reducción del 70% en tiempo administrativo"
+    industry: Clínica privada especializada
+    implementation: 2 meses
+  
+  - title: "Cómo la automatización reduce las ausencias en clínicas y hospitales"
+    url: https://iaeva.com/blog/automatizacion-reduce-ausencias-clinicas
+    results: "60% reducción en costes asociados a ausencias, mejora significativa en rentabilidad"
+    industry: Red de centros médicos
+    implementation: 4 meses
+
+keyPages:
+  - name: Inicio
+    url: https://iaeva.com
+    description: Página principal con información general sobre IAEVA
+    keywords: IA sanitaria, asistente virtual médico, optimización agenda médica
+
+  - name: Casos de Uso
+    url: https://iaeva.com/casos-de-uso
+    description: Escenarios de aplicación en diferentes entornos sanitarios
+    keywords: casos uso IA salud, ejemplos asistente médico, aplicaciones IA sanidad
+
+  - name: Calculadora ROI
+    url: https://iaeva.com/calculadora-roi
+    description: Calcula el retorno de inversión de implementar IAEVA
+    keywords: ROI asistente virtual sanitario, retorno inversión IA médica
+
+  - name: Recursos
+    url: https://iaeva.com/recursos
+    description: Herramientas médicas gratuitas para profesionales sanitarios
+    keywords: herramientas médicas gratuitas, calculadoras sanitarias, recursos clínicos
+
+  - name: Blog
+    url: https://iaeva.com/blog
+    description: Artículos sobre IA en salud y optimización sanitaria
+    keywords: blog IA salud, artículos optimización sanitaria, reducción ausencias
+
+  - name: Contacto
+    url: https://iaeva.com/contacto
+    description: Información de contacto y formulario de consulta
+    keywords: contacto IAEVA, solicitar demostración, consulta asistente virtual
+
+legalInformation:
+  spanish:
+    - name: Política de Privacidad
+      url: https://iaeva.com/politica-de-privacidad
+      updated: 2025-05-01
+      
+    - name: Términos y Condiciones
+      url: https://iaeva.com/terminos-y-condiciones
+      updated: 2025-05-01
+      
+    - name: Política de Cookies
+      url: https://iaeva.com/politica-de-cookies
+      updated: 2025-05-01
+      
+  french:
+    - name: Politique de Confidentialité
+      url: https://iaeva.com/politique-de-confidentialite
+      updated: 2025-05-01
+      
+    - name: Conditions d'Utilisation
+      url: https://iaeva.com/conditions-utilisation
+      updated: 2025-05-01
+      
+    - name: Politique des Cookies
+      url: https://iaeva.com/politique-des-cookies
+      updated: 2025-05-01
+
+keywords:
+  - IA en salud
+  - asistente virtual médico
+  - optimización agenda médica
+  - reducción ausencias pacientes
+  - eficiencia hospitalaria
+  - automatización sanitaria
+  - gestión citas médicas
+  - inteligencia artificial salud
+  - transformación digital clínicas
+  - software gestión hospitalaria
+  - calculadora IMC profesional
+  - herramientas médicas gratuitas
+  - recursos para médicos
+  - conversor unidades médicas
+  - interacciones medicamentosas
+  - CIE-10 buscador
+  - optimización sanitaria
+  - IA conversacional salud
+  - predicción ausencias pacientes
+  - análisis clínico IA
+
+faq:
+  - question: "¿Qué es IAEVA?"
+    answer: "IAEVA es un asistente virtual inteligente especializado en el sector sanitario que optimiza agendas médicas, reduce ausencias de pacientes y mejora la eficiencia operativa en hospitales y clínicas."
+  
+  - question: "¿Cómo reduce IAEVA las ausencias de pacientes?"
+    answer: "IAEVA utiliza algoritmos predictivos para identificar patrones de ausencias, envía recordatorios personalizados por múltiples canales, y ofrece reprogramación instantánea cuando detecta posibles cancelaciones."
+  
+  - question: "¿Es compatible con otros sistemas de gestión hospitalaria?"
+    answer: "Sí, IAEVA se integra con la mayoría de sistemas EMR, HMS y software de gestión de citas médicas a través de APIs seguras y conectores personalizados."
+  
+  - question: "¿Qué idiomas soporta IAEVA?"
+    answer: "Actualmente IAEVA está disponible en español y francés, con planes de expansión a inglés, portugués y otros idiomas próximamente."
+  
+  - question: "¿Cuánto tiempo lleva implementar IAEVA en mi centro médico?"
+    answer: "El tiempo promedio de implementación es de 2-4 meses, dependiendo de la complejidad de los sistemas existentes y la personalización requerida."
+
+contact:
+  website: https://iaeva.com/contacto
+  email: info@iaeva.com
+  phone: "+34649061730"
+  
+  socialProfiles:
+    linkedin: "https://www.linkedin.com/in/kelvinrrivera/"

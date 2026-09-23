@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const IAEVAPhoneInterface = () => {
+  const { t } = useTranslation('home');
   const [callState, setCallState] = useState('inactive'); // inactive, ringing, active, ended
   const [conversationStage, setConversationStage] = useState(0);
   const [assistantResponse, setAssistantResponse] = useState("");
@@ -21,19 +23,19 @@ const IAEVAPhoneInterface = () => {
   
   // Simulación de respuestas del asistente en una llamada de confirmación de cita
   const simulatedResponses = [
-    { text: "Hola, soy IAEVA, asistente virtual de MedicalCare. ¿Estoy hablando con Juan Pérez?", delay: 5500 },
-    { text: "Le llamo para confirmar su cita médica con el Dr. García en Dermatología programada para mañana jueves a las 15:30. ¿Podrá asistir a la cita?", delay: 6000 },
-    { text: "Perfecto. Su cita queda confirmada para mañana a las 3:30 PM. Recuerde llegar 15 minutos antes y traer su identificación y tarjeta del seguro.", delay: 7500 },
-    { text: "¿Necesita información adicional sobre cómo llegar a la clínica o tiene alguna otra pregunta?", delay: 5000 },
-    { text: "Entendido. Gracias por su tiempo. Que tenga un excelente día.", delay: 5500 }
+    { text: t('vapi_voice_phone.assistant_message1'), delay: 5500 },
+    { text: t('vapi_voice_phone.assistant_message2'), delay: 6000 },
+    { text: t('vapi_voice_phone.assistant_message3'), delay: 7500 },
+    { text: t('vapi_voice_phone.assistant_message4'), delay: 5000 },
+    { text: t('vapi_voice_phone.assistant_message5'), delay: 5500 }
   ];
   
   // Simulación de respuestas del usuario
   const userResponses = [
-    "Sí, soy Juan Pérez.",
-    "Sí, podré asistir a la cita mañana.",
+    t('vapi_voice_phone.user_message1'),
+    t('vapi_voice_phone.user_message2'),
     "",
-    "No, gracias. Tengo toda la información que necesito.",
+    t('vapi_voice_phone.user_message3'),
     ""
   ];
   
@@ -462,25 +464,25 @@ const IAEVAPhoneInterface = () => {
             <div className="text-center mb-2">
               {callState === 'inactive' && (
                 <div className="text-indigo-800 font-medium">
-                  Demostración de IAEVA
+                  {t('vapi_voice_phone.caller_description')}
                 </div>
               )}
               
               {callState === 'ringing' && (
                 <div className="text-green-600 font-medium animate-pulse">
-                  Llamando...
+                  {t('vapi_voice_phone.calling')}
                 </div>
               )}
               
               {callState === 'active' && (
                 <div className="text-green-600 font-medium">
-                  En llamada - {formatTime(callDuration)}
+                  {t('vapi_voice_phone.call_in_progress')} - {formatTime(callDuration)}
                 </div>
               )}
               
               {callState === 'ended' && (
                 <div className="text-red-600 font-medium">
-                  Llamada finalizada - {formatTime(callDuration)}
+                  {t('vapi_voice_phone.call_ended')} - {formatTime(callDuration)}
                 </div>
               )}
             </div>
@@ -504,10 +506,10 @@ const IAEVAPhoneInterface = () => {
               </div>
               
               <h3 className="text-lg font-bold text-indigo-900">IAEVA</h3>
-              <p className="text-sm text-indigo-700">Asistente Virtual</p>
+              <p className="text-sm text-indigo-700">{t('vapi_voice_phone.caller_description')}</p>
               {callState === 'active' && (
                 <div className="mt-1 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full font-medium">
-                  Llamada segura
+                  {t('floating_chat.always_available')}
                 </div>
               )}
             </div>
@@ -530,6 +532,7 @@ const IAEVAPhoneInterface = () => {
                 <button 
                   onClick={startCall}
                   className="w-16 h-16 rounded-full bg-green-500 flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors"
+                  aria-label={t('vapi_voice_phone.start_call', 'Iniciar llamada')}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -539,7 +542,8 @@ const IAEVAPhoneInterface = () => {
               
               {(callState === 'ringing' || callState === 'active') && (
                 <>
-                  <button className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                  <button className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center"
+                          aria-label={t('vapi_voice_phone.volume_control', 'Control de volumen')}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                       <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -550,6 +554,7 @@ const IAEVAPhoneInterface = () => {
                   <button 
                     onClick={endCall}
                     className="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center shadow-lg hover:bg-red-600 transition-colors"
+                    aria-label={t('vapi_voice_phone.end_call', 'Finalizar llamada')}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91"></path>
@@ -557,7 +562,8 @@ const IAEVAPhoneInterface = () => {
                     </svg>
                   </button>
                   
-                  <button className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                  <button className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center"
+                          aria-label={t('vapi_voice_phone.mute_microphone', 'Silenciar micrófono')}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
                       <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
@@ -572,6 +578,7 @@ const IAEVAPhoneInterface = () => {
                 <button 
                   onClick={resetConversation}
                   className="w-16 h-16 rounded-full bg-indigo-500 flex items-center justify-center shadow-lg hover:bg-indigo-600 transition-colors"
+                  aria-label={t('vapi_voice_phone.reset_conversation', 'Reiniciar conversación')}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>

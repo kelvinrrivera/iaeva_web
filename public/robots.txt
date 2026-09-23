@@ -1,0 +1,16 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://iaeva.com/sitemap.xml
+
+# Specific allow/disallow rules (Allow is implicit with Allow: / but keeping consistent with previous file generally, though Allow: / overrides specific allows unless there's a specific disallow)
+
+# Block private directories
+Disallow: /.vscode/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.wrangler/
+Disallow: /admin

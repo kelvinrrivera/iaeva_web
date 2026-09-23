@@ -535,3 +535,20 @@ svg.absolute.-bottom-2.left-0.w-full.h-2.text-iaeva-purple\/30 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 177 179);
 }
+.borde {
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+.absolute.top-10.-right-6.lg\:-right-10.p-4.glass-panel.animate-float {
+  top: -20px;
+  right: -8px;
+}
+.absolute.-bottom-4.-right-4.w-full.h-full.bg-gradient-to-br.from-primary\/20.to-secondary\/20.rounded-xl {
+  display: none;
+}
+.cta-recursos {
+  background-color: #0fa4e0;
+}
+.text-dark {
+  color: #0a91b1;
+}

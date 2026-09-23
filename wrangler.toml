@@ -7,7 +7,16 @@ bucket = "./dist"
 [build]
 command = "npm run build"
 
+
+# Pages configuration
+pages_build_output_dir = "dist"
+
 [env.production]
 routes = [
   { pattern = "iaeva.com", custom_domain = true }
 ]
+
+# Deployment commands:
+# npx wrangler pages deploy dist
+# npx vite --force
+# npm run clean

@@ -1,16 +1,19 @@
-
 import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import CTAButtonShared from '@/components/shared/CTAButton';
 
 const CTAButton = () => {
+  const { t } = useTranslation('home');
+
   return (
     <div className="mt-10">
-      <Link 
-        to="/contacto" 
+      <CTAButtonShared
+        text={t('vapi_voice.cta_button')}
+        path="/contacto"
+        variant="primary"
         className="bg-gradient-to-r from-iaeva-blue to-iaeva-purple text-white px-6 py-3 rounded-full font-medium transition-all hover:shadow-button hover:translate-y-[-2px] inline-flex items-center"
-      >
-        Solicitar demo personalizada <ArrowRight className="ml-2" size={18} />
-      </Link>
+        isCalendarButton={true}
+      />
     </div>
   );
 };
