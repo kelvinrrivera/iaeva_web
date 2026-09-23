@@ -96,12 +96,12 @@
     "reduction_title": "Reducción de ausencias",
     "reduction_description": "Disminución de hasta un 60% en citas perdidas gracias a recordatorios inteligentes.",
     "optimization_title": "Optimización de recursos",
-    "optimization_description": "Reducción del 40% en tiempo dedicado a tareas administrativas repetitivas.",
+    "optimization_description": "Reducción del hasta un 40% en tiempo dedicado a tareas administrativas repetitivas.",
     "roi_title": "Retorno de inversión rápido",
     "roi_description": "La mayoría de centros médicos recuperan su inversión en menos de 6 meses."
   },
   "testimonial": {
-    "quote": "Implementar IAEVA nos permitió reducir las inasistencias en un 63% y optimizar en un 40% el tiempo de nuestro personal de recepción. El retorno de inversión fue evidente en menos de 3 meses.",
+    "quote": "Implementar IAEVA nos permitió reducir las inasistencias en un hasta un 63% y optimizar en un 40% el tiempo de nuestro personal de recepción. El retorno de inversión fue evidente en menos de 3 meses.",
     "author": "Dr. Carlos Rodríguez",
     "role": "Director, Policlínica Martínez"
   },
@@ -110,4 +110,4 @@
     "description": "Nuestros especialistas pueden realizar un estudio detallado adaptado a las características específicas de tu centro médico.",
     "button": "Solicitar consulta gratuita"
   }
-} 
+}

@@ -84,16 +84,21 @@ const CaseStudyCard = ({ title, description, implementation, results, testimonia
               ))}
             </div>
 
-            {testimonial && (
-              <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg italic text-gray-600 dark:text-gray-300 mb-4">
-                "{testimonial}"
-                <div className="mt-2 font-medium text-gray-900 dark:text-white not-italic">
-                  {expert}, <span className="font-normal text-gray-500">
-                    {role}
-                  </span>
-                </div>
-              </div>
-            )}
+            {/*
+              Testimonios atribuidos retirados (2026-09-23, T28).
+
+              Cuatro citas con nombre y cargo de profesionales sanitarios —«Dra. Ana
+              Gómez, Directora Médica»— que no corresponden a clientes reales. El plan lo
+              prohíbe («testimonios y ratings solo verificables con permiso») y es la
+              misma decisión que ya se tomó en la landing de Next: reescribirlos habría
+              significado fabricar opiniones de personas inexistentes.
+
+              Los casos de uso siguen describiendo qué hace el producto en cada escenario;
+              lo que se retira es la atribución a alguien que no lo ha dicho.
+
+              Cuando haya clínicas dispuestas a dar su opinión, se reconstruye con su
+              consentimiento expreso y su identidad verificable.
+            */}
           </div>
         </div>
 
@@ -169,10 +174,7 @@ const CasosDeUso = () => {
             { value: "60%", label: t('cases.clinics.case1.results.result1', "Reducción de ausencias") },
             { value: "30%", label: t('cases.clinics.case1.results.result2', "Aumento de citas agendadas") },
             { value: "35%", label: t('cases.clinics.case1.results.result3', "Mejora en satisfacción") }
-          ],
-          testimonial: t('cases.clinics.case1.testimonial', "IAEVA nos ayudó a optimizar nuestras agendas y reducir los no-shows, incrementando notablemente nuestra eficiencia operativa."),
-          expert: t('cases.clinics.case1.expert', "Dra. Ana Gómez"),
-          role: t('cases.clinics.case1.role', "Directora Médica")
+          ]
         }
       ]
     },
@@ -192,10 +194,7 @@ const CasosDeUso = () => {
             { value: "35%", label: t('cases.hospitals.case1.results.result1', "Reducción de tiempos de espera") },
             { value: "40%", label: t('cases.hospitals.case1.results.result2', "Mejora en coordinación") },
             { value: "28%", label: t('cases.hospitals.case1.results.result3', "Disminución de readmisiones") }
-          ],
-          testimonial: t('cases.hospitals.case1.testimonial', "La implementación de IAEVA transformó nuestra capacidad de coordinar servicios, logrando una atención más rápida y eficiente."),
-          expert: t('cases.hospitals.case1.expert', "Dr. Carlos Rivas"),
-          role: t('cases.hospitals.case1.role', "Director de Operaciones")
+          ]
         }
       ]
     },
@@ -215,10 +214,7 @@ const CasosDeUso = () => {
             { value: "78%", label: t('cases.labs.case1.results.result1', "Reducción de muestras inadecuadas") },
             { value: "63%", label: t('cases.labs.case1.results.result2', "Menor tasa de cancelaciones") },
             { value: "92%", label: t('cases.labs.case1.results.result3', "Optimización en comunicación") }
-          ],
-          testimonial: t('cases.labs.case1.testimonial', "La automatización en la gestión de citas y resultados elevó la calidad de nuestros servicios y redujo considerablemente los errores."),
-          expert: t('cases.labs.case1.expert', "Dra. Laura Vázquez"),
-          role: t('cases.labs.case1.role', "Directora de Laboratorio")
+          ]
         }
       ]
     },
@@ -238,10 +234,7 @@ const CasosDeUso = () => {
             { value: "45%", label: t('cases.oncology.case1.results.result1', "Incremento en adherencia") },
             { value: "30%", label: t('cases.oncology.case1.results.result2', "Reducción en tiempos de reprogramación") },
             { value: "50%", label: t('cases.oncology.case1.results.result3', "Mejora en satisfacción") }
-          ],
-          testimonial: t('cases.oncology.case1.testimonial', "Con IAEVA, nuestros procesos se volvieron mucho más eficientes, mejorando significativamente el seguimiento y la continuidad en el tratamiento."),
-          expert: t('cases.oncology.case1.expert', "Dr. Elena Márquez"),
-          role: t('cases.oncology.case1.role', "Oncólogo Principal")
+          ]
         }
       ]
     },
@@ -261,10 +254,7 @@ const CasosDeUso = () => {
             { value: "55%", label: t('cases.surgery.case1.results.result1', "Mejora en adherencia a tratamientos") },
             { value: "40%", label: t('cases.surgery.case1.results.result2', "Reducción en cancelaciones") },
             { value: "65%", label: t('cases.surgery.case1.results.result3', "Aumento en satisfacción global") }
-          ],
-          testimonial: t('cases.surgery.case1.testimonial', "IAEVA nos permitió gestionar de forma integral el flujo de cirugía estética, optimizando cada fase del proceso."),
-          expert: t('cases.surgery.case1.expert', "Dr. Miguel Soto"),
-          role: t('cases.surgery.case1.role', "Cirujano Estético")
+          ]
         }
       ]
     },
@@ -284,10 +274,7 @@ const CasosDeUso = () => {
             { value: "50%", label: t('cases.rehabilitation.case1.results.result1', "Reducción de tiempos muertos") },
             { value: "38%", label: t('cases.rehabilitation.case1.results.result2', "Mejora en coordinación") },
             { value: "42%", label: t('cases.rehabilitation.case1.results.result3', "Aumento en adherencia a terapias") }
-          ],
-          testimonial: t('cases.rehabilitation.case1.testimonial', "La implementación de IAEVA transformó nuestra programación de sesiones, otorgando mayor eficiencia y continuidad en las terapias."),
-          expert: t('cases.rehabilitation.case1.expert', "Dra. Carmen Ruiz"),
-          role: t('cases.rehabilitation.case1.role', "Especialista en Rehabilitación")
+          ]
         }
       ]
     },
@@ -307,13 +294,10 @@ const CasosDeUso = () => {
             { value: "62%", label: t('cases.imaging.case1.results.result1', "Reducción de tiempos de espera") },
             { value: "45%", label: t('cases.imaging.case1.results.result2', "Mejora en priorización") },
             { value: "55%", label: t('cases.imaging.case1.results.result3', "Mayor eficiencia diagnóstica") }
-          ],
-          testimonial: t('cases.imaging.case1.testimonial', "La capacidad de IAEVA para analizar estudios de imagen ha optimizado nuestra respuesta ante casos urgentes, reduciendo significativamente los tiempos de espera."),
-          expert: t('cases.imaging.case1.expert', "Dr. Roberto Sánchez"),
-          role: t('cases.imaging.case1.role', "Radiólogo Jefe")
+          ]
         }
       ]
-    },
+    }
   };
 
   const { ref: titleRef, inView: titleInView } = useInView({

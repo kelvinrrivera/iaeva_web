@@ -3,9 +3,9 @@
     "title": "Asistente virtual para clínicas dentales",
     "description": "Optimiza la gestión de pacientes, reduce las ausencias y mejora la experiencia en tu clínica dental con nuestro asistente virtual especializado en odontología.",
     "stats": {
-      "reduction": "-60%",
+      "reduction": "-hasta un 60%",
       "reduction_text": "Reducción de ausencias en clínicas dentales que usan IAEVA",
-      "satisfaction": "+30%",
+      "satisfaction": "+hasta un 30%",
       "satisfaction_text": "Aumento en satisfacción de pacientes dentales",
       "time_saving": "5h",
       "time_saving_text": "Ahorro semanal en gestión de citas para el personal"
@@ -70,7 +70,7 @@
     },
     "faq": {
       "question1": "¿Cómo ayuda IAEVA a las clínicas dentales a reducir ausencias?",
-      "answer1": "IAEVA reduce las ausencias en clínicas dentales hasta en un 60% mediante recordatorios automatizados personalizados enviados por WhatsApp, SMS o email, confirmación simplificada de citas, y algoritmos predictivos que identifican pacientes con alto riesgo de ausencia para aplicar protocolos de recordatorio específicos.",
+      "answer1": "IAEVA reduce las ausencias en clínicas dentales hasta en un hasta un 60% mediante recordatorios automatizados personalizados enviados por WhatsApp, SMS o email, confirmación simplificada de citas, y algoritmos predictivos que identifican pacientes con alto riesgo de ausencia para aplicar protocolos de recordatorio específicos.",
       "question2": "¿IAEVA puede integrarse con el software de gestión de mi clínica dental?",
       "answer2": "IAEVA puede funcionar de manera independiente con su propio sistema de gestión de citas o, si lo prefieres, podemos evaluar la posibilidad de integración con tu sistema existente. Cada caso se estudia individualmente, priorizando siempre la seguridad de datos y la integridad de tu infraestructura.",
       "question3": "¿Qué tipos de comunicaciones automatiza IAEVA en una clínica dental?",
@@ -81,9 +81,9 @@
     "title": "Gestión de prácticas de fisioterapia",
     "description": "Optimiza la gestión de tu clínica de fisioterapia, reduce ausencias y mejora el seguimiento de tratamientos con nuestro asistente virtual especializado.",
     "stats": {
-      "reduction": "-55%",
+      "reduction": "-hasta un 55%",
       "reduction_text": "Reducción de ausencias en clínicas de fisioterapia",
-      "adherence": "+40%",
+      "adherence": "+hasta un 40%",
       "adherence_text": "Mejora en adherencia a ejercicios terapéuticos",
       "time_saving": "6h",
       "time_saving_text": "Ahorro semanal en gestión administrativa"
@@ -151,9 +151,9 @@
     "title": "Cuidado de pacientes en oftalmología",
     "description": "Optimiza la gestión de tu clínica oftalmológica, reduce ausencias y mejora el seguimiento post-tratamiento con nuestro asistente virtual especializado.",
     "stats": {
-      "reduction": "-58%",
+      "reduction": "-hasta un 58%",
       "reduction_text": "Reducción de ausencias en clínicas oftalmológicas",
-      "adherence": "+45%",
+      "adherence": "+hasta un 45%",
       "adherence_text": "Mejora en adherencia post-tratamiento",
       "time_saving": "7h",
       "time_saving_text": "Ahorro semanal en gestión administrativa"
@@ -221,11 +221,11 @@
     "title": "Eficiencia de centros médicos",
     "description": "Optimiza el funcionamiento de tu centro médico, coordina múltiples especialistas y mejora la experiencia del paciente con nuestro asistente virtual inteligente.",
     "stats": {
-      "reduction": "-62%",
+      "reduction": "-hasta un 62%",
       "reduction_text": "Reducción de ausencias en centros médicos",
-      "efficiency": "+38%",
+      "efficiency": "+hasta un 38%",
       "efficiency_text": "Aumento en eficiencia administrativa",
-      "satisfaction": "+25%",
+      "satisfaction": "+hasta un 25%",
       "satisfaction_text": "Mejora en satisfacción del paciente"
     },
     "features_title": "Soluciones para centros médicos",
@@ -292,9 +292,9 @@
     "title": "Soluciones de gestión de pacientes",
     "description": "Transforma la comunicación con tus pacientes, optimiza la gestión de citas y mejora la eficiencia operativa de tu centro médico con nuestro asistente virtual inteligente.",
     "stats": {
-      "reduction": "-60%",
+      "reduction": "-hasta un 60%",
       "reduction_text": "Reducción de ausencias de pacientes",
-      "efficiency": "+35%",
+      "efficiency": "+hasta un 35%",
       "efficiency_text": "Aumento en eficiencia administrativa",
       "availability": "24/7",
       "availability_text": "Atención automatizada a pacientes"
@@ -368,9 +368,9 @@
       "quote_author": "Equipo de investigación de IAEVA",
       "quote_position": "Basado en análisis de múltiples sectores sanitarios",
       "stats": {
-        "patients_prefer": "78%",
+        "patients_prefer": "hasta un 78%",
         "patients_prefer_text": "de pacientes prefieren recordatorios automatizados",
-        "confirmation_accuracy": "92%",
+        "confirmation_accuracy": "hasta un 92%",
         "confirmation_accuracy_text": "mayor precisión en las confirmaciones"
       }
     },
@@ -387,4 +387,4 @@
       "calculate_roi": "Calcular ROI"
     }
   }
-} 
+}

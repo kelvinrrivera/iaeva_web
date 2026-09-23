@@ -16,7 +16,7 @@
   "metrics_disclaimer": "Las métricas mostradas corresponden a resultados esperables según benchmarks del sector, pruebas internas y escenarios piloto. Los resultados reales pueden variar según el tipo de centro y su operativa.",
   "trust_badges": {
     "absences": {
-      "value": "Hasta -60%",
+      "value": "Hasta -hasta un 60%",
       "label": "Reducción de ausencias*"
     },
     "security": {
@@ -42,7 +42,7 @@
       "label": "Satisfacción (estimada)"
     },
     "wait_time": {
-      "value": "-60%",
+      "value": "-hasta un 60%",
       "label": "Tiempos de espera*"
     },
     "availability": {

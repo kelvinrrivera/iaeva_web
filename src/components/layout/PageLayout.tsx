@@ -23,14 +23,22 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children, className = '' }) => 
           {JSON.stringify(organizationSchema)}
         </script>
 
-        <script type="text/javascript">
-          {`
-            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.eu/embed/embed.js", "init");
-            Cal("init", "30min", {origin:"https://app.cal.eu"});
-            
-            Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
-          `}
-        </script>
+        {/*
+          Script de Cal.com retirado (2026-09-23, T28).
+
+          Se inyectaba en **todas** las páginas desde aquí, y cargaba un script de un
+          tercero (`app.cal.eu`) en cada visita. El calendario de reserva de demos ya se
+          retiró al adaptar el producto al modelo SaaS, así que no quedaba nada que
+          mostrar: solo la petición externa.
+
+          Importa por dos motivos. Uno de privacidad: es un tercero que ve la IP de cada
+          visitante sin que nadie lo haya consentido, y sin él la landing **no necesita
+          banner de cookies** porque no queda ningún tracker. Y uno de rendimiento: una
+          petición bloqueante a otro dominio en cada carga.
+
+          Si vuelven las demos agendadas, el script se carga solo en la página que lo use,
+          no en todas.
+        */}
       </Helmet>
 
       <Navbar />

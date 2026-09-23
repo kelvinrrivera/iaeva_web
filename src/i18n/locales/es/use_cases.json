@@ -205,11 +205,11 @@
   "benefits": {
     "title": "Beneficios comprobados",
     "reduction_title": "Reducción de ausencias",
-    "reduction_description": "Disminución del 60% en citas perdidas gracias a recordatorios inteligentes.",
+    "reduction_description": "Disminución del hasta un 60% en citas perdidas gracias a recordatorios inteligentes.",
     "satisfaction_title": "Satisfacción del paciente",
-    "satisfaction_description": "97% de valoraciones positivas en la experiencia de atención automatizada.",
+    "satisfaction_description": "hasta un 97% de valoraciones positivas en la experiencia de atención automatizada.",
     "efficiency_title": "Eficiencia operativa",
-    "efficiency_description": "Reducción del 40% en tiempo dedicado a tareas administrativas."
+    "efficiency_description": "Reducción del hasta un 40% en tiempo dedicado a tareas administrativas."
   },
   "testimonial": {
     "quote": "IAEVA ha transformado completamente la gestión de citas en nuestra clínica. Las recepciones ya no están saturadas de llamadas y nuestros pacientes valoran enormemente la facilidad para gestionar sus citas 24/7.",
@@ -220,4 +220,4 @@
     "title": "¿Listo para transformar la experiencia en tu centro médico?",
     "button": "Solicitar una demo personalizada"
   }
-} 
+}

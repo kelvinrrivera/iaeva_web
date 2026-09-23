@@ -10,7 +10,6 @@ import Testimonials from '@/components/home/Testimonials';
 import CTASection from '@/components/home/CTASection';
 import IAEVAWhatsApp from '@/components/home/IAEVAWhatsApp';
 import CustomerServiceHub from '@/components/home/CustomerServiceHub';
-import VapiVoice from '@/components/home/VapiVoice';
 import FAQ from '@/components/home/FAQ';
 import TrustBadges from '@/components/home/TrustBadges';
 import GuidePromotion from '@/components/home/GuidePromotion';
@@ -131,7 +130,20 @@ const Index = () => {
         <GuidePromotion />
         <IAEVAWhatsApp />
         <HowItWorks />
-        <VapiVoice />
+        {/*
+          Sección de llamadas por voz retirada (2026-09-23, T28).
+
+          Tres motivos, cualquiera bastaría:
+
+          1. **La función está aplazada** a fase 2 (D-14). Anunciar «Llamadas que generan
+             confianza» y «Reservar demo gratuita» promete algo que hoy no se entrega.
+          2. **«Habla con la naturalidad de una persona»** contradice la política de
+             revelación de IA: el asistente debe decir que lo es, no parecer humano.
+          3. El CTA llevaba a una demo con Cal.com que ya no existe.
+
+          El componente se conserva en `components/home/VapiVoice.tsx` para cuando la voz
+          entre en fase 2, con sus textos revisados.
+        */}
         <CustomerServiceHub />
         <SafetySection />
         <ImplementationPlan />
