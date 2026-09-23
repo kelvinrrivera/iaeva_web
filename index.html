@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IAEVA | Asistente Virtual para Empresas de Salud | KelvinScale</title>
-    <meta name="description" content="IAEVA - Asistente virtual inteligente para empresas de salud. Mejora la atención al paciente y optimiza la gestión de citas las 24 horas." />
+    <!--
+      Metadatos por defecto: solo se usan mientras Helmet no los sustituya.
+
+      `data-rh="true"` marca cada etiqueta como gestionada por react-helmet-async. Sin esa
+      marca, Helmet **añade** las suyas en vez de reemplazar estas, y el HTML acababa con
+      dos `meta description`: Google lee la primera, que era la genérica de la home. Por
+      eso las 27 páginas mostraban la misma descripción aunque cada una definiera la suya.
+    -->
+    <title data-rh="true">IAEVA | Asistente Virtual para Empresas de Salud | KelvinScale</title>
+    <meta data-rh="true" name="description" content="IAEVA - Asistente virtual inteligente para empresas de salud. Mejora la atención al paciente y optimiza la gestión de citas las 24 horas." />
     <meta name="author" content="KelvinScale" />
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="asistente virtual, inteligencia artificial, salud, atención al paciente, IA conversacional, citas médicas" />
@@ -12,8 +20,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://iaeva.com/" />
-    <meta property="og:title" content="IAEVA | Asistente Virtual Inteligente para Salud" />
-    <meta property="og:description" content="Automatiza la atención al paciente y la gestión de citas con IAEVA, el asistente virtual IA para empresas de salud. Disponible 24/7." />
+    <meta data-rh="true" property="og:title" content="IAEVA | Asistente Virtual Inteligente para Salud" />
+    <meta data-rh="true" property="og:description" content="Automatiza la atención al paciente y la gestión de citas con IAEVA, el asistente virtual IA para empresas de salud. Disponible 24/7." />
     <meta property="og:image" content="/images/iaeva-og-image.jpg" />
     
     <!-- Twitter -->

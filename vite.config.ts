@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import viteImagemin from 'vite-plugin-imagemin';
 
+
 export default defineConfig(({ mode }) => ({
   base: "/",
   server: {
@@ -12,6 +13,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     splitVendorChunkPlugin(),
+
     viteImagemin({
       gifsicle: {
         optimizationLevel: 7,

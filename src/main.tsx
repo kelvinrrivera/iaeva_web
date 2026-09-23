@@ -38,6 +38,22 @@ function renderApp() {
           <App />
         </React.StrictMode>
       );
+
+      // Señal para el prerenderizador.
+      //
+      // Puppeteer captura el HTML cuando recibe este evento. Sin él tomaría la instantánea
+      // antes de que `react-helmet-async` haya escrito el título y la descripción de la
+      // ruta, y volveríamos a guardar el título de la home en las 40 páginas — que es
+      // justo el problema que el prerenderizado viene a resolver.
+      //
+      // Doble `requestAnimationFrame`: el primero se ejecuta antes del pintado, el segundo
+      // después. Es la forma fiable de esperar a que React haya aplicado los efectos que
+      // tocan el `<head>`.
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          document.dispatchEvent(new Event('prerender-ready'));
+        });
+      });
     } else {
       console.error('No se pudo encontrar el elemento raíz para renderizar la aplicación.');
     }

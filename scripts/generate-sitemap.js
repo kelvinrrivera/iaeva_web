@@ -34,20 +34,23 @@ const staticRoutes = [
     { loc: '/ophthalmology-patient-care', changefreq: 'monthly', priority: '0.8' },
     { loc: '/medical-center-efficiency', changefreq: 'monthly', priority: '0.8' },
     { loc: '/patient-management-solutions', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/guia-definitiva-ia-salud', changefreq: 'monthly', priority: '0.9' },
+    // `/guia-definitiva-ia-salud` retirada (2026-09-23): **no existe la ruta**. El
+    // sitemap la anunciaba y devolvía el 404 de la SPA con HTTP 200, así que Google la
+    // trataba como página válida y vacía. El contenido real está en
+    // `/recursos/guia-eficiencia-clinica`, que sí funciona y sigue en el sitemap.
     { loc: '/recursos/guia-eficiencia-clinica', changefreq: 'monthly', priority: '0.8' },
 
     // French Pages
-    { loc: '/fr', changefreq: 'weekly', priority: '0.9', alternate: { es: '/' } },
-    { loc: '/fr/dental-clinic-assistant', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/fr/physiotherapy-practice-management', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/fr/ophthalmology-patient-care', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/fr/medical-center-efficiency', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/fr/patient-management-solutions', changefreq: 'monthly', priority: '0.8' },
-    { loc: '/fr/calculatrice-roi', changefreq: 'monthly', priority: '0.7' },
+    // { loc: '/fr', changefreq: 'weekly', priority: '0.9', alternate: { es: '/' } },
+    // { loc: '/fr/dental-clinic-assistant', changefreq: 'monthly', priority: '0.8' },
+    // { loc: '/fr/physiotherapy-practice-management', changefreq: 'monthly', priority: '0.8' },
+    // { loc: '/fr/ophthalmology-patient-care', changefreq: 'monthly', priority: '0.8' },
+    // { loc: '/fr/medical-center-efficiency', changefreq: 'monthly', priority: '0.8' },
+    // { loc: '/fr/patient-management-solutions', changefreq: 'monthly', priority: '0.8' },
+    // { loc: '/fr/calculatrice-roi', changefreq: 'monthly', priority: '0.7' },
     // Ídem para la versión francesa.
-    { loc: '/fr/blog', changefreq: 'daily', priority: '0.8' },
-    { loc: '/fr/guide-definitif-ia-sante', changefreq: 'monthly', priority: '0.9' },
+    // { loc: '/fr/blog', changefreq: 'daily', priority: '0.8' },
+    // Ídem: ruta inexistente en la versión francesa.
 
     // Legal Pages (Spanish)
     { loc: '/politica-de-privacidad', changefreq: 'yearly', priority: '0.3' },
@@ -55,9 +58,9 @@ const staticRoutes = [
     { loc: '/politica-de-cookies', changefreq: 'yearly', priority: '0.3' },
 
     // Legal Pages (French)
-    { loc: '/fr/politique-de-confidentialite', changefreq: 'yearly', priority: '0.3' },
-    { loc: '/fr/conditions-utilisation', changefreq: 'yearly', priority: '0.3' },
-    { loc: '/fr/politique-des-cookies', changefreq: 'yearly', priority: '0.3' },
+    // { loc: '/fr/politique-de-confidentialite', changefreq: 'yearly', priority: '0.3' },
+    // { loc: '/fr/conditions-utilisation', changefreq: 'yearly', priority: '0.3' },
+    // { loc: '/fr/politique-des-cookies', changefreq: 'yearly', priority: '0.3' },
 ];
 
 function generateSitemap() {
